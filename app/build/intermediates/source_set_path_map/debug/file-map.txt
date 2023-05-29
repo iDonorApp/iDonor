@@ -1,0 +1,48 @@
+com.dicoding.picodiploma.idonor.app-viewpager2-1.0.0-0 C:\Users\BRIAN\.gradle\caches\transforms-3\03d2eddd7c1e665a9f8b90894cf88345\transformed\viewpager2-1.0.0\res
+com.dicoding.picodiploma.idonor.app-cardview-1.0.0-1 C:\Users\BRIAN\.gradle\caches\transforms-3\0f83c5d5bf7c6e76956157cb777fbf37\transformed\cardview-1.0.0\res
+com.dicoding.picodiploma.idonor.app-emoji2-views-helper-1.2.0-2 C:\Users\BRIAN\.gradle\caches\transforms-3\16a06af682caf3e4461b750d0ec3329b\transformed\emoji2-views-helper-1.2.0\res
+com.dicoding.picodiploma.idonor.app-core-ktx-1.10.1-3 C:\Users\BRIAN\.gradle\caches\transforms-3\340a467e1d9fa00c1479e70d8303ade3\transformed\core-ktx-1.10.1\res
+com.dicoding.picodiploma.idonor.app-coordinatorlayout-1.1.0-4 C:\Users\BRIAN\.gradle\caches\transforms-3\38d09d4ba0d273158c68be2805b798b3\transformed\coordinatorlayout-1.1.0\res
+com.dicoding.picodiploma.idonor.app-navigation-runtime-ktx-2.5.3-5 C:\Users\BRIAN\.gradle\caches\transforms-3\3b5d8a5ef781da1272b9663ed16ab22f\transformed\navigation-runtime-ktx-2.5.3\res
+com.dicoding.picodiploma.idonor.app-navigation-ui-ktx-2.5.3-6 C:\Users\BRIAN\.gradle\caches\transforms-3\41574a94ea1ef7a6d4da275f0540b9ba\transformed\navigation-ui-ktx-2.5.3\res
+com.dicoding.picodiploma.idonor.app-appcompat-resources-1.6.1-7 C:\Users\BRIAN\.gradle\caches\transforms-3\41dcf42bc854479e43f628ab1a52618d\transformed\appcompat-resources-1.6.1\res
+com.dicoding.picodiploma.idonor.app-lifecycle-runtime-ktx-2.5.1-8 C:\Users\BRIAN\.gradle\caches\transforms-3\4ef52ab74c57edbab8998e21f1e805d7\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.dicoding.picodiploma.idonor.app-recyclerview-1.1.0-9 C:\Users\BRIAN\.gradle\caches\transforms-3\52d740e8e970387c182bf237433c154a\transformed\recyclerview-1.1.0\res
+com.dicoding.picodiploma.idonor.app-window-1.0.0-10 C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\res
+com.dicoding.picodiploma.idonor.app-emoji2-1.2.0-11 C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\res
+com.dicoding.picodiploma.idonor.app-activity-1.6.0-12 C:\Users\BRIAN\.gradle\caches\transforms-3\6bd59ce5ad314a42b8a1944d4e5257cc\transformed\activity-1.6.0\res
+com.dicoding.picodiploma.idonor.app-savedstate-1.2.0-13 C:\Users\BRIAN\.gradle\caches\transforms-3\6c799608a67394e2261b50f8508ea239\transformed\savedstate-1.2.0\res
+com.dicoding.picodiploma.idonor.app-navigation-ui-2.5.3-14 C:\Users\BRIAN\.gradle\caches\transforms-3\72d730bcad76fe5e918037e6b9907443\transformed\navigation-ui-2.5.3\res
+com.dicoding.picodiploma.idonor.app-fragment-1.5.4-15 C:\Users\BRIAN\.gradle\caches\transforms-3\7abbd1133644b230e3bf09ae3de28c9b\transformed\fragment-1.5.4\res
+com.dicoding.picodiploma.idonor.app-material-1.9.0-16 C:\Users\BRIAN\.gradle\caches\transforms-3\7c17ec530a582ee93364914402f6f204\transformed\material-1.9.0\res
+com.dicoding.picodiploma.idonor.app-appcompat-1.6.1-17 C:\Users\BRIAN\.gradle\caches\transforms-3\8d9343f569df63b726615d18b45679d4\transformed\appcompat-1.6.1\res
+com.dicoding.picodiploma.idonor.app-fragment-ktx-1.5.4-18 C:\Users\BRIAN\.gradle\caches\transforms-3\98bef063de863951c70659bfb1216ee7\transformed\fragment-ktx-1.5.4\res
+com.dicoding.picodiploma.idonor.app-navigation-common-ktx-2.5.3-19 C:\Users\BRIAN\.gradle\caches\transforms-3\9f92e8908c55b347327e74f83e73ea3e\transformed\navigation-common-ktx-2.5.3\res
+com.dicoding.picodiploma.idonor.app-annotation-experimental-1.3.0-20 C:\Users\BRIAN\.gradle\caches\transforms-3\9fae957ef0e1266a83e5188cb210102e\transformed\annotation-experimental-1.3.0\res
+com.dicoding.picodiploma.idonor.app-navigation-common-2.5.3-21 C:\Users\BRIAN\.gradle\caches\transforms-3\a2d0ea161f54ce2794f6cb37fd9ac5fc\transformed\navigation-common-2.5.3\res
+com.dicoding.picodiploma.idonor.app-lifecycle-livedata-core-ktx-2.5.1-22 C:\Users\BRIAN\.gradle\caches\transforms-3\b00b6cc4ba5897d5b4f314f68be14c41\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.dicoding.picodiploma.idonor.app-activity-ktx-1.6.0-23 C:\Users\BRIAN\.gradle\caches\transforms-3\b14ab23ba57da8846e165d547656c285\transformed\activity-ktx-1.6.0\res
+com.dicoding.picodiploma.idonor.app-lifecycle-viewmodel-2.5.1-24 C:\Users\BRIAN\.gradle\caches\transforms-3\b510763edb1ef6286222c38b148ec3db\transformed\lifecycle-viewmodel-2.5.1\res
+com.dicoding.picodiploma.idonor.app-lifecycle-runtime-2.5.1-25 C:\Users\BRIAN\.gradle\caches\transforms-3\bd2013a7ba3836a0788f3d8b2296a53a\transformed\lifecycle-runtime-2.5.1\res
+com.dicoding.picodiploma.idonor.app-startup-runtime-1.1.1-26 C:\Users\BRIAN\.gradle\caches\transforms-3\bdeac150b6ce0fcc7996d2b9a9f9c390\transformed\startup-runtime-1.1.1\res
+com.dicoding.picodiploma.idonor.app-slidingpanelayout-1.2.0-27 C:\Users\BRIAN\.gradle\caches\transforms-3\ca38f58b45fc402f8656681f7fe4298c\transformed\slidingpanelayout-1.2.0\res
+com.dicoding.picodiploma.idonor.app-savedstate-ktx-1.2.0-28 C:\Users\BRIAN\.gradle\caches\transforms-3\cc6480639cb5dc42735f8293e1e59a36\transformed\savedstate-ktx-1.2.0\res
+com.dicoding.picodiploma.idonor.app-navigation-fragment-2.5.3-29 C:\Users\BRIAN\.gradle\caches\transforms-3\d3b1573ff9bc868ad891562b3ed588c9\transformed\navigation-fragment-2.5.3\res
+com.dicoding.picodiploma.idonor.app-lifecycle-livedata-core-2.5.1-30 C:\Users\BRIAN\.gradle\caches\transforms-3\d4c7398b925a7fa33014a3b3d90293a8\transformed\lifecycle-livedata-core-2.5.1\res
+com.dicoding.picodiploma.idonor.app-lifecycle-process-2.4.1-31 C:\Users\BRIAN\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\res
+com.dicoding.picodiploma.idonor.app-lifecycle-viewmodel-ktx-2.5.1-32 C:\Users\BRIAN\.gradle\caches\transforms-3\dc804ff42597da713ad05c49ffae2f0b\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.dicoding.picodiploma.idonor.app-core-1.10.1-33 C:\Users\BRIAN\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\res
+com.dicoding.picodiploma.idonor.app-lifecycle-viewmodel-savedstate-2.5.1-34 C:\Users\BRIAN\.gradle\caches\transforms-3\e563143b9fc1ce0498763a9307e41937\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.dicoding.picodiploma.idonor.app-navigation-fragment-ktx-2.5.3-35 C:\Users\BRIAN\.gradle\caches\transforms-3\e7465df4ddb098f48afb45f47e830e80\transformed\navigation-fragment-ktx-2.5.3\res
+com.dicoding.picodiploma.idonor.app-navigation-runtime-2.5.3-36 C:\Users\BRIAN\.gradle\caches\transforms-3\ec4bd8c9817634b0c25a157c90449182\transformed\navigation-runtime-2.5.3\res
+com.dicoding.picodiploma.idonor.app-drawerlayout-1.1.1-37 C:\Users\BRIAN\.gradle\caches\transforms-3\ee697cd08c56d0500233d93c4fc892de\transformed\drawerlayout-1.1.1\res
+com.dicoding.picodiploma.idonor.app-transition-1.4.1-38 C:\Users\BRIAN\.gradle\caches\transforms-3\f488774c27b2117cb63fe7614c6b547d\transformed\transition-1.4.1\res
+com.dicoding.picodiploma.idonor.app-constraintlayout-2.1.4-39 C:\Users\BRIAN\.gradle\caches\transforms-3\fe5722c2d28764b765710ac6c318c6e8\transformed\constraintlayout-2.1.4\res
+com.dicoding.picodiploma.idonor.app-pngs-40 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\pngs\debug
+com.dicoding.picodiploma.idonor.app-resValues-41 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\resValues\debug
+com.dicoding.picodiploma.idonor.app-rs-42 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\rs\debug
+com.dicoding.picodiploma.idonor.app-packageDebugResources-43 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.dicoding.picodiploma.idonor.app-packageDebugResources-44 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.dicoding.picodiploma.idonor.app-merged_res-45 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\merged_res\debug
+com.dicoding.picodiploma.idonor.app-debug-46 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\debug\res
+com.dicoding.picodiploma.idonor.app-main-47 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\res
