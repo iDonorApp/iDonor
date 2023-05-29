@@ -1,11 +1,10 @@
 const profileModel = require('../models/profileModel');
-const updateProfile = require('../models/profileModel');
 
 const getUserById = async (req, res) => {
+    const {iduser} = req.params;
+   
     try {
-        const iduser = req.params.iduser;
         const [data] = await profileModel.getUserById(iduser);
-
         res.json({
             message: 'GET profile by id Success',
             data: data,
@@ -21,25 +20,24 @@ const getUserById = async (req, res) => {
 
 const updateUserProfile = async (req, res) => {
     const { iduser } = req.params;
-    const { body } = req;
+    const {body}  = req;
+  
     try {
-        await profileModel.updateProfile(body, iduser);
-        res.status(201).json({
-            message: 'Profile updated successfully',
-            data: {
-                id: iduser,
-                ...body
-
-            }
-        })
+      await profileModel.updateProfile(body, iduser);
+      res.status(201).json({
+        message: 'Profile updated successfully',
+        data: {
+          id: iduser,
+          ...body
+        }
+      });
     } catch (error) {
-        res.status(500).json({
-            message: 'server error',
-            serverMessage: error,
-        })
+      res.status(500).json({
+        message: 'Server error',
+        serverMessage: error
+      });
     }
-
-}
+  };
 module.exports = {
     getUserById,
     updateUserProfile

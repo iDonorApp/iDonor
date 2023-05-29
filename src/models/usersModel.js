@@ -37,13 +37,13 @@ const updateUser = (body, iduser)=> {
                       alamat= '${body.alamat}',
                       email= '${body.email}',
                       password= '${body.password}'
-                      WHERE iduser = ${iduser}`
+                      WHERE id = ${iduser}`
     return dbpool.execute(SQLQuery);
 }
 
 
 const deleteUser = (iduser)=>{
-    const SQLQuery = `DELETE FROM users WHERE iduser = ${iduser}`;
+    const SQLQuery = `DELETE FROM users WHERE id = ${iduser}`;
     return dbpool.execute(SQLQuery);
 }
 module.exports = {getAllUsers,createNewUser,updateUser, deleteUser}
