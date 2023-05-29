@@ -2996,7 +2996,6 @@ drawable ikon_beranda
 drawable ikon_email
 drawable ikon_informasi
 drawable ikon_upload
-drawable line
 drawable logo
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3312,7 +3311,6 @@ id inward
 id italic
 id item_touch_helper_previous_elevation
 id iv_logo
-id iv_question
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3790,7 +3788,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu menu_login
+menu login_menu
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -4279,7 +4277,6 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
-style MyTextInputEditTextStyle
 style MyTextInputLayoutStyle
 style Platform_AppCompat
 style Platform_AppCompat_Light

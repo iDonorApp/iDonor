@@ -20,12 +20,12 @@
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\drawable\\icon_user.png"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\layout_activity_upload.xml.flat",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_upload.xml"
-    },
-    {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\layout_activity_upload.xml.flat",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_upload.xml"
     },
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -34,6 +34,10 @@
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\menu_nav_menu.xml.flat",
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\menu\\nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\menu_menu_login.xml.flat",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\menu\\menu_login.xml"
     },
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\drawable_ikon_akun.png.flat",
@@ -50,6 +54,14 @@
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\drawable_questoin_mark.png.flat",
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\drawable\\questoin_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\layout_actionbar_title.xml.flat",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\actionbar_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\menu_login_menu.xml.flat",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\menu\\login_menu.xml"
     },
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -104,10 +116,6 @@
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\drawable\\til_background.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/menu_menu_login.xml.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/menu/menu_login.xml"
-    },
-    {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
@@ -124,12 +132,12 @@
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-merged_res-45:\\drawable_ikon_beranda.png.flat",

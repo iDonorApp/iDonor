@@ -39,9 +39,6 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final ImageView ivLogo;
 
   @NonNull
-  public final ImageView ivQuestion;
-
-  @NonNull
   public final TextView lupaPassword;
 
   @NonNull
@@ -56,16 +53,14 @@ public final class ActivityLoginBinding implements ViewBinding {
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
       @NonNull Button btnLoginRegister, @NonNull TextInputEditText edLoginEmailUser,
       @NonNull TextInputEditText edLoginPassword, @NonNull ImageView ivLogo,
-      @NonNull ImageView ivQuestion, @NonNull TextView lupaPassword,
-      @NonNull TextInputLayout tilLoginEmailUser, @NonNull TextInputLayout tilLoginPassword,
-      @NonNull TextView tvBpAkun) {
+      @NonNull TextView lupaPassword, @NonNull TextInputLayout tilLoginEmailUser,
+      @NonNull TextInputLayout tilLoginPassword, @NonNull TextView tvBpAkun) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.btnLoginRegister = btnLoginRegister;
     this.edLoginEmailUser = edLoginEmailUser;
     this.edLoginPassword = edLoginPassword;
     this.ivLogo = ivLogo;
-    this.ivQuestion = ivQuestion;
     this.lupaPassword = lupaPassword;
     this.tilLoginEmailUser = tilLoginEmailUser;
     this.tilLoginPassword = tilLoginPassword;
@@ -129,12 +124,6 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.iv_question;
-      ImageView ivQuestion = ViewBindings.findChildViewById(rootView, id);
-      if (ivQuestion == null) {
-        break missingId;
-      }
-
       id = R.id.lupa_password;
       TextView lupaPassword = ViewBindings.findChildViewById(rootView, id);
       if (lupaPassword == null) {
@@ -160,7 +149,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin, btnLoginRegister,
-          edLoginEmailUser, edLoginPassword, ivLogo, ivQuestion, lupaPassword, tilLoginEmailUser,
+          edLoginEmailUser, edLoginPassword, ivLogo, lupaPassword, tilLoginEmailUser,
           tilLoginPassword, tvBpAkun);
     }
     String missingId = rootView.getResources().getResourceName(id);

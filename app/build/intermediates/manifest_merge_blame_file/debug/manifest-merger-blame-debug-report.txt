@@ -73,14 +73,14 @@
 43            android:exported="true" >
 43-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:28:13-36
 44            <intent-filter>
-44-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:29:9-33:25
+44-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:29:13-33:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:30:13-65
-45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:30:21-62
+45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:30:17-69
+45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:30:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:32:13-73
-47-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:32:23-70
+47-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:32:17-77
+47-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:32:27-74
 48            </intent-filter>
 49        </activity>
 50        <activity
@@ -88,7 +88,7 @@
 51            android:name="com.dicoding.picodiploma.idonor.ui.main.MainActivity"
 51-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:36:13-49
 52            android:exported="false" />
-52-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:37:13-38
+52-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:37:13-37
 53
 54        <uses-library
 54-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40

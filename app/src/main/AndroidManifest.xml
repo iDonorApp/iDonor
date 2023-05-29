@@ -12,20 +12,21 @@
         android:theme="@style/Theme.IDonor"
         tools:targetApi="31">
         <activity
-            android:name=".InformasiActivity"
+            android:name=".ui.InformasiActivity"
             android:exported="false" />
         <activity
-            android:name=".AkunActivity"
+            android:name=".ui.AkunActivity"
             android:exported="false" />
         <activity
-            android:name=".AktifActivity"
+            android:name=".ui.AktifActivity"
             android:exported="false" />
         <activity
-            android:name=".UploadActivity"
+            android:name=".ui.UploadActivity"
             android:exported="false" />
         <activity
             android:name=".ui.LoginActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="true">

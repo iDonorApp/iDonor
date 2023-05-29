@@ -2995,7 +2995,6 @@ int drawable ikon_beranda 0x7f07009f
 int drawable ikon_email 0x7f0700a0
 int drawable ikon_informasi 0x7f0700a1
 int drawable ikon_upload 0x7f0700a2
-int drawable line 0x7f0700a3
 int drawable logo 0x7f0700a4
 int drawable m3_appbar_background 0x7f0700a5
 int drawable m3_avd_hide_password 0x7f0700a6
@@ -3311,7 +3310,6 @@ int id inward 0x7f0800e9
 int id italic 0x7f0800ea
 int id item_touch_helper_previous_elevation 0x7f0800eb
 int id iv_logo 0x7f0800ec
-int id iv_question 0x7f0800ed
 int id jumpToEnd 0x7f0800ee
 int id jumpToStart 0x7f0800ef
 int id labeled 0x7f0800f0
@@ -3789,7 +3787,7 @@ int layout select_dialog_item_material 0x7f0b006c
 int layout select_dialog_multichoice_material 0x7f0b006d
 int layout select_dialog_singlechoice_material 0x7f0b006e
 int layout support_simple_spinner_dropdown_item 0x7f0b006f
-int menu menu_login 0x7f0d0001
+int menu login_menu 0x7f0d0002
 int menu nav_menu 0x7f0d0000
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
@@ -4278,7 +4276,6 @@ int style MaterialAlertDialog_MaterialComponents_Title_Panel 0x7f11012c
 int style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked 0x7f11012d
 int style MaterialAlertDialog_MaterialComponents_Title_Text 0x7f11012e
 int style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked 0x7f11012f
-int style MyTextInputEditTextStyle 0x7f110130
 int style MyTextInputLayoutStyle 0x7f110131
 int style Platform_AppCompat 0x7f110132
 int style Platform_AppCompat_Light 0x7f110133
