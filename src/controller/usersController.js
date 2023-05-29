@@ -36,7 +36,7 @@ const createUsers = async(req,res)=>{
         })
     }  
 }
-
+ 
 const updateUser = async(req,res) => {
     const {iduser}= req.params;
     const{body} = req;
