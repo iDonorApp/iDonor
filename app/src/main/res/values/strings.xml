@@ -14,4 +14,9 @@
     <string name="informasi">Informasi</string>
     <string name="akun">Akun</string>
     <string name="question">Question</string>
+
+    <string name="photo">Photo</string>
+    <string name="nama_rs">Nama Rumah Sakit</string>
+    <string name="alamat">Alamat</string>
+    <string name="dibutuhkan">Dibutuhkan</string>
 </resources>

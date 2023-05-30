@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/iDonor.iml" filepath="$PROJECT_DIR$/.idea/iDonor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/iDonor.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/iDonor.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/iDonor.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/iDonor.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/iDonor.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/iDonor.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/iDonor.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/iDonor.app.unitTest.iml" />
     </modules>
   </component>
