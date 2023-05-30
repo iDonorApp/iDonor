@@ -4,10 +4,11 @@ const userRequest = async (req, res) => {
     const { body } = req;
 
     if (!body.rumah_sakit || !body.nama || !body.umur || !body.golongan || !body.no_kamar || !body.no_whatsapp) {
-        return res.status(400).json({ message: 'Lengkapi Data Anda', data: null, });
+        return res.status(400).json({ message: 'Lengkapi Data Anda', data: null });
     }
 
     try {
+        // Menyimpan data ke database menggunakan model
         await orderModel.createNewRequest(body);
         res.status(201).json({ message: 'Success', data: body });
     } catch (error) {
