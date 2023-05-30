@@ -12,6 +12,9 @@
         android:theme="@style/Theme.IDonor"
         tools:targetApi="31">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.InformasiActivity"
             android:exported="false" />
         <activity
@@ -26,7 +29,6 @@
         <activity
             android:name=".ui.LoginActivity"
             android:exported="false" />
-
         <activity
             android:name=".ui.main.MainActivity"
             android:exported="true">
