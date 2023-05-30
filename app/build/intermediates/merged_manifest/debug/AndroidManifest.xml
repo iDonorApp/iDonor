@@ -24,8 +24,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.IDonor" >
+        <activity
+            android:name="com.dicoding.picodiploma.idonor.DetailActivity"
+            android:exported="false" />
         <activity
             android:name="com.dicoding.picodiploma.idonor.ui.InformasiActivity"
             android:exported="false" />
@@ -40,6 +42,9 @@
             android:exported="false" />
         <activity
             android:name="com.dicoding.picodiploma.idonor.ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dicoding.picodiploma.idonor.ui.main.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,9 +52,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.dicoding.picodiploma.idonor.ui.main.MainActivity"
-            android:exported="false" />
 
         <uses-library
             android:name="androidx.window.extensions"

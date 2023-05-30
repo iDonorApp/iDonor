@@ -1,38 +1,38 @@
 [
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/actionbar_title.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/actionbar_title.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_beranda.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_beranda.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\actionbar_title.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\actionbar_title.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_upload.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_upload.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\activity_informasi.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_informasi.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_informasi.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_informasi.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_main.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_aktif.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_aktif.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_login.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_detail.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_detail.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\activity_aktif.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_aktif.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\activity_akun.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_akun.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/list_item_beranda.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_beranda.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\activity_beranda.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_beranda.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_akun.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_akun.xml"
     },
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:\\layout\\activity_upload.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.dicoding.picodiploma.idonor.app-main-47:\\layout\\activity_upload.xml"
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_main.xml"
     }
 ]

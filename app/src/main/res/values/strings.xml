@@ -19,4 +19,7 @@
     <string name="nama_rs">Nama Rumah Sakit</string>
     <string name="alamat">Alamat</string>
     <string name="dibutuhkan">Dibutuhkan</string>
+
+    <string name="photo_detail">Photo Detail</string>
+    <string name="lokasi">Lokasi</string>
 </resources>

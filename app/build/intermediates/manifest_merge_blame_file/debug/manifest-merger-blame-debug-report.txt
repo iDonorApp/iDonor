@@ -6,124 +6,129 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml
+8-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml
+9-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml
 10
 11    <permission
-11-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
 12        android:name="com.dicoding.picodiploma.idonor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.dicoding.picodiploma.idonor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:5:5-38:19
+17-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:5:5-41:19
 18        android:allowBackup="true"
-18-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:6:9-35
+18-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.10.1] C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:7:9-65
+20-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:8:9-54
+23-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:9:9-43
+24-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:10:9-41
+25-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:10:9-41
 26        android:supportsRtl="true"
-26-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:11:9-35
-27        android:testOnly="true"
-28        android:theme="@style/Theme.IDonor" >
-28-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:12:9-44
-29        <activity
-29-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:14:9-16:40
-30            android:name="com.dicoding.picodiploma.idonor.ui.InformasiActivity"
-30-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:15:13-49
-31            android:exported="false" />
-31-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:16:13-37
-32        <activity
-32-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:17:9-19:40
-33            android:name="com.dicoding.picodiploma.idonor.ui.AkunActivity"
-33-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:18:13-44
-34            android:exported="false" />
-34-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:19:13-37
-35        <activity
-35-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:20:9-22:40
-36            android:name="com.dicoding.picodiploma.idonor.ui.AktifActivity"
-36-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:21:13-45
-37            android:exported="false" />
-37-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:22:13-37
-38        <activity
-38-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:23:9-25:40
-39            android:name="com.dicoding.picodiploma.idonor.ui.UploadActivity"
-39-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:24:13-46
-40            android:exported="false" />
-40-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:25:13-37
-41        <activity
-41-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:26:9-34:20
-42            android:name="com.dicoding.picodiploma.idonor.ui.LoginActivity"
-42-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:27:13-45
-43            android:exported="true" >
-43-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:28:13-36
-44            <intent-filter>
-44-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:29:13-33:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:30:17-69
-45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:30:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:32:17-77
-47-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:32:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:35:9-37:40
-51            android:name="com.dicoding.picodiploma.idonor.ui.main.MainActivity"
-51-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:36:13-49
-52            android:exported="false" />
-52-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:37:13-37
-53
-54        <uses-library
-54-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-55            android:name="androidx.window.extensions"
-55-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-56            android:required="false" />
-56-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-57        <uses-library
-57-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-58            android:name="androidx.window.sidecar"
-58-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-59            android:required="false" />
-59-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\57ca3fa706d0531e32e0a842a9463d39\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-60
-61        <provider
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-62            android:name="androidx.startup.InitializationProvider"
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-63            android:authorities="com.dicoding.picodiploma.idonor.androidx-startup"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-64            android:exported="false" >
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-65            <meta-data
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-67                android:value="androidx.startup" />
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-68            <meta-data
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BRIAN\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BRIAN\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-70                android:value="androidx.startup" />
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BRIAN\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-71        </provider>
-72    </application>
-73
-74</manifest>
+26-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:11:9-35
+27        android:theme="@style/Theme.IDonor" >
+27-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:12:9-44
+28        <activity
+28-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:14:9-16:40
+29            android:name="com.dicoding.picodiploma.idonor.DetailActivity"
+29-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:15:13-43
+30            android:exported="false" />
+30-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:16:13-37
+31        <activity
+31-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:17:9-19:40
+32            android:name="com.dicoding.picodiploma.idonor.ui.InformasiActivity"
+32-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:18:13-49
+33            android:exported="false" />
+33-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:19:13-37
+34        <activity
+34-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:20:9-22:40
+35            android:name="com.dicoding.picodiploma.idonor.ui.AkunActivity"
+35-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:21:13-44
+36            android:exported="false" />
+36-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:22:13-37
+37        <activity
+37-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:23:9-25:40
+38            android:name="com.dicoding.picodiploma.idonor.ui.AktifActivity"
+38-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:24:13-45
+39            android:exported="false" />
+39-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:25:13-37
+40        <activity
+40-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:26:9-28:40
+41            android:name="com.dicoding.picodiploma.idonor.ui.UploadActivity"
+41-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:27:13-46
+42            android:exported="false" />
+42-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:28:13-37
+43        <activity
+43-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:29:9-31:40
+44            android:name="com.dicoding.picodiploma.idonor.ui.LoginActivity"
+44-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:30:13-45
+45            android:exported="false" />
+45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:31:13-37
+46        <activity
+46-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:32:9-40:20
+47            android:name="com.dicoding.picodiploma.idonor.ui.main.MainActivity"
+47-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:33:13-49
+48            android:exported="true" >
+48-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:34:13-36
+49            <intent-filter>
+49-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:35:13-39:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:36:17-69
+50-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:36:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:38:17-77
+52-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\iDonor\app\src\main\AndroidManifest.xml:38:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <uses-library
+56-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+57            android:name="androidx.window.extensions"
+57-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+59        <uses-library
+59-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+60            android:name="androidx.window.sidecar"
+60-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0] C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+65            android:authorities="com.dicoding.picodiploma.idonor.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BRIAN\.gradle\caches\transforms-3\04ed4fcf1b7a47dee192b0a282a0f084\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BRIAN\.gradle\caches\transforms-3\04ed4fcf1b7a47dee192b0a282a0f084\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\BRIAN\.gradle\caches\transforms-3\04ed4fcf1b7a47dee192b0a282a0f084\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>
