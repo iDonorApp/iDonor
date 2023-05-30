@@ -5,9 +5,14 @@ const dbpool = require ('../config/database');
 //     return dbpool.execute(SQLQuery);
 // }
 
+const getviewall = ()=>{
+    const SQLQuery = 'SELECT * FROM request_donor';
+    return dbpool.execute(SQLQuery);
+}
+
 const getViewSpesific = (rumahsakit)=>{
     const SQLQuery = `SELECT * FROM request_donor WHERE rumah_sakit = '${rumahsakit}'`;
     return dbpool.execute(SQLQuery);
 }
 
-module.exports = {getViewSpesific}
+module.exports = {getViewSpesific, getviewall}

@@ -16,7 +16,7 @@ app.use(express.json());
 app.use('/users', usersRoutes);
 app.use('/profile', profileRoutes);
 app.use('/order',orderRoutes);
-app.use('/home', homeRoutes);
+app.use('/detailhome', homeRoutes);
 
 app.listen(PORT, () => {
     console.log(`server running on port ${PORT}`)
