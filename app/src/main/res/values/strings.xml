@@ -22,4 +22,16 @@
 
     <string name="photo_detail">Photo Detail</string>
     <string name="lokasi">Lokasi</string>
+    <string name="nama_akun">Nama Akun</string>
+    <string name="id_akun">ID : 937438203</string>
+    <string name="akun_jenis_kelamin">Jenis Kelamin             :</string>
+    <string name="akun_umur">Umur                             :</string>
+    <string name="akun_alamat">Alamat                          :</string>
+    <string name="akun_email">Email                             :</string>
+    <string name="akun_no_wa_telp">No. Whatsapp/Telp    :</string>
+    <string name="ubah_password">Ubah Password</string>
+    <string name="length_password">Password Minimal 8 Karakter</string>
+    <string name="password_lama">Password Lama</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="simpan">Simpan</string>
 </resources>

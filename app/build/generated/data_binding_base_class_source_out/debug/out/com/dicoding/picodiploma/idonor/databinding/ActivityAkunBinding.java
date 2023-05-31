@@ -4,20 +4,129 @@ package com.dicoding.picodiploma.idonor.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.dicoding.picodiploma.idonor.R;
+import com.dicoding.picodiploma.idonor.tools.ETPassword;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityAkunBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityAkunBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button btnAkunSimpan;
+
+  @NonNull
+  public final ETPassword edAkunPasswordBaru;
+
+  @NonNull
+  public final ETPassword edAkunPasswordLama;
+
+  @NonNull
+  public final View guideLine;
+
+  @NonNull
+  public final View guideLine1;
+
+  @NonNull
+  public final ImageView icEdit;
+
+  @NonNull
+  public final ImageView ivGoldar;
+
+  @NonNull
+  public final TextView textView;
+
+  @NonNull
+  public final TextInputLayout tilEdBaruPassword;
+
+  @NonNull
+  public final TextInputLayout tilEdPasswordLama;
+
+  @NonNull
+  public final TextView tvAkunAlamat;
+
+  @NonNull
+  public final TextView tvAkunAlamatValue;
+
+  @NonNull
+  public final TextView tvAkunEmail;
+
+  @NonNull
+  public final TextView tvAkunEmailValue;
+
+  @NonNull
+  public final TextView tvAkunId;
+
+  @NonNull
+  public final TextView tvAkunJenisKelamin;
+
+  @NonNull
+  public final TextView tvAkunJenisKelaminValue;
+
+  @NonNull
+  public final TextView tvAkunNama;
+
+  @NonNull
+  public final TextView tvAkunNomorWa;
+
+  @NonNull
+  public final TextView tvAkunNomorWaValue;
+
+  @NonNull
+  public final TextView tvAkunUmur;
+
+  @NonNull
+  public final TextView tvAkunUmurValue;
+
+  @NonNull
+  public final TextView tvUbahPassword;
+
+  private ActivityAkunBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnAkunSimpan,
+      @NonNull ETPassword edAkunPasswordBaru, @NonNull ETPassword edAkunPasswordLama,
+      @NonNull View guideLine, @NonNull View guideLine1, @NonNull ImageView icEdit,
+      @NonNull ImageView ivGoldar, @NonNull TextView textView,
+      @NonNull TextInputLayout tilEdBaruPassword, @NonNull TextInputLayout tilEdPasswordLama,
+      @NonNull TextView tvAkunAlamat, @NonNull TextView tvAkunAlamatValue,
+      @NonNull TextView tvAkunEmail, @NonNull TextView tvAkunEmailValue, @NonNull TextView tvAkunId,
+      @NonNull TextView tvAkunJenisKelamin, @NonNull TextView tvAkunJenisKelaminValue,
+      @NonNull TextView tvAkunNama, @NonNull TextView tvAkunNomorWa,
+      @NonNull TextView tvAkunNomorWaValue, @NonNull TextView tvAkunUmur,
+      @NonNull TextView tvAkunUmurValue, @NonNull TextView tvUbahPassword) {
     this.rootView = rootView;
+    this.btnAkunSimpan = btnAkunSimpan;
+    this.edAkunPasswordBaru = edAkunPasswordBaru;
+    this.edAkunPasswordLama = edAkunPasswordLama;
+    this.guideLine = guideLine;
+    this.guideLine1 = guideLine1;
+    this.icEdit = icEdit;
+    this.ivGoldar = ivGoldar;
+    this.textView = textView;
+    this.tilEdBaruPassword = tilEdBaruPassword;
+    this.tilEdPasswordLama = tilEdPasswordLama;
+    this.tvAkunAlamat = tvAkunAlamat;
+    this.tvAkunAlamatValue = tvAkunAlamatValue;
+    this.tvAkunEmail = tvAkunEmail;
+    this.tvAkunEmailValue = tvAkunEmailValue;
+    this.tvAkunId = tvAkunId;
+    this.tvAkunJenisKelamin = tvAkunJenisKelamin;
+    this.tvAkunJenisKelaminValue = tvAkunJenisKelaminValue;
+    this.tvAkunNama = tvAkunNama;
+    this.tvAkunNomorWa = tvAkunNomorWa;
+    this.tvAkunNomorWaValue = tvAkunNomorWaValue;
+    this.tvAkunUmur = tvAkunUmur;
+    this.tvAkunUmurValue = tvAkunUmurValue;
+    this.tvUbahPassword = tvUbahPassword;
   }
 
   @Override
@@ -43,10 +152,155 @@ public final class ActivityAkunBinding implements ViewBinding {
 
   @NonNull
   public static ActivityAkunBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_akun_simpan;
+      Button btnAkunSimpan = ViewBindings.findChildViewById(rootView, id);
+      if (btnAkunSimpan == null) {
+        break missingId;
+      }
 
-    return new ActivityAkunBinding((ConstraintLayout) rootView);
+      id = R.id.ed_akun_password_baru;
+      ETPassword edAkunPasswordBaru = ViewBindings.findChildViewById(rootView, id);
+      if (edAkunPasswordBaru == null) {
+        break missingId;
+      }
+
+      id = R.id.ed_akun_password_lama;
+      ETPassword edAkunPasswordLama = ViewBindings.findChildViewById(rootView, id);
+      if (edAkunPasswordLama == null) {
+        break missingId;
+      }
+
+      id = R.id.guide_line;
+      View guideLine = ViewBindings.findChildViewById(rootView, id);
+      if (guideLine == null) {
+        break missingId;
+      }
+
+      id = R.id.guide_line1;
+      View guideLine1 = ViewBindings.findChildViewById(rootView, id);
+      if (guideLine1 == null) {
+        break missingId;
+      }
+
+      id = R.id.ic_edit;
+      ImageView icEdit = ViewBindings.findChildViewById(rootView, id);
+      if (icEdit == null) {
+        break missingId;
+      }
+
+      id = R.id.iv_goldar;
+      ImageView ivGoldar = ViewBindings.findChildViewById(rootView, id);
+      if (ivGoldar == null) {
+        break missingId;
+      }
+
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.til_ed_baru_password;
+      TextInputLayout tilEdBaruPassword = ViewBindings.findChildViewById(rootView, id);
+      if (tilEdBaruPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.til_ed_password_lama;
+      TextInputLayout tilEdPasswordLama = ViewBindings.findChildViewById(rootView, id);
+      if (tilEdPasswordLama == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_alamat;
+      TextView tvAkunAlamat = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunAlamat == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_alamat_value;
+      TextView tvAkunAlamatValue = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunAlamatValue == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_email;
+      TextView tvAkunEmail = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_email_value;
+      TextView tvAkunEmailValue = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunEmailValue == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_id;
+      TextView tvAkunId = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunId == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_jenis_kelamin;
+      TextView tvAkunJenisKelamin = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunJenisKelamin == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_jenis_kelamin_value;
+      TextView tvAkunJenisKelaminValue = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunJenisKelaminValue == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_nama;
+      TextView tvAkunNama = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunNama == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_nomor_wa;
+      TextView tvAkunNomorWa = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunNomorWa == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_nomor_wa_value;
+      TextView tvAkunNomorWaValue = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunNomorWaValue == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_umur;
+      TextView tvAkunUmur = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunUmur == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_akun_umur_value;
+      TextView tvAkunUmurValue = ViewBindings.findChildViewById(rootView, id);
+      if (tvAkunUmurValue == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_ubah_password;
+      TextView tvUbahPassword = ViewBindings.findChildViewById(rootView, id);
+      if (tvUbahPassword == null) {
+        break missingId;
+      }
+
+      return new ActivityAkunBinding((ConstraintLayout) rootView, btnAkunSimpan, edAkunPasswordBaru,
+          edAkunPasswordLama, guideLine, guideLine1, icEdit, ivGoldar, textView, tilEdBaruPassword,
+          tilEdPasswordLama, tvAkunAlamat, tvAkunAlamatValue, tvAkunEmail, tvAkunEmailValue,
+          tvAkunId, tvAkunJenisKelamin, tvAkunJenisKelaminValue, tvAkunNama, tvAkunNomorWa,
+          tvAkunNomorWaValue, tvAkunUmur, tvAkunUmurValue, tvUbahPassword);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

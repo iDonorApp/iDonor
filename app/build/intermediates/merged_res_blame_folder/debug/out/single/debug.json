@@ -64,6 +64,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_email.png"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_goldar.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_goldar.png"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
     },
@@ -124,6 +128,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_beranda.xml"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_pin_location.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_pin_location.png"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-mdpi/ic_launcher.webp"
     },
@@ -154,6 +162,10 @@
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/menu_nav_menu.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_edit.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_edit.png"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
