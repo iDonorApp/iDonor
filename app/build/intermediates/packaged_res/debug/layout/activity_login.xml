@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.LoginActivity"
+    tools:context=".ui.login.LoginActivity"
     android:background="@color/red">
 
     <ImageView
@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_logo">
         
-        <com.google.android.material.textfield.TextInputEditText
+        <com.dicoding.picodiploma.idonor.tools.CustomEditText
             android:id="@+id/ed_login_email_user"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,6 +49,7 @@
         android:layout_width="320dp"
         android:layout_height="56dp"
         android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
         app:startIconDrawable="@drawable/icon_lock"
         app:startIconTint="@color/red"
         app:hintTextColor="@color/black"
@@ -56,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/til_login_email_user">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <com.dicoding.picodiploma.idonor.tools.CustomEditText
             android:id="@+id/ed_login_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

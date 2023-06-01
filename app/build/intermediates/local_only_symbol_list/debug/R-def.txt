@@ -10,6 +10,8 @@ color teal_200
 color teal_700
 color white
 dimen corner_radius_password_account
+drawable bg_edt_default
+drawable bg_edt_error
 drawable bg_tv_detail
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -38,6 +40,8 @@ id btn_question
 id container
 id ed_akun_password_baru
 id ed_akun_password_lama
+id ed_daftar_goldar
+id ed_daftar_nama
 id ed_login_email_user
 id ed_login_password
 id guide_line
@@ -49,7 +53,12 @@ id iv_goldar
 id iv_item_photo
 id iv_logo
 id lupa_password
+id rb_laki
+id rb_perempuan
+id rg_daftar_jenis_kelamin
 id textView
+id til_daftar_goldar
+id til_daftar_nama
 id til_ed_baru_password
 id til_ed_password_lama
 id til_login_email_user
@@ -67,6 +76,7 @@ id tv_akun_nomor_wa_value
 id tv_akun_umur
 id tv_akun_umur_value
 id tv_bp_akun
+id tv_daftar_jenis_kelamin
 id tv_item_alamat
 id tv_item_dibutuhkan
 id tv_item_name_rs
@@ -75,6 +85,7 @@ id upload
 layout activity_aktif
 layout activity_akun
 layout activity_beranda
+layout activity_daftar
 layout activity_detail
 layout activity_informasi
 layout activity_login
@@ -97,10 +108,14 @@ string app_name
 string belum_punya_akun
 string beranda
 string daftar_disini
+string daftar_nama
 string dibutuhkan
 string email_user
+string email_validation
+string gol_darah
 string id_akun
 string informasi
+string laki
 string length_password
 string login
 string lokasi
@@ -110,6 +125,7 @@ string nama_rs
 string password
 string password_baru
 string password_lama
+string perempuan
 string photo
 string photo_detail
 string question

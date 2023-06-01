@@ -26,13 +26,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IDonor" >
         <activity
+            android:name="com.dicoding.picodiploma.idonor.DaftarActivity"
+            android:exported="false" />
+        <activity
             android:name="com.dicoding.picodiploma.idonor.DetailActivity"
             android:exported="false" />
         <activity
             android:name="com.dicoding.picodiploma.idonor.ui.InformasiActivity"
             android:exported="false" />
         <activity
-            android:name="com.dicoding.picodiploma.idonor.ui.AkunActivity"
+            android:name="com.dicoding.picodiploma.idonor.ui.akun.AkunActivity"
             android:exported="false" />
         <activity
             android:name="com.dicoding.picodiploma.idonor.ui.AktifActivity"
@@ -41,7 +44,7 @@
             android:name="com.dicoding.picodiploma.idonor.ui.UploadActivity"
             android:exported="false" />
         <activity
-            android:name="com.dicoding.picodiploma.idonor.ui.LoginActivity"
+            android:name="com.dicoding.picodiploma.idonor.ui.login.LoginActivity"
             android:exported="false" />
         <activity
             android:name="com.dicoding.picodiploma.idonor.ui.main.MainActivity"

@@ -1,10 +1,9 @@
-package com.dicoding.picodiploma.idonor.ui
+package com.dicoding.picodiploma.idonor.ui.login
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.appcompat.app.ActionBar
 import com.dicoding.picodiploma.idonor.R
 
 class LoginActivity : AppCompatActivity() {

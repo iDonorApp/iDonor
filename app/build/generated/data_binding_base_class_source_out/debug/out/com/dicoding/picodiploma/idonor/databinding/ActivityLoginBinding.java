@@ -13,7 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dicoding.picodiploma.idonor.R;
-import com.google.android.material.textfield.TextInputEditText;
+import com.dicoding.picodiploma.idonor.tools.CustomEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -30,10 +30,10 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final Button btnLoginRegister;
 
   @NonNull
-  public final TextInputEditText edLoginEmailUser;
+  public final CustomEditText edLoginEmailUser;
 
   @NonNull
-  public final TextInputEditText edLoginPassword;
+  public final CustomEditText edLoginPassword;
 
   @NonNull
   public final ImageView ivLogo;
@@ -51,8 +51,8 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView tvBpAkun;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
-      @NonNull Button btnLoginRegister, @NonNull TextInputEditText edLoginEmailUser,
-      @NonNull TextInputEditText edLoginPassword, @NonNull ImageView ivLogo,
+      @NonNull Button btnLoginRegister, @NonNull CustomEditText edLoginEmailUser,
+      @NonNull CustomEditText edLoginPassword, @NonNull ImageView ivLogo,
       @NonNull TextView lupaPassword, @NonNull TextInputLayout tilLoginEmailUser,
       @NonNull TextInputLayout tilLoginPassword, @NonNull TextView tvBpAkun) {
     this.rootView = rootView;
@@ -107,13 +107,13 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.ed_login_email_user;
-      TextInputEditText edLoginEmailUser = ViewBindings.findChildViewById(rootView, id);
+      CustomEditText edLoginEmailUser = ViewBindings.findChildViewById(rootView, id);
       if (edLoginEmailUser == null) {
         break missingId;
       }
 
       id = R.id.ed_login_password;
-      TextInputEditText edLoginPassword = ViewBindings.findChildViewById(rootView, id);
+      CustomEditText edLoginPassword = ViewBindings.findChildViewById(rootView, id);
       if (edLoginPassword == null) {
         break missingId;
       }

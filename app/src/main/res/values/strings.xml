@@ -7,6 +7,7 @@
     <string name="belum_punya_akun">Belum punya akun?</string>
     <string name="daftar_disini">Daftar Disini</string>
     <string name="login">Login</string>
+    <string name="email_validation">Masukkan alamat email yang valid!</string>
 
     <string name="beranda">Beranda</string>
     <string name="upload">Upload</string>
@@ -34,4 +35,20 @@
     <string name="password_lama">Password Lama</string>
     <string name="password_baru">Password Baru</string>
     <string name="simpan">Simpan</string>
+
+    <string name="daftar_nama">Nama</string>
+    <string name="gol_darah">Gol Darah</string>
+    <string name="laki">Laki - laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="daftar_jenis_kelamin">Jenis Kelamin</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="default_tanggal">DD-MM-YYYY</string>
+    <string name="no_telephone">No Telephone</string>
+    <string name="nohp">+62</string>
+    <string name="email_hint">example@email.com</string>
+    <string name="buat_passaword">Buat Password</string>
+    <string name="konfirmasi_passaword">Konfirmasi Password</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="daftar_email">Email</string>
+    <string name="daftar">Daftar</string>
 </resources>

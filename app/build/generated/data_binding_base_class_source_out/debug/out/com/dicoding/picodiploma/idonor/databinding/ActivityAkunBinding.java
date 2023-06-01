@@ -13,7 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dicoding.picodiploma.idonor.R;
-import com.dicoding.picodiploma.idonor.tools.ETPassword;
+import com.dicoding.picodiploma.idonor.tools.CustomEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -27,10 +27,10 @@ public final class ActivityAkunBinding implements ViewBinding {
   public final Button btnAkunSimpan;
 
   @NonNull
-  public final ETPassword edAkunPasswordBaru;
+  public final CustomEditText edAkunPasswordBaru;
 
   @NonNull
-  public final ETPassword edAkunPasswordLama;
+  public final CustomEditText edAkunPasswordLama;
 
   @NonNull
   public final View guideLine;
@@ -93,7 +93,7 @@ public final class ActivityAkunBinding implements ViewBinding {
   public final TextView tvUbahPassword;
 
   private ActivityAkunBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnAkunSimpan,
-      @NonNull ETPassword edAkunPasswordBaru, @NonNull ETPassword edAkunPasswordLama,
+      @NonNull CustomEditText edAkunPasswordBaru, @NonNull CustomEditText edAkunPasswordLama,
       @NonNull View guideLine, @NonNull View guideLine1, @NonNull ImageView icEdit,
       @NonNull ImageView ivGoldar, @NonNull TextView textView,
       @NonNull TextInputLayout tilEdBaruPassword, @NonNull TextInputLayout tilEdPasswordLama,
@@ -163,13 +163,13 @@ public final class ActivityAkunBinding implements ViewBinding {
       }
 
       id = R.id.ed_akun_password_baru;
-      ETPassword edAkunPasswordBaru = ViewBindings.findChildViewById(rootView, id);
+      CustomEditText edAkunPasswordBaru = ViewBindings.findChildViewById(rootView, id);
       if (edAkunPasswordBaru == null) {
         break missingId;
       }
 
       id = R.id.ed_akun_password_lama;
-      ETPassword edAkunPasswordLama = ViewBindings.findChildViewById(rootView, id);
+      CustomEditText edAkunPasswordLama = ViewBindings.findChildViewById(rootView, id);
       if (edAkunPasswordLama == null) {
         break missingId;
       }

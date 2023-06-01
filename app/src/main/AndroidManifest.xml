@@ -12,13 +12,16 @@
         android:theme="@style/Theme.IDonor"
         tools:targetApi="31">
         <activity
+            android:name=".DaftarActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
             android:name=".ui.InformasiActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.AkunActivity"
+            android:name=".ui.akun.AkunActivity"
             android:exported="false" />
         <activity
             android:name=".ui.AktifActivity"
@@ -27,7 +30,7 @@
             android:name=".ui.UploadActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.LoginActivity"
+            android:name=".ui.login.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".ui.main.MainActivity"

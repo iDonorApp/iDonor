@@ -16,6 +16,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_aktif.xml"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_daftar.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_daftar.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/activity_detail.xml",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_detail.xml"
     },

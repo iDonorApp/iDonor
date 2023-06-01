@@ -22,10 +22,14 @@
     <string name="belum_punya_akun">Belum punya akun?</string>
     <string name="beranda">Beranda</string>
     <string name="daftar_disini">Daftar Disini</string>
+    <string name="daftar_nama">Nama</string>
     <string name="dibutuhkan">Dibutuhkan</string>
     <string name="email_user">Email / User</string>
+    <string name="email_validation">Masukkan alamat email yang valid!</string>
+    <string name="gol_darah">Gol Darah</string>
     <string name="id_akun">ID : 937438203</string>
     <string name="informasi">Informasi</string>
+    <string name="laki">Laki - laki</string>
     <string name="length_password">Password Minimal 8 Karakter</string>
     <string name="login">Login</string>
     <string name="lokasi">Lokasi</string>
@@ -35,6 +39,7 @@
     <string name="password">Password</string>
     <string name="password_baru">Password Baru</string>
     <string name="password_lama">Password Lama</string>
+    <string name="perempuan">Perempuan</string>
     <string name="photo">Photo</string>
     <string name="photo_detail">Photo Detail</string>
     <string name="question">Question</string>
