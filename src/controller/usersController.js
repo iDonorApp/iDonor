@@ -1,78 +1,54 @@
-const usersModel = require('../models/usersModel');
-const getAllUsers = async (req,res)=>{
-    try {
-        const [data] = await usersModel.getAllUsers();
-        res.json({
-            message : 'All User',
-            data : data
-        })
-    } catch (error) {
-        res.status(500).json({
-            message: 'server error',
-            serverMessage : error,
-        })
-    }
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const userModel = require('../models/usersModel');
+const { v4: uuidv4 } = require('uuid');
+const salt = 15;
+const dotenv = require('dotenv');
+dotenv.config();
 
-}
-
-const createUsers = async(req,res)=>{
-    const {body} = req;
-    if(!body.nama || !body.golongan || !body.jenis_kelamin || !body.tanggal_lahir || !body.no_whatsapp || !body.alamat || !body.email || !body.password){
-        return res.status(400).json({
-            message:'Lengkapi Data Anda',
-            data:null,
-        })
-    }
-    try {
-        await usersModel.createNewUser(body);
-        res.status(201).json({
-            message : 'succes ur POST',
-            data: body
-        })
-    } catch (error) {
-        res.status(500).json({
-            message: 'server error',
-            serverMessage : error,
-        })
-    }  
-}
- 
-const updateUser = async(req,res) => {
-    const {iduser}= req.params;
-    const{body} = req;
-    try {
-        await usersModel.updateUser(body, iduser);
-        res.status(201).json({
-            message : 'Succes Update',
-            data: {
-                id: iduser,
-                ...body
-             
+const register = (req, res) => {
+    bcrypt.hash(req.body.password.toString(), salt, (err, hash) => {
+        if (err) return res.json({ Error: 'Error for hashing password' });
+        const values = [
+            uuidv4(),
+            req.body.nama,
+            req.body.golongan,
+            req.body.jenis_kelamin,
+            req.body.tanggal_lahir,
+            req.body.no_whatsapp,
+            req.body.alamat,
+            req.body.email,
+            hash,
+        ];
+        userModel.createUser(values, (err, result) => {
+            if (err) {
+                console.error('Error inserting data:', err);
+                return res.json({ Error: 'Inserting data error in server' });
             }
-        })
-    } catch (error) {
-        res.status(500).json({
-            message: 'server error',
-            serverMessage : error,
-        })
-    }
-   
-}
+            return res.json({ Status: 'Success' });
+        });
+    });
+};
 
-const deleteUser = async (req,res)=>{
-    const {iduser} = req.params;
-    try {
-        await usersModel.deleteUser(iduser);
-        res.status(200).json({
-            message : 'SUCCES DELETE DATA',
-            data: null })
-             
-    } catch (error) {
-        res.status(500).json({
-            message: 'server error',
-            serverMessage : error,
-        })
-    }
-}
+const login = (req, res) => {
+    userModel.getUserByEmail(req.body.email, (err, data) => {
+        if (err) return res.json({ error: 'Login error in server' });
+        if (data.length > 0) {
+            bcrypt.compare(req.body.password.toString(), data[0].password, (err, response) => {
+                if (err) return res.json({ Error: 'Password compare error' });
+                if (response) {
+                    const nama = data[0].nama;
+                    const token = jwt.sign({ nama }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: `1d` });
+                    res.cookie('token', token);
+                    return res.json({ Status: 'Success' });
+                } else {
+                    return res.json({ Error: 'Wrong Email or Password' });
+                }
+            });
+        } else {
+            return res.json({ Error: 'Wrong Email or Password' });
+        }
+    });
+};
 
-module.exports = {getAllUsers, createUsers,updateUser,deleteUser};
+module.exports = { register, login };
