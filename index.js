@@ -1,6 +1,3 @@
-
-const PORT = process.env.PORT || 5000;
-
 const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
@@ -9,18 +6,21 @@ const profileRoutes = require('./src/routes/profile');
 const orderRoutes = require('./src/routes/order')
 const homeRoutes = require('./src/routes/detailhome')
 const middlewareLogs = require('./src/middleware/logs');
-require('dotenv').config();
 
+require('dotenv').config();
+const PORT = process.env.PORT || 5000;
 const app = express();
 
-app.use(middlewareLogs);
+app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
     origin: [`http://localhost:${PORT}`],
     methods: ['POST', 'GET'],
     credentials: true,
 })) /
-    app.use(cookieParser());
+
+    app.use(middlewareLogs);
+
 
 app.use('/', usersRoutes);
 app.use('/profile', profileRoutes);

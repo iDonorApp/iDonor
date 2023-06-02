@@ -6,9 +6,9 @@ const salt = 15;
 const dotenv = require('dotenv');
 dotenv.config();
 
-const register = (req, res) => {
-    bcrypt.hash(req.body.password.toString(), salt, (err, hash) => {
-        if (err) return res.json({ Error: 'Error for hashing password' });
+const register = async (req, res, next) => {
+    try {
+        const hash = await bcrypt.hash(req.body.password.toString(), salt);
         const values = [
             uuidv4(),
             req.body.nama,
@@ -20,35 +20,40 @@ const register = (req, res) => {
             req.body.email,
             hash,
         ];
-        userModel.createUser(values, (err, result) => {
-            if (err) {
-                console.error('Error inserting data:', err);
-                return res.json({ Error: 'Inserting data error in server' });
-            }
-            return res.json({ Status: 'Success' });
-        });
-    });
+        await userModel.createUser(values);
+        return res.json({ Status: 'Success' });
+    } catch (err) {
+        console.error('Error inserting data:', err);
+        return res.json({ Error: 'Inserting data error in server' });
+    }
 };
 
-const login = (req, res) => {
-    userModel.getUserByEmail(req.body.email, (err, data) => {
-        if (err) return res.json({ error: 'Login error in server' });
-        if (data.length > 0) {
-            bcrypt.compare(req.body.password.toString(), data[0].password, (err, response) => {
-                if (err) return res.json({ Error: 'Password compare error' });
-                if (response) {
-                    const nama = data[0].nama;
-                    const token = jwt.sign({ nama }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: `1d` });
-                    res.cookie('token', token);
-                    return res.json({ Status: 'Success' });
-                } else {
-                    return res.json({ Error: 'Wrong Email or Password' });
-                }
-            });
-        } else {
+const login = async (req, res) => {
+    try {
+        const { email, password } = req.body;
+        const data = await userModel.getUserByEmail(email);
+
+        if (!data || data.length === 0) {
+            console.log('User not found');
             return res.json({ Error: 'Wrong Email or Password' });
         }
-    });
+
+        const user = data[0];
+        const response = await bcrypt.compare(password.toString(), user.password);
+
+        if (response) {
+            const nama = user.nama;
+            const token = jwt.sign({ nama }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '1d' });
+            res.cookie('token', token);
+            return res.json({ Status: 'Success' });
+        } else {
+            console.log('Incorrect password');
+            return res.json({ Error: 'Wrong Email or Password' });
+        }
+    } catch (err) {
+        console.error('Error retrieving user data:', err);
+        return res.json({ error: 'Login error in server' });
+    }
 };
 
 module.exports = { register, login };
