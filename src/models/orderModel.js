@@ -22,4 +22,5 @@ const getRequestById = (id) => {
     return dbpool.execute(SQLQuery);
 };
 
+
 module.exports = { createNewRequest, getRequestById };
