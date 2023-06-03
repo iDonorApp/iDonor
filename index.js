@@ -2,9 +2,10 @@ const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const usersRoutes = require('./src/routes/users');
+const homeRoutes = require('./src/routes/home');
 const profileRoutes = require('./src/routes/profile');
-const reqdonorRoutes = require('./src/routes/reqdonor')
-const homeRoutes = require('./src/routes/detailhome')
+const reqdonorRoutes = require('./src/routes/reqdonor');
+const detailhomeRoutes = require('./src/routes/detailhome');
 const middlewareLogs = require('./src/middleware/logs');
 
 require('dotenv').config();
@@ -18,14 +19,13 @@ app.use(cors({
     methods: ['POST', 'GET'],
     credentials: true,
 })) /
-
-    app.use(middlewareLogs);
-
+app.use(middlewareLogs);
 
 app.use('/', usersRoutes);
+app.use('/home', homeRoutes)
 app.use('/profile', profileRoutes);
-app.use('/order', reqdonorRoutes);
-app.use('/detailhome', homeRoutes);
+app.use('/reqdonor', reqdonorRoutes);
+app.use('/detailhome', detailhomeRoutes);
 
 app.listen(PORT, () => {
     console.log(`server running on port ${PORT}`)

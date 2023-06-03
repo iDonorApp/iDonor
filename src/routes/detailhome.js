@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const homeController = require('../controller/detailhomeController');
+const detailhomeController = require('../controller/detailhomeController');
 
 // CREATE - POST
-router.get('/', homeController.getview);
-router.get('/:rumahsakit', homeController.getViewSpesific);
+router.get('/', detailhomeController.getview);
+router.get('/:rumahsakit', detailhomeController.getViewSpesific);
 
 module.exports = router;
