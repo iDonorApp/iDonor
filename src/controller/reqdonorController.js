@@ -1,5 +1,5 @@
 const dbpool = require('../config/database');
-const orderModel = require('../models/orderModel');
+const orderModel = require('../models/reqdonorModel');
 
 const checkRs = async (rumah_sakit) => {
     try {

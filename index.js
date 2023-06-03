@@ -3,7 +3,7 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const usersRoutes = require('./src/routes/users');
 const profileRoutes = require('./src/routes/profile');
-const orderRoutes = require('./src/routes/order')
+const reqdonorRoutes = require('./src/routes/reqdonor')
 const homeRoutes = require('./src/routes/detailhome')
 const middlewareLogs = require('./src/middleware/logs');
 
@@ -24,7 +24,7 @@ app.use(cors({
 
 app.use('/', usersRoutes);
 app.use('/profile', profileRoutes);
-app.use('/order', orderRoutes);
+app.use('/order', reqdonorRoutes);
 app.use('/detailhome', homeRoutes);
 
 app.listen(PORT, () => {
