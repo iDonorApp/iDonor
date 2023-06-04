@@ -18,19 +18,19 @@
             "Rumah Sakit": "Primaya Hospital Bekasi Timur",
             "Dibutuhkan": 1,
             "alamat": "Jl. HM. Joyo Martono No.47, RT.003/RW.021, Margahayu, Kec. Bekasi Tim., Kota Bks",
-            "Image URL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0nq--bCxBNBHEtuzClWMYz1yn1n0ZPI4LLjQ9B0hqauJ9UO_TxMnnlcqIcQ0dUe1rLm8zZmbNJqCeqwmtfdh5gPGsGtAuEmV5BK-vpBv0GtaNp7pG1QijcFHW2L37rFNRlb7Y8zj4jy64_gv_iraSStbHeofEI-pYG_7V2pmwZj0nwp&key=AIzaSyDUuxSVS17YrrjDPCACA-xbyQoCHbZNOAI"
+            "Image URL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0nq--bCxBNBHEtuzClWMYz1yn1n0ZPI4LLjQ9B0hqauJ9UO_TxMnnlcqIcQ0dUe1rLm8zZmbNJqCeqwmtfdh5gPGsGtAuEmV5BK-vpBv0GtaNp7pG1QijcFHW2L37rFNRlb7Y8zj4jy64_gv_iraSStbHeofEI-pYG_7V2pmwZj0nwp"
         },
         {
             "Rumah Sakit": "Rumah Sakit Masmitra",
             "Dibutuhkan": 2,
             "alamat": "Jl. Raya Jati Makmur No.40, RT.001/RW.011, Jatimakmur, Kec. Pd. Gede, Kota Bks",
-            "Image URL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0mze8F6kXVLTEqgaClLlPTAEtFyM-0qzJiVumSukl_uoZ1t26VvwAj5-KWsVGsW3Bts6Jiay41DDTGRlI4HcDjJyHIVPPeHv7008Ti8S4IaDrjHqtgpCUWThindAzaP1ut-WOTyvwjoZoxPk1QFqivXFLKhar7TPC32ItgkFS_uaBjB&key=AIzaSyDUuxSVS17YrrjDPCACA-xbyQoCHbZNOAI"
+            "Image URL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0mze8F6kXVLTEqgaClLlPTAEtFyM-0qzJiVumSukl_uoZ1t26VvwAj5-KWsVGsW3Bts6Jiay41DDTGRlI4HcDjJyHIVPPeHv7008Ti8S4IaDrjHqtgpCUWThindAzaP1ut-WOTyvwjoZoxPk1QFqivXFLKhar7TPC32ItgkFS_uaBjB"
         },
         {
             "Rumah Sakit": "Rumah Sakit Umum Daerah Tasikmalaya",
             "Dibutuhkan": 1,
             "alamat": "Jl. Rumah Sakit No.33, Empangsari, Kec. Tawang, Kab. Tasikmalaya, Jawa Barat 46113",
-            "Image URL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0mdlBhVfUUp41cyc4yRiDuQMcu8ozSxugBQ4_SsNw_BPGJMtSI4SZ-EzGrleDLKVb6zLwDeZAIryflCMIstxTPxYHib_cSRyuWeziwltN-ptCC1O8wcCZxwT8OvFNULiaUfWJldPyIGgunhY4To3Uvgv0NxZQwv5ybuK7TKYdXw5Vg&key=AIzaSyDUuxSVS17YrrjDPCACA-xbyQoCHbZNOAI"
+            "Image URL": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0mdlBhVfUUp41cyc4yRiDuQMcu8ozSxugBQ4_SsNw_BPGJMtSI4SZ-EzGrleDLKVb6zLwDeZAIryflCMIstxTPxYHib_cSRyuWeziwltN-ptCC1O8wcCZxwT8OvFNULiaUfWJldPyIGgunhY4To3Uvgv0NxZQwv5ybuK7TKYdXw5Vg"
         }
     ]
 }
