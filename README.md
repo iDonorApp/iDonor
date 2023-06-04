@@ -1,12 +1,15 @@
 ## API Documentation
 <details>
-<summary>Home</summary>
   
-* ### URL : 
-  * /home
-* ### Method : 
-  * GET
-* ### Response :
+<summary>Home</summary></br>
+  
+* **URL** : </p>
+  * /home </p>
+* **Method** : </p>
+  * GET </p>
+* **Response** : </p>
+</p>
+
 ```
 {
     "message": "All Request",
