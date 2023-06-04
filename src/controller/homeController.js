@@ -9,15 +9,8 @@ const getAllRequest = async (req, res) => {
         const searchIndex = link.findIndex((item) => item.rumah_sakit === row.rumah_sakit);
         if (searchIndex !== -1) {
           let alamat = link[searchIndex].alamat;
-          let imageUrl = null;
+          let imageUrl = link[searchIndex].photos;
           
-          try {
-            const imageUrlString = link[searchIndex].photos;
-            imageUrl = JSON.parse(imageUrlString)[0];
-          } catch (error) {
-            console.log('Error parsing image URL:', error);
-          }
-    
           return {
             'Rumah Sakit': row.rumah_sakit,
             Dibutuhkan: row.Dibutuhkan,
