@@ -19,7 +19,7 @@ app.use(cors({
     methods: ['POST', 'GET'],
     credentials: true,
 })) /
-app.use(middlewareLogs);
+    app.use(middlewareLogs);
 
 app.use('/', usersRoutes);
 app.use('/home', homeRoutes)
