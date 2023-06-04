@@ -27,7 +27,7 @@ const userRequest = async (req, res) => {
     }
 
     // Menyimpan data ke database menggunakan model
-    await orderModel.createNewRequest({ ...body, rumah_sakit, id_users: req.id_users });
+    await orderModel.createNewRequest({ ...body, rumah_sakit});
     res.status(201).json({ message: 'Success', data: { ...body, rumah_sakit } });
   } catch (error) {
     console.error('Error inserting data:', error);
