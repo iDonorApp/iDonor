@@ -1,7 +1,7 @@
 const dbpool = require('../config/database');
 
 const getUserById = (iduser) => {
-    const SQLQuery = `SELECT * FROM users WHERE id = '${iduser}'`;
+    const SQLQuery = `SELECT * FROM users WHERE id_users = '${iduser}'`;
     return dbpool.execute(SQLQuery);
 };
 
@@ -16,7 +16,7 @@ const updateProfile = (body, iduser) => {
                         alamat= '${body.alamat}',
                         email= '${body.email}',
                         password= '${body.password}'
-                        WHERE id = '${iduser}'`;
+                        WHERE id_users = '${iduser}'`;
 
     return dbpool.execute(SQLQuery);
 };

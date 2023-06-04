@@ -1,16 +1,18 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const userModel = require('../models/usersModel');
-const { v4: uuidv4 } = require('uuid');
+const uuidRandom = require('uuid-random');
 const salt = 15;
 const dotenv = require('dotenv');
 dotenv.config();
 
-const register = async (req, res, next) => {
+const register = async (req, res) => {
+    const { body } = req;
     try {
-        const hash = await bcrypt.hash(req.body.password.toString(), salt);
+        const hash = await bcrypt.hash(body.password.toString(), salt);
+        const uuid = uuidRandom().replace(/\D/g, '').substring(0, 16);
         const values = [
-            uuidv4(),
+            uuid, // Gunakan nilai UUID yang sudah berupa angka
             req.body.nama,
             req.body.golongan,
             req.body.jenis_kelamin,
@@ -21,12 +23,14 @@ const register = async (req, res, next) => {
             hash,
         ];
         await userModel.createUser(values);
-        return res.json({ Status: 'Success' });
+        return res.status(201).json({ message: 'Success', data: { body } });
     } catch (err) {
         console.error('Error inserting data:', err);
-        return res.json({ Error: 'Inserting data error in server' });
+        return res.status(500).json({ message: 'Error in server' });
     }
 };
+
+
 
 const login = async (req, res) => {
     try {
