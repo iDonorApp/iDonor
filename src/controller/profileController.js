@@ -1,6 +1,4 @@
 const profileModel = require('../models/profileModel');
-const moment = require('moment');
-
 
 const getUserById = async (req, res) => {
   const { iduser } = req.params;

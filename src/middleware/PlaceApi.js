@@ -28,12 +28,11 @@ const getLinkPlaceAPI = async (req, res, next) => {
         });
   
         // Mengecek apakah data rumah sakit dengan alamat yang sama sudah ada dalam database
-        const [existingRows] = await dbpool.execute('SELECT * FROM RS WHERE alamat = ?', [cleanedAddress]);
+        const [existingRows] = await dbpool.execute('SELECT * FROM RS WHERE rumah_sakit = ?', rumahsakit);//[cleanedAddress]);
         if (existingRows.length > 0) {
           next();
-        } else {
-
-         
+        }
+        else {
           // Menyimpan data foto, nama, alamat, dan link Google Maps ke dalam database MySQL
           await dbpool.execute('INSERT INTO RS (rumah_sakit, photos, alamat, gmaps_link) VALUES (?, ?, ?, ?)', [rumahsakit, JSON.stringify(photoLinks), cleanedAddress, urlplaceID]);
   

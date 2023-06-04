@@ -3,21 +3,27 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const verifyUser = (req, res, next) => {
-    const token = req.cookies.token;
-    console.log('Token:', token)
-    if (!token) {
-        return res.json({ Error: 'Token is missing' });
-    }
-
-    jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decoded) => {
-        if (err) {
-            console.log('Token verification error:', err);
-            return res.json({ Error: 'Invalid token' });
+    try {
+        const token = req.cookies.token;
+        console.log('Token:', token);
+        if (!token) {
+            return res.json({ Error: 'Token is missing' });
         }
 
-        req.nama = decoded.nama;
-        next();
-    });
+        jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decoded) => {
+            if (err) {
+                console.log('Token verification error:', err);
+                return res.json({ Error: 'Invalid token' });
+            }
+
+            req.id_users = decoded.id_users;
+            next();
+        });
+    } catch (err) {
+        console.error('Error verifying user:', err);
+        res.status(500).json({ Error: 'Error verifying user' });
+    }
 };
+
 
 module.exports = { verifyUser };
