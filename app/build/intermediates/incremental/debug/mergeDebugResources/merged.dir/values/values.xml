@@ -1982,6 +1982,7 @@
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="buat_passaword">Buat Password</string>
     <string name="call_notification_answer_action">Answer</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Decline</string>
@@ -1993,9 +1994,14 @@
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="daftar">Daftar</string>
     <string name="daftar_disini">Daftar Disini</string>
+    <string name="daftar_email">Email</string>
+    <string name="daftar_jenis_kelamin">Jenis Kelamin</string>
     <string name="daftar_nama">Nama</string>
+    <string name="default_tanggal">DD-MM-YYYY</string>
     <string name="dibutuhkan">Dibutuhkan</string>
+    <string name="email_hint">example@email.com</string>
     <string name="email_user">Email / User</string>
     <string name="email_validation">Masukkan alamat email yang valid!</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
@@ -2011,6 +2017,8 @@
     <string name="id_akun">ID : 937438203</string>
     <string name="informasi">Informasi</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="konfirmasi_passaword">Konfirmasi Password</string>
     <string name="laki">Laki - laki</string>
     <string name="length_password">Password Minimal 8 Karakter</string>
     <string name="login">Login</string>
@@ -2125,6 +2133,8 @@
     <string name="nama_rs">Nama Rumah Sakit</string>
     <string name="nav_app_bar_navigate_up_description">Navigate up</string>
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="no_telephone">No Telephone</string>
+    <string name="nohp">+62</string>
     <string name="password">Password</string>
     <string name="password_baru">Password Baru</string>
     <string name="password_lama">Password Lama</string>
@@ -2147,6 +2157,7 @@
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="simpan">Simpan</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
     <string name="ubah_password">Ubah Password</string>
     <string name="upload">Upload</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -5611,6 +5622,9 @@
   </style>
     <style name="MyTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
         <item name="android:textColorHint">@color/red</item> 
+    </style>
+    <style name="MyTextInputLayoutStyle1" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">@color/black</item> 
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>

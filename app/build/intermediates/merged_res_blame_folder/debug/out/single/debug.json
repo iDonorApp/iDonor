@@ -32,6 +32,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_baseline_calendar_month_24.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/baseline_calendar_month_24.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_informasi.png.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_informasi.png"
     },

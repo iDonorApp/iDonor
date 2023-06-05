@@ -51,4 +51,11 @@
     <string name="konfirmasi">Konfirmasi</string>
     <string name="daftar_email">Email</string>
     <string name="daftar">Daftar</string>
+
+    <string name="detail_nama">ARIF KURNIAWAN</string>
+    <string name="no_kamar">No. Kamar           : </string>
+    <string name="detail_goldar">Golongan Darah : </string>
+    <string name="detail_umur">Umur                     : </string>
+    <string name="detail_waktu">Waktu                   : </string>
+    <string name="hubungi">Hubungi</string>
 </resources>

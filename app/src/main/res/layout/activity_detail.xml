@@ -35,6 +35,7 @@
         tools:layout_editor_absoluteY="30dp" />
 
     <Button
+        android:id="@+id/btn_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/gray"
@@ -50,4 +51,16 @@
         tools:layout_editor_absoluteY="231dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@id/iv_detail_foto"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_location"
+        tools:listitem="@layout/list_item_detail" />
 </androidx.constraintlayout.widget.ConstraintLayout>
