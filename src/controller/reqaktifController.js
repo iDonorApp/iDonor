@@ -1,19 +1,14 @@
-const aktifreqModel = require('../models/aktifreqModel');
+const reqaktifModel = require('../models/reqaktifModel');
 
 const getViewAktifRequest= async (req, res) => {
-    const { id_user } = req.params;
+    const { id} = req.params;
   
     try {
-        const [data] = await aktifreqModel.getViewAktifRequest(id_user);
-        
-        const nopassword = data.map((item) => {
-            const { password, ...datanopassword } = item;
-            return datanopassword;
-        });
+        const [data] = await reqaktifModel.getViewAktifRequest(id);
   
         res.json({
             message: 'GET profile by id Success',
-            data: nopassword,
+            data: data,
         });
     } catch (error) {
         console.error('Error retrieving user:', error);

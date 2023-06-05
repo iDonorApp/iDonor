@@ -5,6 +5,7 @@ const usersRoutes = require('./src/routes/users');
 const homeRoutes = require('./src/routes/home');
 const profileRoutes = require('./src/routes/profile');
 const reqdonorRoutes = require('./src/routes/reqdonor');
+const reqaktifRoutes = require('./src/routes/reqaktif');
 const detailhomeRoutes = require('./src/routes/detailhome');
 const middlewareLogs = require('./src/middleware/logs');
 
@@ -22,10 +23,14 @@ app.use(cors({
     app.use(middlewareLogs);
 
 app.use('/', usersRoutes);
-app.use('/home', homeRoutes)
-app.use('/profile', profileRoutes);
-app.use('/reqdonor', reqdonorRoutes);
+app.use('/home', homeRoutes);
 app.use('/detailhome', detailhomeRoutes);
+app.use('/reqdonor', reqdonorRoutes);
+app.use('/reqaktif', reqaktifRoutes);
+
+app.use('/profile', profileRoutes);
+
+
 
 app.listen(PORT, () => {
     console.log(`server running on port ${PORT}`)
