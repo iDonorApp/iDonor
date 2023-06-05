@@ -23,7 +23,7 @@ const register = async (req, res) => {
             hash,
         ];
         await userModel.createUser(values);
-        return res.status(201).json({ message: 'Success', data: { body } });
+        return res.status(201).json({ message: 'Success', data: body });
     } catch (err) {
         console.error('Error inserting data:', err);
         return res.status(500).json({ message: 'Error in server' });
