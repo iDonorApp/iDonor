@@ -7,7 +7,7 @@ const getViewAktifRequest= async (req, res) => {
         const [data] = await reqaktifModel.getViewAktifRequest(id);
   
         res.json({
-            message: 'GET profile by id Success',
+            message: 'Request donor ',
             data: data,
         });
     } catch (error) {
