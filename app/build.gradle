@@ -15,7 +15,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        buildConfigField("String", "LINK_API", '"<>"')
+        buildConfigField("String", "LINK_API", '"http://localhost:9000"')
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
