@@ -4,7 +4,7 @@
   <summary>Register</summary>
   
   * #### URL : 
-    * /resgister
+    * http://34.128.67.48:4000/register
   * #### Method : 
     * POST
   * #### Request Body :
@@ -36,7 +36,7 @@
 <summary>Login</summary>
 
 * #### URL : 
-  * /login
+  * http://34.128.67.48:4000/login
 * #### Method : 
   * POST
 * #### Request Body : 
@@ -60,7 +60,7 @@
 <summary>Home</summary>
   
 * #### URL :
-  * /home
+  * http://34.128.67.48:4000/home
 * #### Method :
   * GET
 * #### Response :
@@ -94,7 +94,7 @@
 <summary>Detail Home</summary>
   
 * #### URL : 
-  * /detailhome/:rumahsakit
+  * http://34.128.67.48:4000/detailhome/:rumahsakit
 * #### Method :
   * GET
 * #### Response : 
@@ -130,7 +130,7 @@
   <summary>Request Donor</summary>
 
   * #### URL : 
-    * /reqdonor
+    * http://34.128.67.48:4000/reqdonor
   * #### Method : 
     * POST
   * #### Response : 
@@ -153,7 +153,7 @@
   <summary>Request Aktif</summary>
   
   * #### URL :
-    * /reqaktif/:id_users
+    * http://34.128.67.48:4000/reqaktif/:id_users
   * #### Method : 
     * GET
   * #### Response : 
@@ -203,7 +203,7 @@
   <summary>Profile</summary>
   
   * #### URL :
-    * /profile/:id_users
+    * http://34.128.67.48:4000/profile/:id_users
   * #### Method : 
     * GET
   * #### Response : 
