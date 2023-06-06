@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.idonor.ui
+package com.dicoding.picodiploma.idonor.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

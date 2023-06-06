@@ -15,7 +15,7 @@
             android:name=".ui.daftar.DaftarActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.DetailActivity"
+            android:name=".ui.main.DetailActivity"
             android:exported="false" />
         <activity
             android:name=".ui.InformasiActivity"
