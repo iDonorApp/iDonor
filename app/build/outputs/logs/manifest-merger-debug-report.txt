@@ -122,12 +122,12 @@ ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src
 		ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:15:13-53
-activity#com.dicoding.picodiploma.idonor.ui.DetailActivity
+activity#com.dicoding.picodiploma.idonor.ui.main.DetailActivity
 ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:18:13-46
+		ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:18:13-51
 activity#com.dicoding.picodiploma.idonor.ui.InformasiActivity
 ADDED from D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported

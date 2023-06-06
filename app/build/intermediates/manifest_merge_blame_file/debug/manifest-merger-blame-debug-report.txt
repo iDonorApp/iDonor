@@ -49,8 +49,8 @@
 30-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:16:13-37
 31        <activity
 31-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:17:9-19:40
-32            android:name="com.dicoding.picodiploma.idonor.ui.DetailActivity"
-32-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:18:13-46
+32            android:name="com.dicoding.picodiploma.idonor.ui.main.DetailActivity"
+32-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:18:13-51
 33            android:exported="false" />
 33-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:19:13-37
 34        <activity

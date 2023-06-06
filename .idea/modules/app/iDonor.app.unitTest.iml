@@ -14,7 +14,6 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5233fa5f5d61ce1ebfc818b690054011/transformed/viewbinding-7.4.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/5.0.0-alpha.10/76b2c19f11fb3e731df6e8b9c2ea2af648e27a5e/logging-interceptor-5.0.0-alpha.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/329ea1abc7f77769a989fbd15aec40a3/transformed/navigation-ui-ktx-2.5.3-api.jar</arg>
