@@ -33,6 +33,30 @@
 
 <details>
   
+<summary>Login</summary>
+
+* #### URL : 
+  * /login
+* #### Method : 
+  * POST
+* #### Request Body : 
+  * `email` as string
+  * `password` as string
+* #### Response : 
+  ```
+  {
+    "message": "success",
+    "login": {
+        "nama": "Arif Kurniawan",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1hIjoibmFtZSIsImlhdCI6MTY4NjAzMzEwMCwiZXhwIjoxNjg2MTE5NTAwfQ.n19KaWcnfwb5SNJbUuaf-pFOwlGhMTlzO0ZjERkWySU"
+      }
+  }
+  ```
+
+</details>
+  
+<details>
+  
 <summary>Home</summary>
   
 * #### URL :
