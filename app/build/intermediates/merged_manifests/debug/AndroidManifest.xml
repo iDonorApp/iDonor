@@ -26,10 +26,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IDonor" >
         <activity
-            android:name="com.dicoding.picodiploma.idonor.DaftarActivity"
+            android:name="com.dicoding.picodiploma.idonor.ui.daftar.DaftarActivity"
             android:exported="false" />
         <activity
-            android:name="com.dicoding.picodiploma.idonor.DetailActivity"
+            android:name="com.dicoding.picodiploma.idonor.ui.DetailActivity"
             android:exported="false" />
         <activity
             android:name="com.dicoding.picodiploma.idonor.ui.InformasiActivity"

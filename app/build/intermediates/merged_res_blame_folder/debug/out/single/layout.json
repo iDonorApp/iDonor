@@ -28,6 +28,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_login.xml"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/list_item_detail.xml",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_detail.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-44:/layout/list_item_beranda.xml",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_beranda.xml"
     },

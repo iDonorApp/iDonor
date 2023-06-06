@@ -21,6 +21,7 @@ drawable icon_goldar
 drawable icon_lock
 drawable icon_pin_location
 drawable icon_user
+drawable icon_whatsapp
 drawable ikon_aktif
 drawable ikon_akun
 drawable ikon_beranda
@@ -35,9 +36,11 @@ id akun
 id beranda
 id bottom_nav
 id btn_akun_simpan
+id btn_location
 id btn_login
 id btn_login_register
 id btn_question
+id btn_whatsapp
 id container
 id ed_akun_password_baru
 id ed_akun_password_lama
@@ -57,6 +60,7 @@ id ic_calendar
 id ic_edit
 id informasi
 id iv_detail_foto
+id iv_detail_goldar
 id iv_goldar
 id iv_item_photo
 id iv_logo
@@ -64,6 +68,7 @@ id lupa_password
 id rb_laki
 id rb_perempuan
 id rg_daftar_jenis_kelamin
+id rv_detail
 id textView
 id til_daftar_alamat
 id til_daftar_buat_password
@@ -97,6 +102,16 @@ id tv_daftar_jenis_kelamin
 id tv_daftar_konfirmasi_password
 id tv_daftar_no_telephone
 id tv_daftar_tanggal_lahir
+id tv_detail_goldar
+id tv_item_akun_goldar
+id tv_item_akun_goldar_value
+id tv_item_akun_nama
+id tv_item_akun_no_kamar
+id tv_item_akun_no_kamar_value
+id tv_item_akun_umur
+id tv_item_akun_umur_value
+id tv_item_akun_waktu
+id tv_item_akun_waktu_value
 id tv_item_alamat
 id tv_item_dibutuhkan
 id tv_item_name_rs
@@ -112,6 +127,7 @@ layout activity_login
 layout activity_main
 layout activity_upload
 layout list_item_beranda
+layout list_item_detail
 menu login_menu
 menu nav_menu
 mipmap ic_launcher
@@ -134,11 +150,16 @@ string daftar_email
 string daftar_jenis_kelamin
 string daftar_nama
 string default_tanggal
+string detail_goldar
+string detail_nama
+string detail_umur
+string detail_waktu
 string dibutuhkan
 string email_hint
 string email_user
 string email_validation
 string gol_darah
+string hubungi
 string id_akun
 string informasi
 string konfirmasi
@@ -150,6 +171,7 @@ string lokasi
 string lupa_password
 string nama_akun
 string nama_rs
+string no_kamar
 string no_telephone
 string nohp
 string password

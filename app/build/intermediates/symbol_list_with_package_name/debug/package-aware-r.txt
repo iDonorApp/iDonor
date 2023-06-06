@@ -2999,6 +2999,7 @@ drawable icon_goldar
 drawable icon_lock
 drawable icon_pin_location
 drawable icon_user
+drawable icon_whatsapp
 drawable ikon_aktif
 drawable ikon_akun
 drawable ikon_beranda
@@ -3186,9 +3187,11 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btn_akun_simpan
+id btn_location
 id btn_login
 id btn_login_register
 id btn_question
+id btn_whatsapp
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3335,6 +3338,7 @@ id inward
 id italic
 id item_touch_helper_previous_elevation
 id iv_detail_foto
+id iv_detail_goldar
 id iv_goldar
 id iv_item_photo
 id iv_logo
@@ -3470,6 +3474,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id rv_detail
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3626,6 +3631,16 @@ id tv_daftar_jenis_kelamin
 id tv_daftar_konfirmasi_password
 id tv_daftar_no_telephone
 id tv_daftar_tanggal_lahir
+id tv_detail_goldar
+id tv_item_akun_goldar
+id tv_item_akun_goldar_value
+id tv_item_akun_nama
+id tv_item_akun_no_kamar
+id tv_item_akun_no_kamar_value
+id tv_item_akun_umur
+id tv_item_akun_umur_value
+id tv_item_akun_waktu
+id tv_item_akun_waktu_value
 id tv_item_alamat
 id tv_item_dibutuhkan
 id tv_item_name_rs
@@ -3794,6 +3809,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout list_item_beranda
+layout list_item_detail
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3924,6 +3940,10 @@ string daftar_email
 string daftar_jenis_kelamin
 string daftar_nama
 string default_tanggal
+string detail_goldar
+string detail_nama
+string detail_umur
+string detail_waktu
 string dibutuhkan
 string email_hint
 string email_user
@@ -3935,6 +3955,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string gol_darah
 string hide_bottom_view_on_scroll_behavior
+string hubungi
 string icon_content_description
 string id_akun
 string informasi
@@ -4049,6 +4070,7 @@ string nama_akun
 string nama_rs
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
+string no_kamar
 string no_telephone
 string nohp
 string password

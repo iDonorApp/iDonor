@@ -4,20 +4,12 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-anydpi-v33/ic_launcher.xml"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_activity_detail.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_detail.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_activity_beranda.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_beranda.xml"
-    },
-    {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_activity_akun.xml.flat",
@@ -52,20 +44,12 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ic_launcher_background.xml"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_akun.png.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_akun.png"
-    },
-    {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_email.png.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_email.png"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_goldar.png.flat",
@@ -80,20 +64,8 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_bg_tv_detail.xml.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/bg_tv_detail.xml"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_til_background.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/til_background.xml"
-    },
-    {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_beranda.png.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_beranda.png"
-    },
-    {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_lock.png.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_lock.png"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_aktif.png.flat",
@@ -108,10 +80,6 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-hdpi/ic_launcher.webp"
     },
@@ -120,28 +88,12 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_questoin_mark.png.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/questoin_mark.png"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_list_item_beranda.xml.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_beranda.xml"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_pin_location.png.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_pin_location.png"
-    },
-    {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_bg_edt_default.xml.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/bg_edt_default.xml"
-    },
-    {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-mdpi/ic_launcher.webp"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/xml_data_extraction_rules.xml.flat",
@@ -156,10 +108,6 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/bg_edt_error.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_upload.png.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_upload.png"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_activity_informasi.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_informasi.xml"
     },
@@ -172,16 +120,76 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/menu_nav_menu.xml.flat",
-        "source": "com.dicoding.picodiploma.idonor.app-main-47:/menu/nav_menu.xml"
-    },
-    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_edit.png.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_edit.png"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_activity_daftar.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_daftar.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_email.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_email.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_bg_tv_detail.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/bg_tv_detail.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_beranda.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_beranda.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_lock.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_lock.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_questoin_mark.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/questoin_mark.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_list_item_beranda.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_beranda.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_bg_edt_default.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/bg_edt_default.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_upload.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/ikon_upload.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/menu_nav_menu.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_whatsapp.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_whatsapp.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_list_item_detail.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_detail.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
