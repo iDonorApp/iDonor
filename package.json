@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +21,6 @@
     "moment": "^2.29.4",
     "mysql2": "^3.3.3",
     "nanoid": "^4.0.2",
-    "nodemon": "^2.0.22",
-    "uui": "^1.0.7",
-    "uuid": "^9.0.0",
     "uuid-random": "^1.3.2"
   }
 }

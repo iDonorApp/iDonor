@@ -3,8 +3,6 @@ const jwt = require('jsonwebtoken');
 const userModel = require('../models/usersModel');
 const uuidRandom = require('uuid-random');
 const salt = 15;
-const dotenv = require('dotenv');
-dotenv.config();
 
 const register = async (req, res) => {
     const { body } = req;

@@ -9,14 +9,13 @@ const reqaktifRoutes = require('./src/routes/reqaktif');
 const detailhomeRoutes = require('./src/routes/detailhome');
 const middlewareLogs = require('./src/middleware/logs');
 
-require('dotenv').config();
 const PORT = process.env.PORT || 5000;
 const app = express();
 
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
-    origin: [`http://localhost:${PORT}`],
+    origin: [`https://idonorapi-dot-idonor-trialdevelopment.et.r.appspot.com`],
     methods: ['POST', 'GET'],
     credentials: true,
 })) /
@@ -32,6 +31,6 @@ app.use('/profile', profileRoutes);
 
 
 
-app.listen(PORT, () => {
-    console.log(`server running on port ${PORT}`)
-})
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server berjalan pada port ${PORT}`);
+  });
