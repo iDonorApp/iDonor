@@ -8,7 +8,7 @@ router.get('/', verifyUser, (req, res) => {
 });
 
 // Read - GET Profile by id
-router.get('/:iduser', profileController.getUserById);
+router.get('/:iduser', verifyUser,profileController.getUserById);
 
 // Edit - PATCH 
 router.patch('/:iduser', profileController.updateUserProfile);

@@ -46,10 +46,14 @@ const login = async (req, res) => {
         const response = await bcrypt.compare(password.toString(), user.password);
 
         if (response) {
-            const nama = user.nama;
-            const token = jwt.sign({ nama }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '1d' });
+            const id_users= user.id_users;
+            const token = jwt.sign({ id_users }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '1d' });
             res.cookie('token', token);
-            return res.json({ Status: 'Success' });
+            return res.json({ 
+                Status: 'Success',
+                id : id_users,
+                token : token 
+            });
         } else {
             console.log('Incorrect password');
             return res.json({ Error: 'Wrong Email or Password' });
