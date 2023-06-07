@@ -58,4 +58,14 @@
     <string name="detail_umur">Umur                     : </string>
     <string name="detail_waktu">Waktu                   : </string>
     <string name="hubungi">Hubungi</string>
+    <string name="masukkan_no_kamar">masukkan_no_kamar</string>
+    <string name="rumah_sakit">Rumah Sakit</string>
+    <string name="masukkan_nama_rumah_sakit">Masukkan Nama Rumah Sakit</string>
+    <string name="nama">Nama</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="umur">Umur</string>
+    <string name="masukkan_umur">Masukkan Umur</string>
+    <string name="masukkan_gol_darah">Masukkan Gol Darah</string>
+    <string name="masukkan_no_kamarr">Masukkan No.Kamar</string>
+    <string name="rekomendasi">Rekomendasi</string>
 </resources>

@@ -4,14 +4,146 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
     tools:context=".ui.UploadActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ini halaman upload"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="136dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/rumah_sakit" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/masukkan_nama_rumah_sakit"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/nama" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/masukkan_nama"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="108dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="136dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/umur" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Gol.Darah" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="136dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/custom_input"
+                android:hint="@string/masukkan_umur"
+                android:inputType="number"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/custom_input"
+                android:hint="@string/masukkan_gol_darah"
+                android:inputType="number"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/no_kamar" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_input"
+            android:hint="@string/masukkan_no_kamarr"
+            android:inputType="number"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_class"
+            android:text="@string/upload"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
