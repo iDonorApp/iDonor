@@ -22,7 +22,7 @@ app.use(cors({
     app.use(middlewareLogs);
 
 app.use('/', usersRoutes);
-app.use('/home', homeRoutes);
+app.use('/', homeRoutes);
 app.use('/detailhome', detailhomeRoutes);
 app.use('/reqdonor', reqdonorRoutes);
 app.use('/reqaktif', reqaktifRoutes);
