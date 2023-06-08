@@ -172,7 +172,4 @@
         app:layout_constraintTop_toBottomOf="@id/til_upload_no_kamar"
         app:layout_constraintStart_toStartOf="@id/til_upload_no_kamar"
         app:layout_constraintEnd_toEndOf="@id/til_upload_no_kamar"/>
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
