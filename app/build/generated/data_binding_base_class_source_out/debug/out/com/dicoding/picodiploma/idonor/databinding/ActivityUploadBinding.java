@@ -4,6 +4,7 @@ package com.dicoding.picodiploma.idonor.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,10 +23,16 @@ public final class ActivityUploadBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnUpload;
+
+  @NonNull
   public final TextInputEditText edUploadGoldar;
 
   @NonNull
   public final TextInputEditText edUploadNama;
+
+  @NonNull
+  public final TextInputEditText edUploadNoKamar;
 
   @NonNull
   public final TextInputEditText edUploadRs;
@@ -38,6 +45,9 @@ public final class ActivityUploadBinding implements ViewBinding {
 
   @NonNull
   public final TextInputLayout tilUploadNama;
+
+  @NonNull
+  public final TextInputLayout tilUploadNoKamar;
 
   @NonNull
   public final TextInputLayout tilUploadRs;
@@ -55,27 +65,36 @@ public final class ActivityUploadBinding implements ViewBinding {
   public final TextView tvUploadNama;
 
   @NonNull
+  public final TextView tvUploadNoKamar;
+
+  @NonNull
   public final TextView tvUploadUmur;
 
-  private ActivityUploadBinding(@NonNull ConstraintLayout rootView,
+  private ActivityUploadBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnUpload,
       @NonNull TextInputEditText edUploadGoldar, @NonNull TextInputEditText edUploadNama,
-      @NonNull TextInputEditText edUploadRs, @NonNull TextInputEditText edUploadUmur,
-      @NonNull TextInputLayout tilUploadGoldar, @NonNull TextInputLayout tilUploadNama,
+      @NonNull TextInputEditText edUploadNoKamar, @NonNull TextInputEditText edUploadRs,
+      @NonNull TextInputEditText edUploadUmur, @NonNull TextInputLayout tilUploadGoldar,
+      @NonNull TextInputLayout tilUploadNama, @NonNull TextInputLayout tilUploadNoKamar,
       @NonNull TextInputLayout tilUploadRs, @NonNull TextInputLayout tilUploadUmur,
       @NonNull TextView tvRumahSakit, @NonNull TextView tvUploadGoldar,
-      @NonNull TextView tvUploadNama, @NonNull TextView tvUploadUmur) {
+      @NonNull TextView tvUploadNama, @NonNull TextView tvUploadNoKamar,
+      @NonNull TextView tvUploadUmur) {
     this.rootView = rootView;
+    this.btnUpload = btnUpload;
     this.edUploadGoldar = edUploadGoldar;
     this.edUploadNama = edUploadNama;
+    this.edUploadNoKamar = edUploadNoKamar;
     this.edUploadRs = edUploadRs;
     this.edUploadUmur = edUploadUmur;
     this.tilUploadGoldar = tilUploadGoldar;
     this.tilUploadNama = tilUploadNama;
+    this.tilUploadNoKamar = tilUploadNoKamar;
     this.tilUploadRs = tilUploadRs;
     this.tilUploadUmur = tilUploadUmur;
     this.tvRumahSakit = tvRumahSakit;
     this.tvUploadGoldar = tvUploadGoldar;
     this.tvUploadNama = tvUploadNama;
+    this.tvUploadNoKamar = tvUploadNoKamar;
     this.tvUploadUmur = tvUploadUmur;
   }
 
@@ -106,6 +125,12 @@ public final class ActivityUploadBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_upload;
+      Button btnUpload = ViewBindings.findChildViewById(rootView, id);
+      if (btnUpload == null) {
+        break missingId;
+      }
+
       id = R.id.ed_upload_goldar;
       TextInputEditText edUploadGoldar = ViewBindings.findChildViewById(rootView, id);
       if (edUploadGoldar == null) {
@@ -115,6 +140,12 @@ public final class ActivityUploadBinding implements ViewBinding {
       id = R.id.ed_upload_nama;
       TextInputEditText edUploadNama = ViewBindings.findChildViewById(rootView, id);
       if (edUploadNama == null) {
+        break missingId;
+      }
+
+      id = R.id.ed_upload_no_kamar;
+      TextInputEditText edUploadNoKamar = ViewBindings.findChildViewById(rootView, id);
+      if (edUploadNoKamar == null) {
         break missingId;
       }
 
@@ -139,6 +170,12 @@ public final class ActivityUploadBinding implements ViewBinding {
       id = R.id.til_upload_nama;
       TextInputLayout tilUploadNama = ViewBindings.findChildViewById(rootView, id);
       if (tilUploadNama == null) {
+        break missingId;
+      }
+
+      id = R.id.til_upload_no_kamar;
+      TextInputLayout tilUploadNoKamar = ViewBindings.findChildViewById(rootView, id);
+      if (tilUploadNoKamar == null) {
         break missingId;
       }
 
@@ -172,15 +209,22 @@ public final class ActivityUploadBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_upload_no_kamar;
+      TextView tvUploadNoKamar = ViewBindings.findChildViewById(rootView, id);
+      if (tvUploadNoKamar == null) {
+        break missingId;
+      }
+
       id = R.id.tv_upload_umur;
       TextView tvUploadUmur = ViewBindings.findChildViewById(rootView, id);
       if (tvUploadUmur == null) {
         break missingId;
       }
 
-      return new ActivityUploadBinding((ConstraintLayout) rootView, edUploadGoldar, edUploadNama,
-          edUploadRs, edUploadUmur, tilUploadGoldar, tilUploadNama, tilUploadRs, tilUploadUmur,
-          tvRumahSakit, tvUploadGoldar, tvUploadNama, tvUploadUmur);
+      return new ActivityUploadBinding((ConstraintLayout) rootView, btnUpload, edUploadGoldar,
+          edUploadNama, edUploadNoKamar, edUploadRs, edUploadUmur, tilUploadGoldar, tilUploadNama,
+          tilUploadNoKamar, tilUploadRs, tilUploadUmur, tvRumahSakit, tvUploadGoldar, tvUploadNama,
+          tvUploadNoKamar, tvUploadUmur);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

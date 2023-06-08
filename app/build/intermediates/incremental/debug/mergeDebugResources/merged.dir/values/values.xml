@@ -2050,7 +2050,7 @@
     <string name="masukkan_nama">Masukkan Nama</string>
     <string name="masukkan_nama_rumah_sakit">Masukkan Nama Rumah Sakit</string>
     <string name="masukkan_no_kamar">masukkan_no_kamar</string>
-    <string name="masukkan_no_kamarr">Masukkan No.Kamar</string>
+    <string name="masukkan_no_kamarr">Masukkan No. Kamar</string>
     <string name="masukkan_umur">Masukkan Umur</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE]" name="material_clock_toggle_content_description">Select AM or PM</string>
@@ -2150,6 +2150,7 @@
     <string name="no_kamar">No. Kamar           : </string>
     <string name="no_telephone">No Telephone</string>
     <string name="nohp">+62</string>
+    <string name="nomor_kamar">No. Kamar</string>
     <string name="password">Password</string>
     <string name="password_baru">Password Baru</string>
     <string name="password_lama">Password Lama</string>

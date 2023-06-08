@@ -3205,6 +3205,7 @@ id btn_login_register
 id btn_lokasi
 id btn_question
 id btn_rekomendasi
+id btn_upload
 id btn_whatsapp
 id buttonPanel
 id cache_measures
@@ -3292,6 +3293,7 @@ id ed_login_email_user
 id ed_login_password
 id ed_upload_goldar
 id ed_upload_nama
+id ed_upload_no_kamar
 id ed_upload_rs
 id ed_upload_umur
 id edge
@@ -3620,6 +3622,7 @@ id til_login_email_user
 id til_login_password
 id til_upload_goldar
 id til_upload_nama
+id til_upload_no_kamar
 id til_upload_rs
 id til_upload_umur
 id time
@@ -3675,6 +3678,7 @@ id tv_rumah_sakit
 id tv_ubah_password
 id tv_upload_goldar
 id tv_upload_nama
+id tv_upload_no_kamar
 id tv_upload_umur
 id unchecked
 id uniform
@@ -4113,6 +4117,7 @@ string nav_app_bar_open_drawer_description
 string no_kamar
 string no_telephone
 string nohp
+string nomor_kamar
 string password
 string password_baru
 string password_lama

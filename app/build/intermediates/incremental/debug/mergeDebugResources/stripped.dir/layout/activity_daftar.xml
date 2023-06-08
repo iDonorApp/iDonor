@@ -165,7 +165,6 @@
             android:id="@+id/ed_daftar_no_telephone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="@string/nohp"
             android:textSize="12sp"
             android:gravity="center|start"

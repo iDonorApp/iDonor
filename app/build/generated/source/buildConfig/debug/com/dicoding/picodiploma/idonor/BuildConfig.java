@@ -10,5 +10,5 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0";
   // Field from default config.
-  public static final String LINK_API = "http://localhost:9000";
+  public static final String LINK_API = "http://34.128.67.48:4000/";
 }

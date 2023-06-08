@@ -13,14 +13,14 @@
         android:id="@+id/tv_rumah_sakit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="50dp"
         android:text="@string/rumah_sakit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_rs"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/tv_rumah_sakit"
@@ -34,6 +34,9 @@
             android:ems="10"
             android:textSize="14sp"
             android:gravity="center|start"
+            android:hint="@string/masukkan_nama_rumah_sakit"
+            android:textColorHint="@color/gray1"
+            android:textColor="@color/gray1"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -49,7 +52,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_nama"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/tv_upload_nama"
@@ -62,6 +65,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:textSize="14sp"
+            android:hint="@string/masukkan_nama"
             android:gravity="center|start"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
@@ -78,7 +82,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_umur"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginEnd="10dp"
@@ -92,6 +96,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:textSize="14sp"
+            android:hint="@string/masukkan_umur"
             android:gravity="center|start"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
@@ -109,7 +114,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_goldar"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/tv_upload_goldar"
@@ -123,106 +128,48 @@
             android:ems="10"
             android:textSize="14sp"
             android:gravity="center|start"
+            android:hint="@string/masukkan_gol_darah"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
     </com.google.android.material.textfield.TextInputLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="136dp">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:layout_marginRight="108dp"
-            android:orientation="horizontal"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="136dp">
+    <TextView
+        android:id="@+id/tv_upload_no_kamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nomor_kamar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_upload_umur"/>
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text="@string/umur" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_upload_no_kamar"
+        style="@style/MyTextInputLayoutStyle1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="@id/tv_upload_no_kamar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_upload_no_kamar">
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text="Gol.Darah" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:orientation="horizontal"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="136dp">
-
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:layout_margin="8dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/custom_input"
-                android:hint="@string/masukkan_umur"
-                android:inputType="number"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:textSize="15sp" />
-
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:layout_margin="8dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/custom_input"
-                android:hint="@string/masukkan_gol_darah"
-                android:inputType="number"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:textSize="15sp" />
-
-        </LinearLayout>
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:text="@string/no_kamar" />
-
-        <androidx.appcompat.widget.AppCompatEditText
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_upload_no_kamar"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_margin="8dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/custom_input"
-            android:hint="@string/masukkan_no_kamarr"
-            android:inputType="number"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            android:textSize="15sp" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="177dp"
             android:layout_height="wrap_content"
-            android:layout_margin="32dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/rounded_class"
-            android:text="@string/upload"
-            android:textColor="@color/white" />
+            android:ems="10"
+            android:textSize="14sp"
+            android:gravity="center|start"
+            android:hint="@string/masukkan_no_kamarr"
+            android:background="@drawable/til_background1"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
-    </LinearLayout>
-
-
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/upload"
+        app:layout_constraintTop_toBottomOf="@id/til_upload_no_kamar"
+        app:layout_constraintStart_toStartOf="@id/til_upload_no_kamar"
+        app:layout_constraintEnd_toEndOf="@id/til_upload_no_kamar"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
