@@ -20,7 +20,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_rs"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/tv_rumah_sakit"
@@ -34,6 +34,9 @@
             android:ems="10"
             android:textSize="14sp"
             android:gravity="center|start"
+            android:hint="@string/masukkan_nama_rumah_sakit"
+            android:textColorHint="@color/gray1"
+            android:textColor="@color/gray1"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -49,7 +52,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_nama"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/tv_upload_nama"
@@ -62,6 +65,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:textSize="14sp"
+            android:hint="@string/masukkan_nama"
             android:gravity="center|start"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
@@ -78,7 +82,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_umur"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginEnd="10dp"
@@ -92,6 +96,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:textSize="14sp"
+            android:hint="@string/masukkan_umur"
             android:gravity="center|start"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
@@ -109,7 +114,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_goldar"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/tv_upload_goldar"
@@ -123,6 +128,7 @@
             android:ems="10"
             android:textSize="14sp"
             android:gravity="center|start"
+            android:hint="@string/masukkan_gol_darah"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -138,7 +144,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_upload_no_kamar"
-        style="@style/MyTextInputLayoutStyle"
+        style="@style/MyTextInputLayoutStyle1"
         android:layout_width="0dp"
         android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/tv_upload_no_kamar"
@@ -152,6 +158,7 @@
             android:ems="10"
             android:textSize="14sp"
             android:gravity="center|start"
+            android:hint="@string/masukkan_no_kamarr"
             android:background="@drawable/til_background1"
             tools:ignore="SpeakableTextPresentCheck"/>
     </com.google.android.material.textfield.TextInputLayout>
