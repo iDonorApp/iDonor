@@ -4,20 +4,47 @@ package com.dicoding.picodiploma.idonor.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SearchView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.dicoding.picodiploma.idonor.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityBerandaBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityBerandaBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final Button button7;
+
+  @NonNull
+  public final Button button8;
+
+  @NonNull
+  public final Button button9;
+
+  @NonNull
+  public final RecyclerView rvHospital;
+
+  @NonNull
+  public final SearchView search;
+
+  private ActivityBerandaBinding(@NonNull ConstraintLayout rootView, @NonNull Button button7,
+      @NonNull Button button8, @NonNull Button button9, @NonNull RecyclerView rvHospital,
+      @NonNull SearchView search) {
     this.rootView = rootView;
+    this.button7 = button7;
+    this.button8 = button8;
+    this.button9 = button9;
+    this.rvHospital = rvHospital;
+    this.search = search;
   }
 
   @Override
@@ -43,10 +70,44 @@ public final class ActivityBerandaBinding implements ViewBinding {
 
   @NonNull
   public static ActivityBerandaBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.button7;
+      Button button7 = ViewBindings.findChildViewById(rootView, id);
+      if (button7 == null) {
+        break missingId;
+      }
 
-    return new ActivityBerandaBinding((ConstraintLayout) rootView);
+      id = R.id.button8;
+      Button button8 = ViewBindings.findChildViewById(rootView, id);
+      if (button8 == null) {
+        break missingId;
+      }
+
+      id = R.id.button9;
+      Button button9 = ViewBindings.findChildViewById(rootView, id);
+      if (button9 == null) {
+        break missingId;
+      }
+
+      id = R.id.rv_hospital;
+      RecyclerView rvHospital = ViewBindings.findChildViewById(rootView, id);
+      if (rvHospital == null) {
+        break missingId;
+      }
+
+      id = R.id.search;
+      SearchView search = ViewBindings.findChildViewById(rootView, id);
+      if (search == null) {
+        break missingId;
+      }
+
+      return new ActivityBerandaBinding((ConstraintLayout) rootView, button7, button8, button9,
+          rvHospital, search);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

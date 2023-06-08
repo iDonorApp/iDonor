@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color black
 color gray
+color pink
 color purple_200
 color purple_500
 color purple_700
@@ -11,9 +12,13 @@ color teal_700
 color white
 dimen corner_radius_password_account
 drawable baseline_calendar_month_24
+drawable baseline_clear_24
+drawable baseline_search_24
 drawable bg_edt_default
 drawable bg_edt_error
 drawable bg_tv_detail
+drawable button
+drawable custom_input
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icon_edit
@@ -30,6 +35,9 @@ drawable ikon_informasi
 drawable ikon_upload
 drawable logo
 drawable questoin_mark
+drawable rounded_class
+drawable rumah_sakit
+drawable splashscreen
 drawable til_background
 id aktif
 id akun
@@ -41,6 +49,9 @@ id btn_login
 id btn_login_register
 id btn_question
 id btn_whatsapp
+id button7
+id button8
+id button9
 id container
 id ed_akun_password_baru
 id ed_akun_password_lama
@@ -58,6 +69,7 @@ id guide_line
 id guide_line1
 id ic_calendar
 id ic_edit
+id image_hospital
 id informasi
 id iv_detail_foto
 id iv_detail_goldar
@@ -69,7 +81,11 @@ id rb_laki
 id rb_perempuan
 id rg_daftar_jenis_kelamin
 id rv_detail
+id rv_hospital
+id search
 id textView
+id text_alamat
+id text_rs
 id til_daftar_alamat
 id til_daftar_buat_password
 id til_daftar_email
@@ -125,7 +141,9 @@ layout activity_detail
 layout activity_informasi
 layout activity_login
 layout activity_main
+layout activity_splash
 layout activity_upload
+layout grid_item
 layout list_item_beranda
 layout list_item_detail
 menu login_menu
@@ -169,6 +187,13 @@ string length_password
 string login
 string lokasi
 string lupa_password
+string masukkan_gol_darah
+string masukkan_nama
+string masukkan_nama_rumah_sakit
+string masukkan_no_kamar
+string masukkan_no_kamarr
+string masukkan_umur
+string nama
 string nama_akun
 string nama_rs
 string no_kamar
@@ -181,9 +206,12 @@ string perempuan
 string photo
 string photo_detail
 string question
+string rekomendasi
+string rumah_sakit
 string simpan
 string tanggal_lahir
 string ubah_password
+string umur
 string upload
 style MyTextInputLayoutStyle
 style MyTextInputLayoutStyle1

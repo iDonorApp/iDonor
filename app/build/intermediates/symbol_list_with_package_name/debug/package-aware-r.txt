@@ -2070,6 +2070,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2958,6 +2959,8 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_calendar_month_24
+drawable baseline_clear_24
+drawable baseline_search_24
 drawable bg_edt_default
 drawable bg_edt_error
 drawable bg_tv_detail
@@ -2969,6 +2972,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button
+drawable custom_input
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3079,6 +3084,9 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable questoin_mark
+drawable rounded_class
+drawable rumah_sakit
+drawable splashscreen
 drawable test_level_drawable
 drawable til_background
 drawable tooltip_frame_dark
@@ -3192,6 +3200,9 @@ id btn_login
 id btn_login_register
 id btn_question
 id btn_whatsapp
+id button7
+id button8
+id button9
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3328,6 +3339,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id image_hospital
 id immediateStop
 id included
 id indeterminate
@@ -3475,6 +3487,7 @@ id rounded
 id row_index_key
 id rtl
 id rv_detail
+id rv_hospital
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3485,6 +3498,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_bar_text_view
@@ -3574,9 +3588,11 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id text_alamat
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_rs
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3791,6 +3807,7 @@ layout activity_detail
 layout activity_informasi
 layout activity_login
 layout activity_main
+layout activity_splash
 layout activity_upload
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3808,6 +3825,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout grid_item
 layout list_item_beranda
 layout list_item_detail
 layout m3_alert_dialog
@@ -3982,6 +4000,12 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string masukkan_gol_darah
+string masukkan_nama
+string masukkan_nama_rumah_sakit
+string masukkan_no_kamar
+string masukkan_no_kamarr
+string masukkan_umur
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_24h_suffix
@@ -4066,6 +4090,7 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string nama
 string nama_akun
 string nama_rs
 string nav_app_bar_navigate_up_description
@@ -4085,6 +4110,8 @@ string perempuan
 string photo
 string photo_detail
 string question
+string rekomendasi
+string rumah_sakit
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -4095,6 +4122,7 @@ string simpan
 string status_bar_notification_info_overflow
 string tanggal_lahir
 string ubah_password
+string umur
 string upload
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

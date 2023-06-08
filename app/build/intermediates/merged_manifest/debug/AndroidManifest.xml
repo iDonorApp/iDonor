@@ -26,6 +26,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IDonor" >
         <activity
+            android:name="com.dicoding.picodiploma.idonor.ui.main.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.dicoding.picodiploma.idonor.ui.daftar.DaftarActivity"
             android:exported="false" />
         <activity

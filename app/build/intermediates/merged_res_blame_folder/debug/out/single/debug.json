@@ -40,6 +40,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/menu/login_menu.xml"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_splashscreen.png.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/splashscreen.png"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -124,6 +128,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_edit.png"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_baseline_clear_24.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/baseline_clear_24.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_activity_daftar.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_daftar.xml"
     },
@@ -132,8 +140,16 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_custom_input.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/custom_input.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_grid_item.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/grid_item.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
@@ -146,6 +162,14 @@
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_bg_tv_detail.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/bg_tv_detail.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_activity_splash.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_rumah_sakit.jpg.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/rumah_sakit.jpg"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_beranda.png.flat",
@@ -168,12 +192,20 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_beranda.xml"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_baseline_search_24.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/baseline_search_24.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_bg_edt_default.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/bg_edt_default.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_rounded_class.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/rounded_class.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_ikon_upload.png.flat",
@@ -186,6 +218,10 @@
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_icon_whatsapp.png.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/icon_whatsapp.png"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_button.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/button.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_list_item_detail.xml.flat",
