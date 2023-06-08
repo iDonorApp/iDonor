@@ -10,4 +10,9 @@ const getAllLink = ()=> {
     return dbpool.execute(SQLQuery);
 }
 
-module.exports = {getAllRequest, getAllLink};
+const getSearch = (search) => {
+    const SQLQuery = `SELECT rumah_sakit, COUNT(*) AS Dibutuhkan FROM request_donor WHERE rumah_sakit LIKE '%${search}%' GROUP BY rumah_sakit`;
+    return dbpool.execute(SQLQuery);
+  };
+  
+module.exports = {getAllRequest, getAllLink, getSearch};
