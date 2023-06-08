@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color black
 color gray
+color gray1
 color pink
 color purple_200
 color purple_500
@@ -39,19 +40,21 @@ drawable rounded_class
 drawable rumah_sakit
 drawable splashscreen
 drawable til_background
+drawable til_background1
 id aktif
 id akun
+id bar_search
 id beranda
 id bottom_nav
 id btn_akun_simpan
+id btn_goldar
 id btn_location
 id btn_login
 id btn_login_register
+id btn_lokasi
 id btn_question
+id btn_rekomendasi
 id btn_whatsapp
-id button7
-id button8
-id button9
 id container
 id ed_akun_password_baru
 id ed_akun_password_lama
@@ -65,6 +68,10 @@ id ed_daftar_no_telephone
 id ed_daftar_tanggal_lahir
 id ed_login_email_user
 id ed_login_password
+id ed_upload_goldar
+id ed_upload_nama
+id ed_upload_rs
+id ed_upload_umur
 id guide_line
 id guide_line1
 id ic_calendar
@@ -98,6 +105,10 @@ id til_ed_baru_password
 id til_ed_password_lama
 id til_login_email_user
 id til_login_password
+id til_upload_goldar
+id til_upload_nama
+id til_upload_rs
+id til_upload_umur
 id tv_akun_alamat
 id tv_akun_alamat_value
 id tv_akun_email
@@ -131,7 +142,11 @@ id tv_item_akun_waktu_value
 id tv_item_alamat
 id tv_item_dibutuhkan
 id tv_item_name_rs
+id tv_rumah_sakit
 id tv_ubah_password
+id tv_upload_goldar
+id tv_upload_nama
+id tv_upload_umur
 id upload
 layout activity_aktif
 layout activity_akun

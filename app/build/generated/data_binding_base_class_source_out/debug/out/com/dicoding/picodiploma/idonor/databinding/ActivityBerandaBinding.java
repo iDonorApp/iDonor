@@ -22,13 +22,16 @@ public final class ActivityBerandaBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button7;
+  public final ConstraintLayout barSearch;
 
   @NonNull
-  public final Button button8;
+  public final Button btnGoldar;
 
   @NonNull
-  public final Button button9;
+  public final Button btnLokasi;
+
+  @NonNull
+  public final Button btnRekomendasi;
 
   @NonNull
   public final RecyclerView rvHospital;
@@ -36,13 +39,15 @@ public final class ActivityBerandaBinding implements ViewBinding {
   @NonNull
   public final SearchView search;
 
-  private ActivityBerandaBinding(@NonNull ConstraintLayout rootView, @NonNull Button button7,
-      @NonNull Button button8, @NonNull Button button9, @NonNull RecyclerView rvHospital,
+  private ActivityBerandaBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout barSearch, @NonNull Button btnGoldar, @NonNull Button btnLokasi,
+      @NonNull Button btnRekomendasi, @NonNull RecyclerView rvHospital,
       @NonNull SearchView search) {
     this.rootView = rootView;
-    this.button7 = button7;
-    this.button8 = button8;
-    this.button9 = button9;
+    this.barSearch = barSearch;
+    this.btnGoldar = btnGoldar;
+    this.btnLokasi = btnLokasi;
+    this.btnRekomendasi = btnRekomendasi;
     this.rvHospital = rvHospital;
     this.search = search;
   }
@@ -74,21 +79,27 @@ public final class ActivityBerandaBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button7;
-      Button button7 = ViewBindings.findChildViewById(rootView, id);
-      if (button7 == null) {
+      id = R.id.bar_search;
+      ConstraintLayout barSearch = ViewBindings.findChildViewById(rootView, id);
+      if (barSearch == null) {
         break missingId;
       }
 
-      id = R.id.button8;
-      Button button8 = ViewBindings.findChildViewById(rootView, id);
-      if (button8 == null) {
+      id = R.id.btn_goldar;
+      Button btnGoldar = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoldar == null) {
         break missingId;
       }
 
-      id = R.id.button9;
-      Button button9 = ViewBindings.findChildViewById(rootView, id);
-      if (button9 == null) {
+      id = R.id.btn_lokasi;
+      Button btnLokasi = ViewBindings.findChildViewById(rootView, id);
+      if (btnLokasi == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_rekomendasi;
+      Button btnRekomendasi = ViewBindings.findChildViewById(rootView, id);
+      if (btnRekomendasi == null) {
         break missingId;
       }
 
@@ -104,8 +115,8 @@ public final class ActivityBerandaBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBerandaBinding((ConstraintLayout) rootView, button7, button8, button9,
-          rvHospital, search);
+      return new ActivityBerandaBinding((ConstraintLayout) rootView, barSearch, btnGoldar,
+          btnLokasi, btnRekomendasi, rvHospital, search);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1443,6 +1443,7 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color gray
+color gray1
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -3089,6 +3090,7 @@ drawable rumah_sakit
 drawable splashscreen
 drawable test_level_drawable
 drawable til_background
+drawable til_background1
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -3181,6 +3183,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id bar_search
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3195,14 +3198,14 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btn_akun_simpan
+id btn_goldar
 id btn_location
 id btn_login
 id btn_login_register
+id btn_lokasi
 id btn_question
+id btn_rekomendasi
 id btn_whatsapp
-id button7
-id button8
-id button9
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3287,6 +3290,10 @@ id ed_daftar_no_telephone
 id ed_daftar_tanggal_lahir
 id ed_login_email_user
 id ed_login_password
+id ed_upload_goldar
+id ed_upload_nama
+id ed_upload_rs
+id ed_upload_umur
 id edge
 id edit_query
 id elastic
@@ -3611,6 +3618,10 @@ id til_ed_baru_password
 id til_ed_password_lama
 id til_login_email_user
 id til_login_password
+id til_upload_goldar
+id til_upload_nama
+id til_upload_rs
+id til_upload_umur
 id time
 id title
 id titleDividerNoCustom
@@ -3660,7 +3671,11 @@ id tv_item_akun_waktu_value
 id tv_item_alamat
 id tv_item_dibutuhkan
 id tv_item_name_rs
+id tv_rumah_sakit
 id tv_ubah_password
+id tv_upload_goldar
+id tv_upload_nama
+id tv_upload_umur
 id unchecked
 id uniform
 id unlabeled

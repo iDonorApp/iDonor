@@ -188,6 +188,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/questoin_mark.png"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/drawable_til_background1.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-47:/drawable/til_background1.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-45:/layout_list_item_beranda.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-47:/layout/list_item_beranda.xml"
     },
