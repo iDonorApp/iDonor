@@ -2,7 +2,7 @@ package com.dicoding.picodiploma.idonor.data.response
 
 import com.google.gson.annotations.SerializedName
 
-data class RequestAktif(
+data class RequestAktifResponse(
 
     @field:SerializedName("Your Request")
     val your_request: String,

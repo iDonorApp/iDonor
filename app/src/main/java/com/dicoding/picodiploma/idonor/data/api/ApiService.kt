@@ -1,7 +1,6 @@
 package com.dicoding.picodiploma.idonor.data.api
 
-import com.dicoding.picodiploma.idonor.data.response.LoginResponse
-import com.dicoding.picodiploma.idonor.data.response.RegisterResponse
+import com.dicoding.picodiploma.idonor.data.response.*
 import retrofit2.Call
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
@@ -28,4 +27,21 @@ interface ApiService {
         @Field("email") email: String,
         @Field("password") password: String
     ): Call<LoginResponse>
+
+    @GET("home")
+    fun getHomeList(): Call<HomeResponse>
+
+    @GET("detailhome/:rumahsakit")
+    fun getDetailList(): Call<DetailHomeResponse>
+
+    @FormUrlEncoded
+    @POST("reqdonor")
+    fun postReqDonor(): Call<RequestDonorResponse>
+
+    @FormUrlEncoded
+    @POST("reqaktif/:id_users")
+    fun postReqAktid(): Call<RequestAktifResponse>
+
+    @GET("profile/:id_users")
+    fun getProfile(): Call<ProfileResponse>
 }

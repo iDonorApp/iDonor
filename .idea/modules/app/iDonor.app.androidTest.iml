@@ -46,6 +46,8 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-parcelize-runtime/1.8.21/a2c4d39e6ea94e38aefe210921210e9ce87c3cc5/kotlin-parcelize-runtime-1.8.21.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0282a6d8ab654ce610b614db7e7e4d80/transformed/core-ktx-1.10.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3171a941415efb6bfcf6dce07187e62a/transformed/constraintlayout-2.1.4-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/67fcc24fe145d7488663af87cda61e3e/transformed/recyclerview-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/46fa75abcf6f45f788e4bd4aad6c4b82/transformed/cardview-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/50e612de039c776e0a980775f9e655bb/transformed/runner-1.5.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar</arg>
@@ -64,7 +66,6 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/54b63b2d376f98fd428ef4b362e011fe/transformed/vectordrawable-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6396c37dec770ff61cbe9bfdea0dab18/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b057620800d04f030350542c4727f8d7/transformed/loader-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/67fcc24fe145d7488663af87cda61e3e/transformed/recyclerview-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2dfaf2b445f9291c4e5944376bedbef4/transformed/slidingpanelayout-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6634d6f96dddfa22bdc81d649af2e1f1/transformed/viewpager-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/076ef6782573551713c0c84243985dce/transformed/customview-1.1.0-api.jar</arg>
@@ -72,7 +73,6 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8f1f0b891735d282eb0c699de8e1c09c/transformed/cursoradapter-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8f7b7b4aa49f57319862891948de9221/transformed/savedstate-ktx-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2b8450a2fa70b50f6f1af809d5f00495/transformed/savedstate-1.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/46fa75abcf6f45f788e4bd4aad6c4b82/transformed/cardview-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dc8f7e99cf65a543b18bdcce9256afa7/transformed/lifecycle-runtime-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ce96e9ab1ca19ccbfd97209bb4f3398d/transformed/lifecycle-livedata-2.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/539dcfb8648b5da5ad9c5295a51ed005/transformed/lifecycle-livedata-core-ktx-2.5.1-api.jar</arg>
