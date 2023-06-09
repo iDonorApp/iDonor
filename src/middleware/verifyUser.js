@@ -14,7 +14,7 @@ const verifyUser = (req, res, next) => {
                 return res.json({ Error: 'Invalid token' });
             }
 
-            req.id_users = decoded.id_users;
+            req.IDusers = decoded.id_users;
             next();
         });
     } catch (err) {
@@ -22,6 +22,5 @@ const verifyUser = (req, res, next) => {
         res.status(500).json({ Error: 'Error verifying user' });
     }
 };
-
 
 module.exports = { verifyUser };

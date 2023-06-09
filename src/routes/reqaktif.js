@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const reqaktifController = require('../controller/reqaktifController');
+const { verifyUser } = require('../middleware/verifyUser');
 
-
-router.get('/:id_users', reqaktifController.getViewAktifRequest);
-router.delete('/:id_request', reqaktifController.deleteAkifRequest);
+router.get('/', verifyUser,reqaktifController.getViewAktifRequest);
+router.delete('/:id_request', verifyUser,reqaktifController.deleteAkifRequest);
 
 module.exports = router;

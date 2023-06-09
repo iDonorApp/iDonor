@@ -18,18 +18,15 @@ app.use(cors({
     origin: [`https://idonorapi-dot-idonor-trialdevelopment.et.r.appspot.com`],
     methods: ['POST', 'GET'],
     credentials: true,
-})) /
-    app.use(middlewareLogs);
+}));
+app.use(middlewareLogs);
 
 app.use('/', usersRoutes);
 app.use('/', homeRoutes);
 app.use('/detailhome', detailhomeRoutes);
 app.use('/reqdonor', reqdonorRoutes);
 app.use('/reqaktif', reqaktifRoutes);
-
 app.use('/profile', profileRoutes);
-
-
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server berjalan pada port ${PORT}`);
