@@ -1,5 +1,6 @@
 package com.dicoding.picodiploma.idonor.ui.main
 
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -30,14 +31,13 @@ class ListBerandaAdapter(private val listBeranda: List<ListDataHome>): RecyclerV
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        TODO("Not yet implemented")
+        val binding = ListItemBerandaBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return ListViewHolder(binding)
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
+    override fun getItemCount(): Int = listBeranda.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.bind(listBeranda[position])
     }
 }
