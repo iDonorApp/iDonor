@@ -19,18 +19,15 @@ app.use(cors({
     origin: [`http://localhost:${PORT}`],
     methods: ['POST', 'GET'],
     credentials: true,
-})) /
-    app.use(middlewareLogs);
+}));
+app.use(middlewareLogs);
 
 app.use('/', usersRoutes);
 app.use('/', homeRoutes);
 app.use('/detailhome', detailhomeRoutes);
 app.use('/reqdonor', reqdonorRoutes);
 app.use('/reqaktif', reqaktifRoutes);
-
 app.use('/profile', profileRoutes);
-
-
 
 app.listen(PORT, () => {
     console.log(`server running on port ${PORT}`)

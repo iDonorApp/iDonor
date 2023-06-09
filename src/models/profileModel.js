@@ -1,11 +1,11 @@
 const dbpool = require('../config/database');
 
-const getUserById = (iduser) => {
-  const SQLQuery = `SELECT * FROM users WHERE id_users = '${iduser}'`;
+const getUserById = (IDusers) => {
+  const SQLQuery = `SELECT * FROM users WHERE id_users = '${IDusers}'`;
   return dbpool.execute(SQLQuery);
 };
 
-const updateProfile = (body, iduser) => {
+const updateProfile = (body, IDusers) => {
   let SQLQuery = `UPDATE users SET`;
 
   // Memeriksa dan menambahkan kolom yang akan diupdate ke SQLQuery
@@ -38,7 +38,7 @@ const updateProfile = (body, iduser) => {
   SQLQuery = SQLQuery.slice(0, -1);
 
   // Menambahkan WHERE clause untuk ID pengguna yang sesuai
-  SQLQuery += ` WHERE id_users = '${iduser}'`;
+  SQLQuery += ` WHERE id_users = '${IDusers}'`;
 
   return dbpool.execute(SQLQuery);
 };

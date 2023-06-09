@@ -13,6 +13,7 @@ const checkRs = async (rumah_sakit) => {
 };
 
 const userRequest = async (req, res) => {
+
   const { body } = req;
 
   if (!body.nama || !body.umur || !body.golongan || !body.no_kamar || !body.no_whatsapp) {
@@ -27,15 +28,13 @@ const userRequest = async (req, res) => {
     }
 
     // Menyimpan data ke database menggunakan model
-    await orderModel.createNewRequest({ ...body, rumah_sakit});
+    await orderModel.createNewRequest({ ...body, rumah_sakit}, req.IDusers);
     res.status(201).json({ message: 'Success', data: { ...body, rumah_sakit } });
   } catch (error) {
     console.error('Error inserting data:', error);
     res.status(500).json({ message: 'Server error' });
   }
 };
-
-
 
 const getRequestById = async (req, res) => {
   const { id } = req.params;

@@ -1,12 +1,11 @@
 const profileModel = require('../models/profileModel');
+const bcrypt = require('bcrypt');
 
-const getUserById = async (req, res) => {
-  
-  
-  const { iduser } = req.params;
+const getUserById = async (req, res) => {  
+  const IDusers = req.IDusers;
 
   try {
-      const [data] = await profileModel.getUserById(iduser);
+      const [data] = await profileModel.getUserById(IDusers);
       
       const nopassword = data.map((item) => {
           const { password, ...datanopassword } = item;
@@ -26,17 +25,13 @@ const getUserById = async (req, res) => {
   }
 };
 
-
-
-const bcrypt = require('bcrypt');
-
 const updateUserProfile = async (req, res) => {
-  const { iduser } = req.params;
+  const IDusers = req.IDusers;
   const { body } = req;
 
   try {
     // Mendapatkan data pengguna berdasarkan ID
-    const [data] = await profileModel.getUserById(iduser);
+    const [data] = await profileModel.getUserById(IDusers);
 
     // Memeriksa apakah data pengguna ditemukan
     if (!data) {
@@ -52,7 +47,7 @@ const updateUserProfile = async (req, res) => {
     }
 
     // Mengupdate profil pengguna
-    await profileModel.updateProfile(body, iduser);
+    await profileModel.updateProfile(body, IDusers);
 
     const response = {
       message: 'Profile updated successfully',
