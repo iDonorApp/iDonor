@@ -9,4 +9,8 @@ class BerandaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_beranda)
     }
+
+    private fun setUpAdapter() {
+
+    }
 }

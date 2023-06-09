@@ -21,6 +21,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c15b06c497a805bca1438ac23e72dae2/transformed/navigation-ui-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a6aa67efc2467eb2180eddcfd1100be6/transformed/material-1.9.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/99224a9668af4c0506b2613403ddce6f/transformed/appcompat-1.6.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/60ec79ffc6cdcc8f9c17279bddb67a2d/transformed/glide-4.15.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ff4b808250c215893cd0fa779c1c5b6e/transformed/viewpager2-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7f62b897f5c804705a3ea7b635e16f94/transformed/navigation-fragment-ktx-2.5.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2543bf8a45b1f7d66d2b178a0cb38897/transformed/navigation-fragment-2.5.3-api.jar</arg>
@@ -45,7 +46,7 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-parcelize-runtime/1.8.21/a2c4d39e6ea94e38aefe210921210e9ce87c3cc5/kotlin-parcelize-runtime-1.8.21.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0282a6d8ab654ce610b614db7e7e4d80/transformed/core-ktx-1.10.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3171a941415efb6bfcf6dce07187e62a/transformed/constraintlayout-2.1.4-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/67fcc24fe145d7488663af87cda61e3e/transformed/recyclerview-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/be07e941018080e14c5d9369e3d957d1/transformed/recyclerview-1.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/46fa75abcf6f45f788e4bd4aad6c4b82/transformed/cardview-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.21/7473b8cd3c0ef9932345baf569bc398e8a717046/kotlin-stdlib-jdk7-1.8.21.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.8.21/5d2a29b8b8bf4ea501acf9c21c680548b7fa7e48/kotlin-android-extensions-runtime-1.8.21.jar</arg>
@@ -67,10 +68,11 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/009c63a8711926ba184898da94bb550b/transformed/annotation-experimental-1.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8f1f0b891735d282eb0c699de8e1c09c/transformed/cursoradapter-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dc8f7e99cf65a543b18bdcce9256afa7/transformed/lifecycle-runtime-2.5.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/bc5f040c5dedf9b00299e4f547d31d4d/transformed/gifdecoder-4.15.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2146f77cedf1508dc780ffcdfc1e7e3c/transformed/versionedparcelable-1.1.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/06c43785dfe53ffb5a41e380a30c49ff/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-ktx/1.1.0/f807b2f366f7b75142a67d2f3c10031065b5168/collection-ktx-1.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/06c43785dfe53ffb5a41e380a30c49ff/transformed/lifecycle-viewmodel-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ce96e9ab1ca19ccbfd97209bb4f3398d/transformed/lifecycle-livedata-2.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/53fc9fd839476eac37ac83c2a4522aa5/transformed/core-runtime-2.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
@@ -87,6 +89,10 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/6391b7b6ac50def3698888e8ff65b11b/transformed/tracing-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.15.0/dc9dde980bc49b0fb0ed02d67b4f321b7ae04422/disklrucache-4.15.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.15.0/e8bf9138f3938fa76748bd1684d20df414321432/annotations-4.15.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/b6c5e61d50bf693ab61c18232515b833/transformed/exifinterface-1.3.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>

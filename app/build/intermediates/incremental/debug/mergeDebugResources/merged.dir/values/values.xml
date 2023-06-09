@@ -1795,7 +1795,9 @@
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
+    <item name="glide_custom_view_target_tag" type="id"/>
     <item name="home" type="id"/>
+    <item name="is_pooling_container_tag" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
@@ -1818,6 +1820,7 @@
     <item name="navigation_bar_item_large_label_view" type="id"/>
     <item name="navigation_bar_item_small_label_view" type="id"/>
     <item name="parent_matrix" type="id"/>
+    <item name="pooling_container_listener_holder_tag" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="row_index_key" type="id"/>

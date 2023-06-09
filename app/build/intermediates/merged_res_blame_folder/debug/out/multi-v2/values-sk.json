@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-43:/values-sk/values-sk.xml",
+            "outputFile": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-45:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\fd65bb27c7799d5d9d10fb298caddc71\\transformed\\material-1.9.0\\res\\values-sk\\values-sk.xml",
