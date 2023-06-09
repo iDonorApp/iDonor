@@ -6,6 +6,8 @@ const getAllRequest = async (req, res) => {
     const [link] = await homeModel.getAllLink();
 
     const result = data.map((row) => {
+      const rumah_sakit = row.rumah_sakit;
+      const dibutuhkan = row.dibutuhkan;
       const searchIndex = link.findIndex(
         (item) => item.rumah_sakit === row.rumah_sakit
       );
@@ -14,17 +16,17 @@ const getAllRequest = async (req, res) => {
         let imageUrl = link[searchIndex].photos;
 
         return {
-          "Rumah Sakit": row.rumah_sakit,
-          Dibutuhkan: row.Dibutuhkan,
+          rumah_sakit : rumah_sakit,
+          dibutuhkan: dibutuhkan,
           alamat: alamat,
-          "Image URL": imageUrl,
+          imageUrl: imageUrl,
         };
       } else {
         return {
-          "Rumah Sakit": row.rumah_sakit,
-          Dibutuhkan: row.Dibutuhkan,
+          rumah_sakit : rumah_sakit,
+          dibutuhkan: dibutuhkan,
           alamat: null,
-          "Image URL": null,
+          imageUrl: null,
         };
       }
     });
@@ -48,25 +50,27 @@ const getSearch = async (req, res) => {
     const [link] = await homeModel.getAllLink();
 
     const result = query.map((row) => {
+      const rumah_sakit = row.rumah_sakit;
+      const dibutuhkan = row.dibutuhkan;
       const searchIndex = link.findIndex(
         (item) => item.rumah_sakit === row.rumah_sakit
       );
       if (searchIndex !== -1) {
         let alamat = link[searchIndex].alamat;
         let imageUrl = link[searchIndex].photos;
-
+      
         return {
-          "Rumah Sakit": row.rumah_sakit,
-          Dibutuhkan: row.Dibutuhkan,
+          rumah_sakit : rumah_sakit,
+          dibutuhkan: dibutuhkan,
           alamat: alamat,
-          "Image URL": imageUrl,
+          imageUrl: imageUrl,
         };
       } else {
         return {
-          "Rumah Sakit": row.rumah_sakit,
-          Dibutuhkan: row.Dibutuhkan,
+          rumah_sakit : rumah_sakit,
+          dibutuhkan: dibutuhkan,
           alamat: null,
-          "Image URL": null,
+          imageUrl: null,
         };
       }
     });
