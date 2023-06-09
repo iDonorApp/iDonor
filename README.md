@@ -4,7 +4,7 @@
   <summary>Register</summary>
   
   * #### URL : 
-    * http://34.128.67.48:4000/register
+    * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/register
   * #### Method : 
     * POST
   * #### Request Body :
@@ -36,7 +36,7 @@
 <summary>Login</summary>
 
 * #### URL : 
-  * http://34.128.67.48:4000/login
+  * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/login
 * #### Method : 
   * POST
 * #### Request Body : 
@@ -60,7 +60,7 @@
 <summary>Home</summary>
   
 * #### URL :
-  * http://34.128.67.48:4000/home
+  * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/home
 * #### Method :
   * GET
 * #### Response :
@@ -94,7 +94,7 @@
 <summary>Detail Home</summary>
   
 * #### URL : 
-  * http://34.128.67.48:4000/detailhome/:rumahsakit
+  * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/detailhome/:rumahsakit
 * #### Method :
   * GET
 * #### Response : 
@@ -130,7 +130,7 @@
   <summary>Request Donor</summary>
 
   * #### URL : 
-    * http://34.128.67.48:4000/reqdonor
+    * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/reqdonor
   * #### Method : 
     * POST
   * #### Response : 
@@ -153,7 +153,7 @@
   <summary>Request Aktif</summary>
   
   * #### URL :
-    * http://34.128.67.48:4000/reqaktif/:id_users
+    * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/reqaktif
   * #### Method : 
     * GET
   * #### Response : 
@@ -203,7 +203,7 @@
   <summary>Profile</summary>
   
   * #### URL :
-    * http://34.128.67.48:4000/profile/:id_users
+    * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/profile
   * #### Method : 
     * GET
   * #### Response : 
