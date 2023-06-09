@@ -44,6 +44,10 @@
         "source": "com.dicoding.picodiploma.idonor.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/drawable_ic_loading.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-49:/drawable/ic_loading.xml"
+    },
+    {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/layout_list_item_beranda.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/list_item_beranda.xml"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/drawable_ic_error.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-49:/drawable/ic_error.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/layout_activity_main.xml.flat",
@@ -82,6 +90,10 @@
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/layout_list_item_detail.xml.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/list_item_detail.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/drawable_baseline_refresh_24.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-49:/drawable/baseline_refresh_24.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/drawable_bg_edt_error.xml.flat",
@@ -190,6 +202,14 @@
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.dicoding.picodiploma.idonor.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/drawable_baseline_rectangle_24.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-49:/drawable/baseline_rectangle_24.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/drawable_baseline_broken_image_24.xml.flat",
+        "source": "com.dicoding.picodiploma.idonor.app-main-49:/drawable/baseline_broken_image_24.xml"
     },
     {
         "merged": "com.dicoding.picodiploma.idonor.app-merged_res-47:/layout_grid_item.xml.flat",

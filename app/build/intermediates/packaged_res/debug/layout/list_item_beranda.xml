@@ -37,7 +37,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/iv_item_photo"
-           app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             tools:text="@string/nama_rs" />
 
         <TextView

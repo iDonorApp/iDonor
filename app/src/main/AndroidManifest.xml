@@ -29,6 +29,9 @@
             android:name=".ui.main.DetailActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.main.BerandaActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.InformasiActivity"
             android:exported="false" />
         <activity

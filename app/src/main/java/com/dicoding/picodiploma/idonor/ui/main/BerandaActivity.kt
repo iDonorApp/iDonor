@@ -2,15 +2,46 @@ package com.dicoding.picodiploma.idonor.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.dicoding.picodiploma.idonor.R
+import androidx.activity.viewModels
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.dicoding.picodiploma.idonor.data.model.ViewModelFactory
+import com.dicoding.picodiploma.idonor.databinding.ActivityBerandaBinding
 
 class BerandaActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityBerandaBinding
+    private lateinit var factory: ViewModelFactory
+
+    private val berandaViewModel: BerandaViewModel by viewModels { factory }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_beranda)
+
+        setUpAdapter()
+        setUpView()
     }
 
     private fun setUpAdapter() {
+        berandaViewModel.list.observe(this@BerandaActivity) { adapter ->
+            if (adapter != null) {
+                binding.rvHospital.adapter = ListBerandaAdapter(adapter.data)
+            }
+        }
+    }
 
+    private fun setUpView() {
+        binding = ActivityBerandaBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.apply {
+            rvHospital.setHasFixedSize(true)
+            rvHospital.layoutManager = LinearLayoutManager(this@BerandaActivity)
+            getListHome()
+        }
+
+        supportActionBar?.hide()
+    }
+
+    private fun getListHome() {
+        berandaViewModel.getListHome()
     }
 }
