@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.dicoding.picodiploma.idonor'
+    namespace 'com.bangkit.capstone.idonor'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.dicoding.picodiploma.idonor"
+        applicationId "com.bangkit.capstone.idonor"
         minSdk 26
         targetSdk 33
         versionCode 1

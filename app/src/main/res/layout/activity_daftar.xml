@@ -223,7 +223,7 @@
         app:layout_constraintEnd_toEndOf="@id/til_daftar_alamat"
         app:layout_constraintTop_toBottomOf="@id/tv_daftar_email">
 
-        <com.dicoding.picodiploma.idonor.tools.CustomEditText
+        <com.bangkit.capstone.idonor.tools.CustomEditText
             android:id="@+id/ed_daftar_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -259,7 +259,7 @@
         app:layout_constraintStart_toStartOf="@id/tv_daftar_buat_password"
         app:layout_constraintTop_toBottomOf="@+id/tv_daftar_buat_password">
 
-        <com.dicoding.picodiploma.idonor.tools.CustomEditText
+        <com.bangkit.capstone.idonor.tools.CustomEditText
             android:id="@+id/ed_daftar_buat_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -294,7 +294,7 @@
         app:layout_constraintStart_toStartOf="@id/tv_daftar_konfirmasi_password"
         app:layout_constraintTop_toBottomOf="@+id/tv_daftar_konfirmasi_password">
 
-        <com.dicoding.picodiploma.idonor.tools.CustomEditText
+        <com.bangkit.capstone.idonor.tools.CustomEditText
             android:id="@+id/ed_daftar_konfirmasi_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
