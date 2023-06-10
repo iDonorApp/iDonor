@@ -58,5 +58,58 @@ const validateData = async(req, res, next) => {
     // Lanjut ke middleware selanjutnya
     next();
   };
+
+  const validateRequest = async(req, res, next) => {
+    const { nama, umur, golongan, no_whatsapp} = req.body;
+    try {
+        // Validation Nama tidak ada angka dan simbol
+        if (nama.match(/\d/)) {
+            return res.status(400).json({ message: 'Nama tidak boleh mengandung angka' });
+          } else if (/[^\w\s]/.test(nama)) {
+            return res.status(400).json({ message: 'Nama tidak boleh mengandung simbol' });
+          }
+        // Validation umur tidak boleh input angka
+        if (isNaN(umur)) {
+          return res.status(400).json({ message: 'Umur harus berupa angka' });
+        } else if (/[^\w\s]/.test(umur)) {
+          return res.status(400).json({ message: 'Umur tidak boleh mengandung simbol' });
+        } else if (umur > 120) {
+          return res.status(400).json({ message: 'Umur maksimal adalah 120 tahun' });
+        } else if (umur.length > 3) {
+          return res.status(400).json({ message: 'Umur tidak boleh lebih dari 3 karakter' });
+        }
+
+        // Validation golongan tidak lebih dari 3 karakter dan harus Input berupa A, B, O, atau AB
+        if (golongan.length > 3) {
+            return res.status(400).json({ message: 'Golongan tidak boleh lebih dari 3 karakter' });
+        }else if (golongan !== 'A' && golongan !== 'B' && golongan !== 'O' && golongan !== 'AB') {
+            return res.status(400).json({ message: 'Golongan harus A, B, O, atau AB' });
+        }
+
+        // Validation nomor telephone/whatsapp (!>14 digit , berupa angka, diawali dengan 62, minimal 11 digit)
+        if (no_whatsapp.length > 14) {
+            return res.status(400).json({ message: 'Nomor telepon tidak boleh lebih dari 14 digit' });
+          }
+          else if (isNaN(no_whatsapp)) {
+            return res.status(400).json({ message: 'Nomor telepon harus berupa angka' });
+          }
+        
+          else if (!no_whatsapp.startsWith('62')) {
+            return res.status(400).json({ message: 'Nomor telepon harus diawali dengan 62' });
+          }
+        
+          else if (no_whatsapp.length < 12) {
+            return res.status(400).json({ message: 'Nomor telepon harus memiliki minimal 11 digit' });
+          }
+        
+    } catch (error) {
+        console.error('Error inserting data:', error);
+        return res.status(500).json({ message: 'server error',
+            serverMessage : error, });
+    }
+    // Lanjut ke middleware selanjutnya
+    next();
+
+  };
   
-  module.exports = { validateData };
+  module.exports = { validateData,validateRequest };

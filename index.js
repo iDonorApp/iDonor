@@ -15,7 +15,7 @@ const app = express();
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
-    origin: [`https://idonorapi-dot-idonor-trialdevelopment.et.r.appspot.com`],
+    origin: [`https://idonorapi-dot-idonorapp2023.et.r.appspot.com`],
     methods: ['POST', 'GET'],
     credentials: true,
 }));
