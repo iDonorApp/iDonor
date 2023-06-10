@@ -2,12 +2,9 @@ const express = require('express');
 const { verifyUser } = require('../middleware/verifyUser');
 const userController = require('../controller/usersController');
 const router = express.Router();
+const validation = require('../middleware/validation');
 
-// router.get('/', verifyUser, (req, res) => {
-//     return res.json({ Status: 'Success', nama: req.nama });
-// });
-
-router.post('/register', userController.register);
+router.post('/register',validation.validateData, userController.register);
 
 router.post('/login', userController.login);
 
