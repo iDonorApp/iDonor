@@ -6,7 +6,7 @@ const orderController = require('../controller/reqdonorController');
 const { verifyUser } = require('../middleware/verifyUser');
 
 //create - POST
-router.post('/', verifyUser,validation.validateRequest, GetLinkAPI.getLinkPlaceAPI, orderController.userRequest);
+router.post('/', verifyUser,validation.validateData, GetLinkAPI.getLinkPlaceAPI, orderController.userRequest);
 router.get('/:id', orderController.getRequestById); ``
 
 

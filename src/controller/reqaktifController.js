@@ -1,23 +1,28 @@
 const reqaktifModel = require('../models/reqaktifModel');
 
 const getViewAktifRequest = async (req, res) => {
-    const IDusers = req.IDusers;
-  
-    try {
-      const [data] = await reqaktifModel.getViewAktifRequest(IDusers);
-  
-      res.json({
-        message: 'Request donor',
-        data: data,
-      });
-    } catch (error) {
-      console.error('Error retrieving user:', error);
-      res.status(500).json({
-        message: 'Server error',
-        serverMessage: error,
-      });
+  const IDusers = req.IDusers;
+
+  try {
+    const [data] = await reqaktifModel.getViewAktifRequest(IDusers);
+
+    if (data.length === 0) {
+      return res.status(404).json({ message: 'Belum ada data' });
     }
-  };
+
+    res.json({
+      message: 'Request donor',
+      data: data,
+    });
+  } catch (error) {
+    console.error('Error retrieving user:', error);
+    res.status(500).json({
+      message: 'Server error',
+      serverMessage: error,
+    });
+  }
+};
+
 
   const deleteAkifRequest = async (req, res) => {
     const { id_request } = req.params;
