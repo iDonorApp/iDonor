@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bangkit.capstone.idonor.data.model.ViewModelFactory
 import com.bangkit.capstone.idonor.databinding.ActivityBerandaBinding
 
 class BerandaActivity : AppCompatActivity() {
