@@ -25,11 +25,13 @@ class RsRepository private constructor(
     fun getListHome() {
         _isLoading.value = true
         val client = apiService.getHomeList()
+        Log.d(TAG, "getListHome: Masuk")
 
         client.enqueue(object : Callback<HomeResponse> {
             override fun onResponse(call: Call<HomeResponse>, response: Response<HomeResponse>) {
                 _isLoading.value = false
                 if (response.isSuccessful && response.body() != null) {
+                    Log.d(TAG, "onResponse: ${response.body()}")
                     _list.value = response.body()
                 } else {
                     _toastText.value = Event(response.message().toString())

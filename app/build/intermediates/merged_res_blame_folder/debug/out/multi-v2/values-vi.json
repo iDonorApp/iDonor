@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-45:/values-vi/values-vi.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-vi\\values-vi.xml",

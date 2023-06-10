@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-45:/values/values.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\ca7003f21ffc668a1448bc7a758e5d91\\transformed\\cardview-1.0.0\\res\\values\\values.xml",

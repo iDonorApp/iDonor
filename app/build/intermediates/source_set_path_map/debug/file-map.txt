@@ -1,50 +1,50 @@
-com.dicoding.picodiploma.idonor.app-glide-4.15.0-0 C:\Users\BRIAN\.gradle\caches\transforms-3\01c12f8ba0859bb40915a6f672e42782\transformed\glide-4.15.0\res
-com.dicoding.picodiploma.idonor.app-lifecycle-process-2.4.1-1 C:\Users\BRIAN\.gradle\caches\transforms-3\04ed4fcf1b7a47dee192b0a282a0f084\transformed\lifecycle-process-2.4.1\res
-com.dicoding.picodiploma.idonor.app-window-1.0.0-2 C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\res
-com.dicoding.picodiploma.idonor.app-activity-1.6.0-3 C:\Users\BRIAN\.gradle\caches\transforms-3\0e60a01d369d5b0001818f9275fdc262\transformed\activity-1.6.0\res
-com.dicoding.picodiploma.idonor.app-transition-1.4.1-4 C:\Users\BRIAN\.gradle\caches\transforms-3\1955520a184ece0aa677ac4f7962ea2f\transformed\transition-1.4.1\res
-com.dicoding.picodiploma.idonor.app-emoji2-views-helper-1.2.0-5 C:\Users\BRIAN\.gradle\caches\transforms-3\1ae14c766f7ca68fb379eea35b08c2fa\transformed\emoji2-views-helper-1.2.0\res
-com.dicoding.picodiploma.idonor.app-customview-poolingcontainer-1.0.0-6 C:\Users\BRIAN\.gradle\caches\transforms-3\1b6a704c0f1b3148d9039823e01434af\transformed\customview-poolingcontainer-1.0.0\res
-com.dicoding.picodiploma.idonor.app-appcompat-1.6.1-7 C:\Users\BRIAN\.gradle\caches\transforms-3\25aad943afff8b34c8d60e28955f3756\transformed\appcompat-1.6.1\res
-com.dicoding.picodiploma.idonor.app-annotation-experimental-1.3.0-8 C:\Users\BRIAN\.gradle\caches\transforms-3\2a34fb887c541ef7a73e1862560a42ee\transformed\annotation-experimental-1.3.0\res
-com.dicoding.picodiploma.idonor.app-lifecycle-runtime-ktx-2.5.1-9 C:\Users\BRIAN\.gradle\caches\transforms-3\3197cdc6bab4fe0371bc3750cd5bf410\transformed\lifecycle-runtime-ktx-2.5.1\res
-com.dicoding.picodiploma.idonor.app-lifecycle-livedata-core-ktx-2.5.1-10 C:\Users\BRIAN\.gradle\caches\transforms-3\326c027d19dbae1922511f0dd228c40a\transformed\lifecycle-livedata-core-ktx-2.5.1\res
-com.dicoding.picodiploma.idonor.app-activity-ktx-1.6.0-11 C:\Users\BRIAN\.gradle\caches\transforms-3\370e88c1f7e3af9648160b7dcca0e5c6\transformed\activity-ktx-1.6.0\res
-com.dicoding.picodiploma.idonor.app-navigation-fragment-2.5.3-12 C:\Users\BRIAN\.gradle\caches\transforms-3\46ab035c016125990ab18fbaaf443df1\transformed\navigation-fragment-2.5.3\res
-com.dicoding.picodiploma.idonor.app-lifecycle-viewmodel-2.5.1-13 C:\Users\BRIAN\.gradle\caches\transforms-3\522a5272baf99580f4a77e19acc84ab4\transformed\lifecycle-viewmodel-2.5.1\res
-com.dicoding.picodiploma.idonor.app-navigation-fragment-ktx-2.5.3-14 C:\Users\BRIAN\.gradle\caches\transforms-3\5ba15994b5086fa6980e196c17a8a470\transformed\navigation-fragment-ktx-2.5.3\res
-com.dicoding.picodiploma.idonor.app-recyclerview-1.3.0-15 C:\Users\BRIAN\.gradle\caches\transforms-3\66e12620f64e428ef9860f7f71d961a0\transformed\recyclerview-1.3.0\res
-com.dicoding.picodiploma.idonor.app-startup-runtime-1.1.1-16 C:\Users\BRIAN\.gradle\caches\transforms-3\71f9201fc5bb841213e87e5b047b8d34\transformed\startup-runtime-1.1.1\res
-com.dicoding.picodiploma.idonor.app-navigation-common-2.5.3-17 C:\Users\BRIAN\.gradle\caches\transforms-3\75b9da1be95dbd1076a9b713d6f22753\transformed\navigation-common-2.5.3\res
-com.dicoding.picodiploma.idonor.app-savedstate-ktx-1.2.0-18 C:\Users\BRIAN\.gradle\caches\transforms-3\7b30e4d7386bb2515efafefe56c84b9c\transformed\savedstate-ktx-1.2.0\res
-com.dicoding.picodiploma.idonor.app-core-ktx-1.10.1-19 C:\Users\BRIAN\.gradle\caches\transforms-3\7d06ed4c2df871c3d5c725ebad0d9516\transformed\core-ktx-1.10.1\res
-com.dicoding.picodiploma.idonor.app-navigation-ui-2.5.3-20 C:\Users\BRIAN\.gradle\caches\transforms-3\80a55b417f054592eebc695d512a3497\transformed\navigation-ui-2.5.3\res
-com.dicoding.picodiploma.idonor.app-slidingpanelayout-1.2.0-21 C:\Users\BRIAN\.gradle\caches\transforms-3\81f59af0504f5db1a04e465afd770ad7\transformed\slidingpanelayout-1.2.0\res
-com.dicoding.picodiploma.idonor.app-fragment-ktx-1.5.4-22 C:\Users\BRIAN\.gradle\caches\transforms-3\839c68f07bcdf5bfb36432e999117c90\transformed\fragment-ktx-1.5.4\res
-com.dicoding.picodiploma.idonor.app-constraintlayout-2.1.4-23 C:\Users\BRIAN\.gradle\caches\transforms-3\88954fa4d9f3f7c3689f5d8400108a3c\transformed\constraintlayout-2.1.4\res
-com.dicoding.picodiploma.idonor.app-fragment-1.5.4-24 C:\Users\BRIAN\.gradle\caches\transforms-3\91ef5d8839e4df2008f1f08105b4a3e0\transformed\fragment-1.5.4\res
-com.dicoding.picodiploma.idonor.app-navigation-common-ktx-2.5.3-25 C:\Users\BRIAN\.gradle\caches\transforms-3\9e0b974fb3018e5935cffe6b9a348e26\transformed\navigation-common-ktx-2.5.3\res
-com.dicoding.picodiploma.idonor.app-appcompat-resources-1.6.1-26 C:\Users\BRIAN\.gradle\caches\transforms-3\a0e38d3fa635ed95fbd054549fa2610f\transformed\appcompat-resources-1.6.1\res
-com.dicoding.picodiploma.idonor.app-navigation-ui-ktx-2.5.3-27 C:\Users\BRIAN\.gradle\caches\transforms-3\a9121b4cff9c8486c707d8c40e51de8d\transformed\navigation-ui-ktx-2.5.3\res
-com.dicoding.picodiploma.idonor.app-emoji2-1.2.0-28 C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\res
-com.dicoding.picodiploma.idonor.app-lifecycle-runtime-2.5.1-29 C:\Users\BRIAN\.gradle\caches\transforms-3\b6a2cca3771bdbd6ca5c72fbc02c1654\transformed\lifecycle-runtime-2.5.1\res
-com.dicoding.picodiploma.idonor.app-viewpager2-1.0.0-30 C:\Users\BRIAN\.gradle\caches\transforms-3\b7fe6acb96faaa45ff0d404ca17e020e\transformed\viewpager2-1.0.0\res
-com.dicoding.picodiploma.idonor.app-lifecycle-viewmodel-savedstate-2.5.1-31 C:\Users\BRIAN\.gradle\caches\transforms-3\c3cca1b7b663ee1f9abd2619bc099e81\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.dicoding.picodiploma.idonor.app-savedstate-1.2.0-32 C:\Users\BRIAN\.gradle\caches\transforms-3\c81326f850df1654fff0365a90ae771e\transformed\savedstate-1.2.0\res
-com.dicoding.picodiploma.idonor.app-cardview-1.0.0-33 C:\Users\BRIAN\.gradle\caches\transforms-3\ca7003f21ffc668a1448bc7a758e5d91\transformed\cardview-1.0.0\res
-com.dicoding.picodiploma.idonor.app-navigation-runtime-ktx-2.5.3-34 C:\Users\BRIAN\.gradle\caches\transforms-3\ce13df3fdad1c10ecaa0e454f971df29\transformed\navigation-runtime-ktx-2.5.3\res
-com.dicoding.picodiploma.idonor.app-navigation-runtime-2.5.3-35 C:\Users\BRIAN\.gradle\caches\transforms-3\d2d02514e71de0639fb4ee9ed4c4e7ac\transformed\navigation-runtime-2.5.3\res
-com.dicoding.picodiploma.idonor.app-lifecycle-livedata-core-2.5.1-36 C:\Users\BRIAN\.gradle\caches\transforms-3\d4ba4bf4a8c19be72726aeee449724ee\transformed\lifecycle-livedata-core-2.5.1\res
-com.dicoding.picodiploma.idonor.app-coordinatorlayout-1.1.0-37 C:\Users\BRIAN\.gradle\caches\transforms-3\d51bceb36f3685db23e591a136298f65\transformed\coordinatorlayout-1.1.0\res
-com.dicoding.picodiploma.idonor.app-lifecycle-viewmodel-ktx-2.5.1-38 C:\Users\BRIAN\.gradle\caches\transforms-3\e143108e851a7924d52aed70763a3aa6\transformed\lifecycle-viewmodel-ktx-2.5.1\res
-com.dicoding.picodiploma.idonor.app-core-1.10.1-39 C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\res
-com.dicoding.picodiploma.idonor.app-drawerlayout-1.1.1-40 C:\Users\BRIAN\.gradle\caches\transforms-3\fab5ca12437c6d486f5dab4dffc37620\transformed\drawerlayout-1.1.1\res
-com.dicoding.picodiploma.idonor.app-material-1.9.0-41 C:\Users\BRIAN\.gradle\caches\transforms-3\fd65bb27c7799d5d9d10fb298caddc71\transformed\material-1.9.0\res
-com.dicoding.picodiploma.idonor.app-pngs-42 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\pngs\debug
-com.dicoding.picodiploma.idonor.app-resValues-43 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\resValues\debug
-com.dicoding.picodiploma.idonor.app-rs-44 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\rs\debug
-com.dicoding.picodiploma.idonor.app-packageDebugResources-45 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.dicoding.picodiploma.idonor.app-packageDebugResources-46 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.dicoding.picodiploma.idonor.app-merged_res-47 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\merged_res\debug
-com.dicoding.picodiploma.idonor.app-debug-48 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\debug\res
-com.dicoding.picodiploma.idonor.app-main-49 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\res
+com.bangkit.capstone.idonor.app-glide-4.15.0-0 C:\Users\BRIAN\.gradle\caches\transforms-3\01c12f8ba0859bb40915a6f672e42782\transformed\glide-4.15.0\res
+com.bangkit.capstone.idonor.app-lifecycle-process-2.4.1-1 C:\Users\BRIAN\.gradle\caches\transforms-3\04ed4fcf1b7a47dee192b0a282a0f084\transformed\lifecycle-process-2.4.1\res
+com.bangkit.capstone.idonor.app-window-1.0.0-2 C:\Users\BRIAN\.gradle\caches\transforms-3\0c29f6ec763f6ca37c0f2e7bbc5e4e73\transformed\window-1.0.0\res
+com.bangkit.capstone.idonor.app-activity-1.6.0-3 C:\Users\BRIAN\.gradle\caches\transforms-3\0e60a01d369d5b0001818f9275fdc262\transformed\activity-1.6.0\res
+com.bangkit.capstone.idonor.app-transition-1.4.1-4 C:\Users\BRIAN\.gradle\caches\transforms-3\1955520a184ece0aa677ac4f7962ea2f\transformed\transition-1.4.1\res
+com.bangkit.capstone.idonor.app-emoji2-views-helper-1.2.0-5 C:\Users\BRIAN\.gradle\caches\transforms-3\1ae14c766f7ca68fb379eea35b08c2fa\transformed\emoji2-views-helper-1.2.0\res
+com.bangkit.capstone.idonor.app-customview-poolingcontainer-1.0.0-6 C:\Users\BRIAN\.gradle\caches\transforms-3\1b6a704c0f1b3148d9039823e01434af\transformed\customview-poolingcontainer-1.0.0\res
+com.bangkit.capstone.idonor.app-appcompat-1.6.1-7 C:\Users\BRIAN\.gradle\caches\transforms-3\25aad943afff8b34c8d60e28955f3756\transformed\appcompat-1.6.1\res
+com.bangkit.capstone.idonor.app-annotation-experimental-1.3.0-8 C:\Users\BRIAN\.gradle\caches\transforms-3\2a34fb887c541ef7a73e1862560a42ee\transformed\annotation-experimental-1.3.0\res
+com.bangkit.capstone.idonor.app-lifecycle-runtime-ktx-2.5.1-9 C:\Users\BRIAN\.gradle\caches\transforms-3\3197cdc6bab4fe0371bc3750cd5bf410\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.bangkit.capstone.idonor.app-lifecycle-livedata-core-ktx-2.5.1-10 C:\Users\BRIAN\.gradle\caches\transforms-3\326c027d19dbae1922511f0dd228c40a\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.bangkit.capstone.idonor.app-activity-ktx-1.6.0-11 C:\Users\BRIAN\.gradle\caches\transforms-3\370e88c1f7e3af9648160b7dcca0e5c6\transformed\activity-ktx-1.6.0\res
+com.bangkit.capstone.idonor.app-navigation-fragment-2.5.3-12 C:\Users\BRIAN\.gradle\caches\transforms-3\46ab035c016125990ab18fbaaf443df1\transformed\navigation-fragment-2.5.3\res
+com.bangkit.capstone.idonor.app-lifecycle-viewmodel-2.5.1-13 C:\Users\BRIAN\.gradle\caches\transforms-3\522a5272baf99580f4a77e19acc84ab4\transformed\lifecycle-viewmodel-2.5.1\res
+com.bangkit.capstone.idonor.app-navigation-fragment-ktx-2.5.3-14 C:\Users\BRIAN\.gradle\caches\transforms-3\5ba15994b5086fa6980e196c17a8a470\transformed\navigation-fragment-ktx-2.5.3\res
+com.bangkit.capstone.idonor.app-recyclerview-1.3.0-15 C:\Users\BRIAN\.gradle\caches\transforms-3\66e12620f64e428ef9860f7f71d961a0\transformed\recyclerview-1.3.0\res
+com.bangkit.capstone.idonor.app-startup-runtime-1.1.1-16 C:\Users\BRIAN\.gradle\caches\transforms-3\71f9201fc5bb841213e87e5b047b8d34\transformed\startup-runtime-1.1.1\res
+com.bangkit.capstone.idonor.app-navigation-common-2.5.3-17 C:\Users\BRIAN\.gradle\caches\transforms-3\75b9da1be95dbd1076a9b713d6f22753\transformed\navigation-common-2.5.3\res
+com.bangkit.capstone.idonor.app-savedstate-ktx-1.2.0-18 C:\Users\BRIAN\.gradle\caches\transforms-3\7b30e4d7386bb2515efafefe56c84b9c\transformed\savedstate-ktx-1.2.0\res
+com.bangkit.capstone.idonor.app-core-ktx-1.10.1-19 C:\Users\BRIAN\.gradle\caches\transforms-3\7d06ed4c2df871c3d5c725ebad0d9516\transformed\core-ktx-1.10.1\res
+com.bangkit.capstone.idonor.app-navigation-ui-2.5.3-20 C:\Users\BRIAN\.gradle\caches\transforms-3\80a55b417f054592eebc695d512a3497\transformed\navigation-ui-2.5.3\res
+com.bangkit.capstone.idonor.app-slidingpanelayout-1.2.0-21 C:\Users\BRIAN\.gradle\caches\transforms-3\81f59af0504f5db1a04e465afd770ad7\transformed\slidingpanelayout-1.2.0\res
+com.bangkit.capstone.idonor.app-fragment-ktx-1.5.4-22 C:\Users\BRIAN\.gradle\caches\transforms-3\839c68f07bcdf5bfb36432e999117c90\transformed\fragment-ktx-1.5.4\res
+com.bangkit.capstone.idonor.app-constraintlayout-2.1.4-23 C:\Users\BRIAN\.gradle\caches\transforms-3\88954fa4d9f3f7c3689f5d8400108a3c\transformed\constraintlayout-2.1.4\res
+com.bangkit.capstone.idonor.app-fragment-1.5.4-24 C:\Users\BRIAN\.gradle\caches\transforms-3\91ef5d8839e4df2008f1f08105b4a3e0\transformed\fragment-1.5.4\res
+com.bangkit.capstone.idonor.app-navigation-common-ktx-2.5.3-25 C:\Users\BRIAN\.gradle\caches\transforms-3\9e0b974fb3018e5935cffe6b9a348e26\transformed\navigation-common-ktx-2.5.3\res
+com.bangkit.capstone.idonor.app-appcompat-resources-1.6.1-26 C:\Users\BRIAN\.gradle\caches\transforms-3\a0e38d3fa635ed95fbd054549fa2610f\transformed\appcompat-resources-1.6.1\res
+com.bangkit.capstone.idonor.app-navigation-ui-ktx-2.5.3-27 C:\Users\BRIAN\.gradle\caches\transforms-3\a9121b4cff9c8486c707d8c40e51de8d\transformed\navigation-ui-ktx-2.5.3\res
+com.bangkit.capstone.idonor.app-emoji2-1.2.0-28 C:\Users\BRIAN\.gradle\caches\transforms-3\b14cc4fa4019ba916d5b4f29b6333e57\transformed\emoji2-1.2.0\res
+com.bangkit.capstone.idonor.app-lifecycle-runtime-2.5.1-29 C:\Users\BRIAN\.gradle\caches\transforms-3\b6a2cca3771bdbd6ca5c72fbc02c1654\transformed\lifecycle-runtime-2.5.1\res
+com.bangkit.capstone.idonor.app-viewpager2-1.0.0-30 C:\Users\BRIAN\.gradle\caches\transforms-3\b7fe6acb96faaa45ff0d404ca17e020e\transformed\viewpager2-1.0.0\res
+com.bangkit.capstone.idonor.app-lifecycle-viewmodel-savedstate-2.5.1-31 C:\Users\BRIAN\.gradle\caches\transforms-3\c3cca1b7b663ee1f9abd2619bc099e81\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.bangkit.capstone.idonor.app-savedstate-1.2.0-32 C:\Users\BRIAN\.gradle\caches\transforms-3\c81326f850df1654fff0365a90ae771e\transformed\savedstate-1.2.0\res
+com.bangkit.capstone.idonor.app-cardview-1.0.0-33 C:\Users\BRIAN\.gradle\caches\transforms-3\ca7003f21ffc668a1448bc7a758e5d91\transformed\cardview-1.0.0\res
+com.bangkit.capstone.idonor.app-navigation-runtime-ktx-2.5.3-34 C:\Users\BRIAN\.gradle\caches\transforms-3\ce13df3fdad1c10ecaa0e454f971df29\transformed\navigation-runtime-ktx-2.5.3\res
+com.bangkit.capstone.idonor.app-navigation-runtime-2.5.3-35 C:\Users\BRIAN\.gradle\caches\transforms-3\d2d02514e71de0639fb4ee9ed4c4e7ac\transformed\navigation-runtime-2.5.3\res
+com.bangkit.capstone.idonor.app-lifecycle-livedata-core-2.5.1-36 C:\Users\BRIAN\.gradle\caches\transforms-3\d4ba4bf4a8c19be72726aeee449724ee\transformed\lifecycle-livedata-core-2.5.1\res
+com.bangkit.capstone.idonor.app-coordinatorlayout-1.1.0-37 C:\Users\BRIAN\.gradle\caches\transforms-3\d51bceb36f3685db23e591a136298f65\transformed\coordinatorlayout-1.1.0\res
+com.bangkit.capstone.idonor.app-lifecycle-viewmodel-ktx-2.5.1-38 C:\Users\BRIAN\.gradle\caches\transforms-3\e143108e851a7924d52aed70763a3aa6\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.bangkit.capstone.idonor.app-core-1.10.1-39 C:\Users\BRIAN\.gradle\caches\transforms-3\f8d61c5b5277e1047ac0e0037c713886\transformed\core-1.10.1\res
+com.bangkit.capstone.idonor.app-drawerlayout-1.1.1-40 C:\Users\BRIAN\.gradle\caches\transforms-3\fab5ca12437c6d486f5dab4dffc37620\transformed\drawerlayout-1.1.1\res
+com.bangkit.capstone.idonor.app-material-1.9.0-41 C:\Users\BRIAN\.gradle\caches\transforms-3\fd65bb27c7799d5d9d10fb298caddc71\transformed\material-1.9.0\res
+com.bangkit.capstone.idonor.app-pngs-42 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\pngs\debug
+com.bangkit.capstone.idonor.app-resValues-43 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\resValues\debug
+com.bangkit.capstone.idonor.app-rs-44 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\generated\res\rs\debug
+com.bangkit.capstone.idonor.app-packageDebugResources-45 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.bangkit.capstone.idonor.app-packageDebugResources-46 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.bangkit.capstone.idonor.app-merged_res-47 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\build\intermediates\merged_res\debug
+com.bangkit.capstone.idonor.app-debug-48 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\debug\res
+com.bangkit.capstone.idonor.app-main-49 D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\res

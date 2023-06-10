@@ -1,54 +1,54 @@
 [
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_main.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_main.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/grid_item.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/grid_item.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/grid_item.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/grid_item.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/list_item_detail.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/list_item_detail.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_login.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_login.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/list_item_beranda.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/list_item_beranda.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_daftar.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_daftar.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_daftar.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_daftar.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_informasi.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_informasi.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_main.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_aktif.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_aktif.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_informasi.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_informasi.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/list_item_beranda.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/list_item_beranda.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_akun.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_akun.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_beranda.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_beranda.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_aktif.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_aktif.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_akun.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_akun.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_beranda.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_beranda.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_upload.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_upload.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_login.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_login.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/list_item_detail.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/list_item_detail.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_upload.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_upload.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_detail.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_detail.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_detail.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_detail.xml"
     },
     {
-        "merged": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-46:/layout/activity_splash.xml",
-        "source": "com.dicoding.picodiploma.idonor.app-main-49:/layout/activity_splash.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/activity_splash.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_splash.xml"
     }
 ]

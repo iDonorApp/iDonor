@@ -15,7 +15,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        buildConfigField("String", "LINK_API", '"http://34.128.67.48:4000/"')
+        buildConfigField("String", "LINK_API", '"https://idonorapi-dot-idonorapp2023.et.r.appspot.com/"')
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

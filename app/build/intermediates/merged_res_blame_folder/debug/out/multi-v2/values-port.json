@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.picodiploma.idonor.app-mergeDebugResources-45:/values-port/values-port.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-port/values-port.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\25aad943afff8b34c8d60e28955f3756\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",

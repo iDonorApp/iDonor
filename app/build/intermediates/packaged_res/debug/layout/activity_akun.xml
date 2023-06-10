@@ -219,7 +219,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <com.dicoding.picodiploma.idonor.tools.CustomEditText
+        <com.bangkit.capstone.idonor.tools.CustomEditText
             android:id="@+id/ed_akun_password_lama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <com.dicoding.picodiploma.idonor.tools.CustomEditText
+        <com.bangkit.capstone.idonor.tools.CustomEditText
             android:id="@+id/ed_akun_password_baru"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -29,19 +29,29 @@ interface ApiService {
     ): Call<LoginResponse>
 
     @GET("home")
-    fun getHomeList(): Call<HomeResponse>
+    fun getHomeList(
 
-    @GET("detailhome/:rumahsakit")
-    fun getDetailList(): Call<DetailHomeResponse>
+    ): Call<HomeResponse>
+
+    @GET("detailhome/{rumahsakit}")
+    fun getDetailList(
+
+    ): Call<DetailHomeResponse>
 
     @FormUrlEncoded
     @POST("reqdonor")
-    fun postReqDonor(): Call<RequestDonorResponse>
+    fun postReqDonor(
+
+    ): Call<RequestDonorResponse>
 
     @FormUrlEncoded
     @POST("reqaktif/:id_users")
-    fun postReqAktid(): Call<RequestAktifResponse>
+    fun postReqAktid(
+
+    ): Call<RequestAktifResponse>
 
     @GET("profile/:id_users")
-    fun getProfile(): Call<ProfileResponse>
+    fun getProfile(
+
+    ): Call<ProfileResponse>
 }
