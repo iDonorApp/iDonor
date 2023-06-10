@@ -34,7 +34,7 @@
     <string name="detail_nama">ARIF KURNIAWAN</string>
     <string name="detail_umur">Umur                     : </string>
     <string name="detail_waktu">Waktu                   : </string>
-    <string name="dibutuhkan">Dibutuhkan</string>
+    <string name="dibutuhkan">Dibutuhkan : </string>
     <string name="email_hint">example@email.com</string>
     <string name="email_user">Email / User</string>
     <string name="email_validation">Masukkan alamat email yang valid!</string>

@@ -11,6 +11,7 @@ class BerandaActivity : AppCompatActivity() {
     private lateinit var binding: ActivityBerandaBinding
 
     private val berandaViewModel: BerandaViewModel by viewModels { BerandaViewModel.Factory }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

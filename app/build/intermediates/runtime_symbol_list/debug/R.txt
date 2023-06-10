@@ -3680,6 +3680,7 @@ int id tv_item_akun_waktu 0x7f080243
 int id tv_item_akun_waktu_value 0x7f080244
 int id tv_item_alamat 0x7f080245
 int id tv_item_dibutuhkan 0x7f080246
+int id tv_item_dibutuhkan_velue 0x7f080266
 int id tv_item_name_rs 0x7f080247
 int id tv_rumah_sakit 0x7f080248
 int id tv_ubah_password 0x7f080249

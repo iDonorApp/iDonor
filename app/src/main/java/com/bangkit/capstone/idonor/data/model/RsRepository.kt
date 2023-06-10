@@ -4,6 +4,7 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.bangkit.capstone.idonor.data.api.ApiService
+import com.bangkit.capstone.idonor.data.response.DetailHomeResponse
 import com.bangkit.capstone.idonor.data.response.HomeResponse
 import retrofit2.Call
 import retrofit2.Callback
@@ -15,6 +16,9 @@ class RsRepository private constructor(
 
     private val _list = MutableLiveData<HomeResponse>()
     val list: LiveData<HomeResponse> = _list
+
+    private val _list_detail = MutableLiveData<DetailHomeResponse>()
+    val list_detail: LiveData<DetailHomeResponse> = _list_detail
 
     private val _isLoading = MutableLiveData<Boolean>()
     val isLoading: LiveData<Boolean> = _isLoading
@@ -43,6 +47,31 @@ class RsRepository private constructor(
                 _toastText.value = Event(t.message.toString())
                 Log.e(TAG, "onFailure: ${t.message.toString()}")
             }
+        })
+    }
+
+    fun getListDetail() {
+        _isLoading.value = true
+        val client = apiService.getDetailList()
+        Log.d(TAG,"getListDetail: Masuk")
+
+        client.enqueue(object : Callback<DetailHomeResponse> {
+            override fun onResponse( call: Call<DetailHomeResponse>, response: Response<DetailHomeResponse>) {
+                _isLoading.value = false
+                if (response.isSuccessful && response.body() != null) {
+                    Log.d(TAG, "onResponse: ${response.body()}")
+                    _list_detail.value = response.body()
+                } else {
+                    _toastText.value = Event(response.message().toString())
+                    Log.e(TAG, "onFailure: ${response.message()}, ${response.body()?.message.toString()}")
+                }
+            }
+
+            override fun onFailure(call: Call<DetailHomeResponse>, t: Throwable) {
+                _toastText.value = Event(t.message.toString())
+                Log.e(TAG, "onFailure: ${t.message.toString()}")
+            }
+
         })
     }
 
