@@ -8,13 +8,21 @@
   * #### Method : 
     * POST
   * #### Request Body :
-    *  `nama` as string
+    * `nama` as string
+        * Tidak mengandung angka / Simbol
     * `golongan` as string
+      * Tidak boleh lebih dari 3 karakter
+      * golongan harus A, B, O, atau AB
     * `jenis_kelamin` as string
-    * `no_whatsapp` as Int, can't be more than 14 digits and must be at least 11 characters
+    * `no_whatsapp` as Int
+      * Tidak boleh lebih dari 14 digit
+      * Minimal 11 digit
+      * Harus berupa angka
+      * Harus Diawali dengan 62
     * `alamat` as string
     * `email` as string
     * `password` as string
+      * Minimal 8 karakter
 
   * #### Response : 
     ```
@@ -42,6 +50,7 @@
 * #### Request Body : 
   * `email` as string
   * `password` as string
+    * Minimal 8 karakter
 * #### Response : 
   ```
   {
@@ -91,6 +100,36 @@
   ```
 </details>
 <details>
+  <summary>Home Search</summary>
+  
+  * #### URL : 
+    * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/home/:search
+    * example : https://idonorapi-dot-idonorapp2023.et.r.appspot.com/home/rumah%20sakit
+  * #### Method :
+    * GET
+  * #### Response : 
+    ```
+    {
+    "message": "All Request",
+    "data": [
+        {
+            "rumah_sakit": "Rumah Sakit Aceh Tamiang",
+            "dibutuhkan": 1,
+            "alamat": "Jl. Kesehatan No.1, Kesehatan, Kec. Karang Baru, Kabupaten Aceh Tamiang, Aceh 13760",
+            "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0k_VaOLsPyX61ntylPgDSaXi1K9joWGLY101YGMhe-OwWNml5fWajdakV0nsLoF0OcCLlofTJtFRJVkgHejoizZHHMmSuHpEbkZLyI2JWS9NxFtE6kxJuWIu-lJfYZOuQBNbWa-"
+        },
+        {
+            "rumah_sakit": "Rumah Sakit Umum Daerah Yogyakarta",
+            "dibutuhkan": 2,
+            "alamat": "Jl. Ki Ageng Pemanahan No.1-6, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162",
+            "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AZose0k_6nIbbcRkW94RIAl4LsUpGlIaHqMaizo0ftl4ZrmrAlj04Hwx8FEhUzFT4rnqRFldhuhlCNhkpUiM-ZhRyYurrAqpplBqDRokGVrFDwlNE4hlLc1IKGFBPyuwAGJfHRbayBxwYus3yr6YPdE0zxF7JG_tWRO-Hg-W-YwePi1ZAmOT"
+        }
+    ]
+}
+    ```
+  </details>
+
+<details>
 <summary>Detail Home</summary>
   
 * #### URL : 
@@ -104,7 +143,7 @@
       "Gmaps URL": "https://maps.google.com/maps/place/?q=place_id:ChIJH9N6iEONaS4RHBywLDXTv7I",
       "data": [
           {
-              "id": 6871459390,
+              "id_request": 6871459390,
               "rumah_sakit": "Rumah Sakit Masmitra",
               "nama": "Daniel Dajal",
               "umur": 13456,
@@ -113,7 +152,7 @@
               "whatsapp_url": "https://api.whatsapp.com/send?phone=62822543142"
           },
           {
-              "id": 7844585202,
+              "id_request": 7844585202,
               "rumah_sakit": "Rumah Sakit Masmitra",
               "nama": "Supri",
               "umur": 13456,
@@ -133,6 +172,23 @@
     * https://idonorapi-dot-idonorapp2023.et.r.appspot.com/reqdonor
   * #### Method : 
     * POST
+  * #### Response Body : 
+    * `rumah_sakit` as string
+    * `nama` as string
+      * Tidak mengandung angka / Simbol
+    * `umur` as Int
+      * Harus berupa angka / simbol
+      * Tidak lebih dari 120 tahun
+      * Tidak lebih dari 3 karakter
+    * `golongan` as string
+      * Tidak boleh lebih dari 3 karakter
+      * golongan harus A, B, O, atau AB
+    * `no_kamar` as string
+    * `no_whatsapp` as Int
+      * Tidak boleh lebih dari 14 digit
+      * Minimal 11 digit
+      * Harus berupa angka
+      * Harus Diawali dengan 62
   * #### Response : 
     ```
       {
