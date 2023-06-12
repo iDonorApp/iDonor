@@ -1,10 +1,13 @@
 package com.bangkit.capstone.idonor.ui.detail
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bangkit.capstone.idonor.R
+import com.bangkit.capstone.idonor.data.response.DetailHomeResponse
 import com.bangkit.capstone.idonor.data.response.ListDataHome
 import com.bangkit.capstone.idonor.databinding.ActivityDetailBinding
 import com.bumptech.glide.Glide

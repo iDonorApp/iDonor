@@ -1,9 +1,6 @@
 package com.bangkit.capstone.idonor.ui.detail
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.*
 import androidx.lifecycle.viewmodel.CreationExtras
 import com.bangkit.capstone.idonor.data.api.ApiConfig
 import com.bangkit.capstone.idonor.data.model.RsRepository

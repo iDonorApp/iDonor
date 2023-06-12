@@ -3676,11 +3676,11 @@ int id tv_item_akun_no_kamar 0x7f08023f
 int id tv_item_akun_no_kamar_value 0x7f080240
 int id tv_item_akun_umur 0x7f080241
 int id tv_item_akun_umur_value 0x7f080242
-int id tv_item_alamat 0x7f080245
-int id tv_item_dibutuhkan 0x7f080246
-int id tv_item_dibutuhkan_ket 0x7f080267
-int id tv_item_name_rs 0x7f080247
-int id tv_nama_rs 0x7f080268
+int id tv_item_alamat 0x7f080243
+int id tv_item_dibutuhkan 0x7f080244
+int id tv_item_dibutuhkan_ket 0x7f080245
+int id tv_item_name_rs 0x7f080246
+int id tv_nama_rs 0x7f080247
 int id tv_rumah_sakit 0x7f080248
 int id tv_ubah_password 0x7f080249
 int id tv_upload_goldar 0x7f08024a

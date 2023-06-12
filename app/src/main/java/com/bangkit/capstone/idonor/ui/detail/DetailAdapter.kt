@@ -5,6 +5,7 @@ import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bangkit.capstone.idonor.data.response.ListDataDetail
 import com.bangkit.capstone.idonor.databinding.ListItemDetailBinding
@@ -23,14 +24,8 @@ class DetailAdapter(private val listDetail: List<ListDataDetail>): RecyclerView.
                 tvItemAkunUmurValue.text = detail.umur
                 btnWhatsapp.setOnClickListener {
                     val phoneNumber = detail.whatsapp_url
-                    val intent = Intent(Intent.ACTION_SENDTO)
-                    intent.data = Uri.parse("smsto:$phoneNumber")
-                    intent.setPackage("com.whatsapp")
-                    if (intent.resolveActivity(itemView.context.packageManager) != null) {
-                        itemView.context.startActivity(intent)
-                    } else {
-                        Toast.makeText(itemView.context, "Aplikasi WhatsApp tidak ditemukan.", Toast.LENGTH_SHORT).show()
-                    }
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(phoneNumber))
+                    itemView.context.startActivity(intent)
                 }
             }
         }
