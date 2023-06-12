@@ -28,7 +28,7 @@ interface ApiService {
         @Field("email") email: String,
         @Field("password") password: String
     ): Call<LoginResponse>
-
+    
     @GET("home")
     fun getHomeList(
 
