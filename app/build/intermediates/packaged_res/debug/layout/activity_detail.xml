@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F0F0F0"
-    tools:context=".ui.main.DetailActivity">
+    tools:context=".ui.detail.DetailActivity">
 
     <ImageView
         android:id="@+id/iv_detail_foto"
@@ -18,7 +18,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_nama_rs"
         android:layout_width="match_parent"
         android:layout_height="59dp"
         android:layout_marginTop="24dp"

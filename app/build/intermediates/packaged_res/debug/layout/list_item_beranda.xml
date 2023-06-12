@@ -26,6 +26,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@tools:sample/avatars"
             tools:ignore="ImageContrastCheck"/>
+
        <TextView
             android:id="@+id/tv_item_name_rs"
             android:layout_width="0dp"
@@ -54,18 +55,18 @@
             tools:text="@string/alamat" />
 
         <TextView
-            android:id="@+id/tv_item_dibutuhkan"
+            android:id="@+id/tv_item_dibutuhkan_ket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
             android:text="@string/dibutuhkan"
             android:textSize="16sp"
             android:textColor="@color/black"
-            app:layout_constraintEnd_toStartOf="@id/tv_item_dibutuhkan_velue"
+            app:layout_constraintEnd_toStartOf="@id/tv_item_dibutuhkan"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <TextView
-            android:id="@+id/tv_item_dibutuhkan_velue"
+            android:id="@+id/tv_item_dibutuhkan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"

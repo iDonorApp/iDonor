@@ -172,6 +172,10 @@
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "com.bangkit.capstone.idonor.app-merged_res-47:/layout_activity_detail.xml.flat",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/activity_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-merged_res-47:\\drawable_rounded_class.xml.flat",
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-49:\\drawable\\rounded_class.xml"
     },
@@ -194,10 +198,6 @@
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.bangkit.capstone.idonor.app-merged_res-47:/layout_list_item_beranda.xml.flat",
-        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/list_item_beranda.xml"
     },
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-merged_res-47:\\mipmap-anydpi-v33_ic_launcher.xml.flat",

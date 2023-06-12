@@ -41,7 +41,7 @@
             android:name="com.bangkit.capstone.idonor.ui.daftar.DaftarActivity"
             android:exported="false" />
         <activity
-            android:name="com.bangkit.capstone.idonor.ui.main.DetailActivity"
+            android:name="com.bangkit.capstone.idonor.ui.detail.DetailActivity"
             android:exported="false" />
         <activity
             android:name="com.bangkit.capstone.idonor.ui.main.BerandaActivity"

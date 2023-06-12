@@ -1,14 +1,20 @@
 package com.bangkit.capstone.idonor.ui.main
 
+import android.app.Activity
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.AdapterView.OnItemClickListener
+import androidx.core.app.ActivityOptionsCompat
+import androidx.core.util.Pair
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.bangkit.capstone.idonor.R
 import com.bangkit.capstone.idonor.data.response.ListDataHome
 import com.bangkit.capstone.idonor.databinding.ListItemBerandaBinding
+import com.bangkit.capstone.idonor.ui.detail.DetailActivity
+import com.bangkit.capstone.idonor.ui.detail.DetailActivity.Companion.EXTRA_DATA
 
 class ListBerandaAdapter(private val listBeranda: List<ListDataHome>): RecyclerView.Adapter<ListBerandaAdapter.ListViewHolder>() {
 
@@ -21,12 +27,24 @@ class ListBerandaAdapter(private val listBeranda: List<ListDataHome>): RecyclerV
                 tvItemAlamat.text = beranda.alamat
                 tvItemDibutuhkan.text = beranda.dibutuhkan
                 Glide.with(itemView.context)
-                    .load(beranda.image_url)
+                    .load(beranda.imageUrl)
                     .apply(
                         RequestOptions
                             .placeholderOf(R.drawable.ic_loading)
                             .error(R.drawable.ic_error)
                     ).into(ivItemPhoto)
+
+                itemView.setOnClickListener {
+                    val intent = Intent(itemView.context, DetailActivity::class.java)
+                    intent.putExtra(EXTRA_DATA, beranda)
+
+                    val optionsCompat: ActivityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                        itemView.context as Activity,
+                        Pair(ivItemPhoto, "beranda"),
+                        Pair(tvItemNameRs, "rumah_sakit")
+                    )
+                    itemView.context.startActivity(intent, optionsCompat.toBundle())
+                }
             }
         }
     }

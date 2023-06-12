@@ -16,15 +16,15 @@ data class HomeResponse(
 @Parcelize
 data class ListDataHome(
 
-    @field:SerializedName("Rumah Sakit")
+    @field:SerializedName("rumah_sakit")
     val rumah_sakit: String,
 
-    @field:SerializedName("Dibutuhkan")
+    @field:SerializedName("dibutuhkan")
     val dibutuhkan: String,
 
     @field:SerializedName("alamat")
     val alamat: String,
 
-    @field:SerializedName("Image URL")
-    val image_url: String
+    @field:SerializedName("imageUrl")
+    val imageUrl: String
 ) : Parcelable

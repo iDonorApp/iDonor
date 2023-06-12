@@ -71,8 +71,8 @@
 42-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:27:13-37
 43        <activity
 43-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:28:9-30:40
-44            android:name="com.bangkit.capstone.idonor.ui.main.DetailActivity"
-44-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:29:13-51
+44            android:name="com.bangkit.capstone.idonor.ui.detail.DetailActivity"
+44-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:29:13-53
 45            android:exported="false" />
 45-->D:\Kuliah\Kampus Merdeka\Bangkit 2023\Capstone\Back up\iDonor\app\src\main\AndroidManifest.xml:30:13-37
 46        <activity

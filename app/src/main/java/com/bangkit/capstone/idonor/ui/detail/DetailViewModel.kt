@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 class DetailViewModel(private val repository: RsRepository) : ViewModel() {
 
-    val list: LiveData<DetailHomeResponse> = repository.list_detail
+    val list: LiveData<DetailHomeResponse> = repository.listDetail
 
     fun getListDetail() {
         viewModelScope.launch {
