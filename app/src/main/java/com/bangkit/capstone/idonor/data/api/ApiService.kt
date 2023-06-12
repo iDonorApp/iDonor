@@ -6,6 +6,7 @@ import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.Path
 
 interface ApiService {
 
@@ -33,9 +34,9 @@ interface ApiService {
 
     ): Call<HomeResponse>
 
-    @GET("detailhome/{rumahsakit}")
+    @GET("detailhome/{rumah_sakit}")
     fun getDetailList(
-
+        @Path("rumah_sakit") rumah_sakit: String
     ): Call<DetailHomeResponse>
 
     @FormUrlEncoded

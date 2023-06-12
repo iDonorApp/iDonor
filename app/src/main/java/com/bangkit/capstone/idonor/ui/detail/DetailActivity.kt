@@ -60,7 +60,8 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun getListDetail() {
-        detailViewModel.getListDetail()
+        val data = intent.getParcelableExtra<ListDataHome>(EXTRA_DATA) as ListDataHome
+        detailViewModel.getListDetail(data.rumah_sakit)
     }
 
     companion object {

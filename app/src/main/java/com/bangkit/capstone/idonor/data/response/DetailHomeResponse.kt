@@ -19,7 +19,7 @@ data class DetailHomeResponse(
 @Parcelize
 data class ListDataDetail(
 
-    @field:SerializedName("id")
+    @field:SerializedName("id_request")
     val id: String,
 
     @field:SerializedName("rumah_sakit")

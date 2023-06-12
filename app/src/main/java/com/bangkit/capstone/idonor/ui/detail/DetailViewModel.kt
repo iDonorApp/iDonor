@@ -14,9 +14,9 @@ class DetailViewModel(private val repository: RsRepository) : ViewModel() {
 
     val list: LiveData<DetailHomeResponse> = repository.listDetail
 
-    fun getListDetail() {
+    fun getListDetail(rumahSakit: String) {
         viewModelScope.launch {
-            repository.getListDetail()
+            repository.getListDetail(rumahSakit)
         }
     }
 

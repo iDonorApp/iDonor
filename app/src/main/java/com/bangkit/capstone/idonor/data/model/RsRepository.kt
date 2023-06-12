@@ -54,9 +54,9 @@ class RsRepository private constructor(
         })
     }
 
-    fun getListDetail() {
+    fun getListDetail(rumahSakit: String) {
         _isLoading.value = true
-        val client = apiService.getDetailList()
+        val client = apiService.getDetailList(rumahSakit)
         Log.d(TAG,"getListDetail: Masuk")
 
         client.enqueue(object : Callback<DetailHomeResponse> {

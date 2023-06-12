@@ -145,8 +145,6 @@ id tv_item_akun_no_kamar
 id tv_item_akun_no_kamar_value
 id tv_item_akun_umur
 id tv_item_akun_umur_value
-id tv_item_akun_waktu
-id tv_item_akun_waktu_value
 id tv_item_alamat
 id tv_item_dibutuhkan
 id tv_item_dibutuhkan_ket

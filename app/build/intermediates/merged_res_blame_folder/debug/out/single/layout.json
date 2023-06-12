@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-46:\\layout\\activity_aktif.xml",
-        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-49:\\layout\\activity_aktif.xml"
+        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/list_item_detail.xml",
+        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/list_item_detail.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-46:/layout/list_item_beranda.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-49:/layout/list_item_beranda.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-46:\\layout\\activity_aktif.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-49:\\layout\\activity_aktif.xml"
     },
     {
         "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-46:\\layout\\grid_item.xml",
