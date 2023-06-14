@@ -40,6 +40,7 @@ class ListBerandaAdapter(private val listBeranda: List<ListDataHome>): RecyclerV
                     val optionsCompat: ActivityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
                         itemView.context as Activity,
                         Pair(ivItemPhoto, "beranda"),
+                        Pair(btnLocation, "gmaps"),
                         Pair(tvItemNameRs, "rumah_sakit")
                     )
                     itemView.context.startActivity(intent, optionsCompat.toBundle())

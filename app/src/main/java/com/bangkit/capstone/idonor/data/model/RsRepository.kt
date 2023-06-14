@@ -54,6 +54,30 @@ class RsRepository private constructor(
         })
     }
 
+    fun getListRequestAktif() {
+        _isLoading.value = true
+        val client = apiService.getHomeList()
+        Log.d(TAG, "getListRequest: Masuk")
+
+        client.enqueue(object : Callback<HomeResponse> {
+            override fun onResponse(call: Call<HomeResponse>, response: Response<HomeResponse>) {
+                _isLoading.value = false
+                if (response.isSuccessful && response.body() != null) {
+                    Log.d(TAG, "onResponse: ${response.body()}")
+                    _list.value = response.body()
+                } else {
+                    _toastText.value = Event(response.message().toString())
+                    Log.e(TAG, "onFailure: ${response.message()}, ${response.body()?.message.toString()}")
+                }
+            }
+
+            override fun onFailure(call: Call<HomeResponse>, t: Throwable) {
+                _toastText.value = Event(t.message.toString())
+                Log.e(TAG, "onFailure: ${t.message.toString()}")
+            }
+        })
+    }
+
     fun getListDetail(rumahSakit: String) {
         _isLoading.value = true
         val client = apiService.getDetailList(rumahSakit)

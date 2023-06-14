@@ -9,6 +9,16 @@
         android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data android:scheme="geo" />
+        </intent>
+    </queries>
 
     <permission
         android:name="com.bangkit.capstone.idonor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -28,6 +38,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.IDonor" >
+        <activity
+            android:name="com.bangkit.capstone.idonor.ui.requestaktif.RequestAktifActivity"
+            android:exported="false" />
         <activity
             android:name="com.bangkit.capstone.idonor.ui.main.SplashActivity"
             android:exported="true" >

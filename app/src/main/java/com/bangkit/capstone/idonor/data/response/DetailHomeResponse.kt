@@ -4,6 +4,7 @@ import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
 
+@Parcelize
 data class DetailHomeResponse(
 
     @field:SerializedName("message")
@@ -14,7 +15,7 @@ data class DetailHomeResponse(
 
     @field:SerializedName("data")
     val data: List<ListDataDetail>
-)
+) : Parcelable
 
 @Parcelize
 data class ListDataDetail(

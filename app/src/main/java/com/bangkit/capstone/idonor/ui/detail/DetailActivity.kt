@@ -4,10 +4,11 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bangkit.capstone.idonor.R
-import com.bangkit.capstone.idonor.data.response.DetailHomeResponse
 import com.bangkit.capstone.idonor.data.response.ListDataHome
 import com.bangkit.capstone.idonor.databinding.ActivityDetailBinding
 import com.bumptech.glide.Glide
@@ -40,6 +41,19 @@ class DetailActivity : AppCompatActivity() {
                         .placeholderOf(R.drawable.ic_loading)
                         .error(R.drawable.ic_error)
                 ).into(ivDetailFoto)
+
+            btnLocation.setOnClickListener {
+                val location = Uri.parse(data.gmapsURL)
+                val mapIntent = Intent(Intent.ACTION_VIEW, location)
+                mapIntent.setPackage("com.google.android.apps.maps")
+                if (mapIntent.resolveActivity(packageManager) != null) {
+                    startActivity(mapIntent)
+                } else {
+                    // Jika tidak ada aplikasi Google Maps yang terinstall, tampilkan pesan kesalahan.
+                    Log.d(TAG, "Google Maps not found")
+                    Toast.makeText(this@DetailActivity, "Aplikasi Google Maps tidak ditemukan", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
     }
 
@@ -69,5 +83,6 @@ class DetailActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_DATA = "extra_data"
+        const val TAG = "DetailActivity"
     }
 }

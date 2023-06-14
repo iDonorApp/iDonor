@@ -19,9 +19,10 @@ class DetailAdapter(private val listDetail: List<ListDataDetail>): RecyclerView.
             binding.apply {
                 tvDetailGoldar.text = detail.golongan
                 tvItemAkunNama.text = detail.nama
-                tvItemAkunNoKamarValue.text = detail.no_kamar
-                tvItemAkunGoldarValue.text = detail.golongan
-                tvItemAkunUmurValue.text = detail.umur
+                tvItemAkunNoKamarValue.text = " " + detail.no_kamar
+                tvItemAkunGoldarValue.text = " " + detail.golongan
+                tvItemAkunUmurValue.text = " " + detail.umur
+
                 btnWhatsapp.setOnClickListener {
                     val phoneNumber = detail.whatsapp_url
                     val intent = Intent(Intent.ACTION_VIEW, Uri.parse(phoneNumber))
