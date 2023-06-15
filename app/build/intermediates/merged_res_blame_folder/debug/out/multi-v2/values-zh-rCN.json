@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\25aad943afff8b34c8d60e28955f3756\\transformed\\appcompat-1.6.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

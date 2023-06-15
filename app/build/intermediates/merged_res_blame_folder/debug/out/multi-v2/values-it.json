@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-it/values-it.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-it/values-it.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,122",
+                        "endOffsets": "159,282"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "8717,8826",
+                        "endColumns": "108,122",
+                        "endOffsets": "8821,8944"
+                    }
+                },
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\f8d61c5b5277e1047ac0e0037c713886\\transformed\\core-1.10.1\\res\\values-it\\values-it.xml",
                     "from": {
@@ -54,23 +71,6 @@
                         "startOffsets": "318,423,526,635,719,824,943,1021,1096,1188,1282,1375,1469,1570,1664,1761,1856,1948,2040,2121,2227,2334,2432,2536,2642,2749,2912,9029",
                         "endColumns": "104,102,108,83,104,118,77,74,91,93,92,93,100,93,96,94,91,91,80,105,106,97,103,105,106,162,99,81",
                         "endOffsets": "418,521,630,714,819,938,1016,1091,1183,1277,1370,1464,1565,1659,1756,1851,1943,2035,2116,2222,2329,2427,2531,2637,2744,2907,3007,9106"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-it\\values-it.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,164",
-                        "endColumns": "108,122",
-                        "endOffsets": "159,282"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "8717,8826",
-                        "endColumns": "108,122",
-                        "endOffsets": "8821,8944"
                     }
                 }
             ]

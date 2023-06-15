@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-cs/values-cs.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-cs/values-cs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\25aad943afff8b34c8d60e28955f3756\\transformed\\appcompat-1.6.1\\res\\values-cs\\values-cs.xml",
@@ -40,23 +40,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-cs\\values-cs.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,126",
-                        "endOffsets": "158,285"
-                    },
-                    "to": {
-                        "startLines": "103,104",
-                        "startColumns": "4,4",
-                        "startOffsets": "8662,8770",
-                        "endColumns": "107,126",
-                        "endOffsets": "8765,8892"
-                    }
-                },
-                {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\f8d61c5b5277e1047ac0e0037c713886\\transformed\\core-1.10.1\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -71,6 +54,23 @@
                         "startOffsets": "3540,3638,3740,3841,3940,4045,4152,9059",
                         "endColumns": "97,101,100,98,104,106,118,100",
                         "endOffsets": "3633,3735,3836,3935,4040,4147,4266,9155"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,126",
+                        "endOffsets": "158,285"
+                    },
+                    "to": {
+                        "startLines": "103,104",
+                        "startColumns": "4,4",
+                        "startOffsets": "8662,8770",
+                        "endColumns": "107,126",
+                        "endOffsets": "8765,8892"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\fd65bb27c7799d5d9d10fb298caddc71\\transformed\\material-1.9.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

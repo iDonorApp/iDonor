@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-es/values-es.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-es/values-es.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,174",
+                        "endColumns": "118,119",
+                        "endOffsets": "169,289"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "8760,8879",
+                        "endColumns": "118,119",
+                        "endOffsets": "8874,8994"
+                    }
+                },
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\f8d61c5b5277e1047ac0e0037c713886\\transformed\\core-1.10.1\\res\\values-es\\values-es.xml",
                     "from": {
@@ -54,23 +71,6 @@
                         "endLines": "5,33,34,35,36,37,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,103",
                         "endColumns": "12,80,78,86,100,95,103,121,80,64,94,80,62,88,63,68,62,73,63,55,117,57,61,55,79,138,88,81,140,80,79,89,55,55,65,78,81,87,73,76,69,78,83,83,91,99,73,80,101,52,66,92,88,61,63,62,112,92,103,93,59,59,82",
                         "endOffsets": "323,3135,3214,3301,3402,3498,4334,4456,4537,4602,4697,4778,4841,4930,4994,5063,5126,5200,5264,5320,5438,5496,5558,5614,5694,5833,5922,6004,6145,6226,6306,6396,6452,6508,6574,6653,6735,6823,6897,6974,7044,7123,7207,7291,7383,7483,7557,7638,7740,7793,7860,7953,8042,8104,8168,8231,8344,8437,8541,8635,8695,8755,9077"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-es\\values-es.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,174",
-                        "endColumns": "118,119",
-                        "endOffsets": "169,289"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "8760,8879",
-                        "endColumns": "118,119",
-                        "endOffsets": "8874,8994"
                     }
                 }
             ]

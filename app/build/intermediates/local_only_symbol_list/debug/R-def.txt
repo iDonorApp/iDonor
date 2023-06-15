@@ -91,6 +91,7 @@ id iv_goldar
 id iv_item_photo
 id iv_logo
 id lupa_password
+id progressBar
 id rb_laki
 id rb_perempuan
 id rg_daftar_jenis_kelamin
@@ -201,6 +202,7 @@ string dibutuhkan
 string email_hint
 string email_user
 string email_validation
+string field_required
 string gol_darah
 string hubungi
 string id_akun

@@ -20,7 +20,7 @@ data class ListDataHome(
     val rumah_sakit: String,
 
     @field:SerializedName("gmaps")
-    val gmapsURL: String,
+    val gmaps: String,
 
     @field:SerializedName("dibutuhkan")
     val dibutuhkan: String,

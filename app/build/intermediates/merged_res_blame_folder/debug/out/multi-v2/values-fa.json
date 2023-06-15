@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-fa/values-fa.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\f8d61c5b5277e1047ac0e0037c713886\\transformed\\core-1.10.1\\res\\values-fa\\values-fa.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "3413,3512,3614,3713,3813,3914,4020,8861",
                         "endColumns": "98,101,98,99,100,105,116,100",
                         "endOffsets": "3507,3609,3708,3808,3909,4015,4132,8957"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,114",
+                        "endOffsets": "159,274"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "8477,8586",
+                        "endColumns": "108,114",
+                        "endOffsets": "8581,8696"
                     }
                 },
                 {
@@ -54,23 +71,6 @@
                         "startOffsets": "309,419,520,631,715,816,931,1011,1088,1181,1276,1368,1462,1564,1659,1756,1850,1943,2033,2115,2223,2327,2425,2531,2636,2741,2898,8779",
                         "endColumns": "109,100,110,83,100,114,79,76,92,94,91,93,101,94,96,93,92,89,81,107,103,97,105,104,104,156,100,81",
                         "endOffsets": "414,515,626,710,811,926,1006,1083,1176,1271,1363,1457,1559,1654,1751,1845,1938,2028,2110,2218,2322,2420,2526,2631,2736,2893,2994,8856"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-fa\\values-fa.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,164",
-                        "endColumns": "108,114",
-                        "endOffsets": "159,274"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "8477,8586",
-                        "endColumns": "108,114",
-                        "endOffsets": "8581,8696"
                     }
                 }
             ]

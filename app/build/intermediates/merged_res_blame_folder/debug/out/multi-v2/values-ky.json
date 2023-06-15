@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-ky/values-ky.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-ky/values-ky.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-ky\\values-ky.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,165",
-                        "endColumns": "109,117",
-                        "endOffsets": "160,278"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "8676,8786",
-                        "endColumns": "109,117",
-                        "endOffsets": "8781,8899"
-                    }
-                },
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\fd65bb27c7799d5d9d10fb298caddc71\\transformed\\material-1.9.0\\res\\values-ky\\values-ky.xml",
                     "from": {
@@ -54,6 +37,23 @@
                         "startOffsets": "315,426,535,647,732,837,954,1033,1111,1202,1295,1390,1484,1584,1677,1772,1867,1958,2049,2130,2236,2341,2439,2546,2649,2764,2925,8986",
                         "endColumns": "110,108,111,84,104,116,78,77,90,92,94,93,99,92,94,94,90,90,80,105,104,97,106,102,114,160,101,81",
                         "endOffsets": "421,530,642,727,832,949,1028,1106,1197,1290,1385,1479,1579,1672,1767,1862,1953,2044,2125,2231,2336,2434,2541,2644,2759,2920,3022,9063"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,165",
+                        "endColumns": "109,117",
+                        "endOffsets": "160,278"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "8676,8786",
+                        "endColumns": "109,117",
+                        "endOffsets": "8781,8899"
                     }
                 },
                 {

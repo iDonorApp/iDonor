@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-mr/values-mr.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\25aad943afff8b34c8d60e28955f3756\\transformed\\appcompat-1.6.1\\res\\values-mr\\values-mr.xml",
@@ -40,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,116",
+                        "endOffsets": "162,279"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "8525,8637",
+                        "endColumns": "111,116",
+                        "endOffsets": "8632,8749"
+                    }
+                },
+                {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\f8d61c5b5277e1047ac0e0037c713886\\transformed\\core-1.10.1\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -54,23 +71,6 @@
                         "startOffsets": "3431,3531,3635,3736,3839,3941,4046,8912",
                         "endColumns": "99,103,100,102,101,104,116,100",
                         "endOffsets": "3526,3630,3731,3834,3936,4041,4158,9008"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-mr\\values-mr.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,116",
-                        "endOffsets": "162,279"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "8525,8637",
-                        "endColumns": "111,116",
-                        "endOffsets": "8632,8749"
                     }
                 }
             ]

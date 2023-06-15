@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-45:/values-uk/values-uk.xml",
+            "outputFile": "com.bangkit.capstone.idonor.app-mergeDebugResources-55:/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\fd65bb27c7799d5d9d10fb298caddc71\\transformed\\material-1.9.0\\res\\values-uk\\values-uk.xml",
@@ -20,23 +20,6 @@
                         "endLines": "7,35,36,37,38,39,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,105",
                         "endColumns": "12,77,77,87,107,90,95,115,82,66,90,65,62,87,61,66,57,70,58,53,113,59,62,53,72,118,85,82,138,84,86,87,56,50,65,71,75,89,72,76,80,73,89,78,90,95,73,80,94,53,65,86,85,61,63,62,106,91,97,91,60,54,81",
                         "endOffsets": "419,3221,3299,3387,3495,3586,4409,4525,4608,4675,4766,4832,4895,4983,5045,5112,5170,5241,5300,5354,5468,5528,5591,5645,5718,5837,5923,6006,6145,6230,6317,6405,6462,6513,6579,6651,6727,6817,6890,6967,7048,7122,7212,7291,7382,7478,7552,7633,7728,7782,7848,7935,8021,8083,8147,8210,8317,8409,8507,8599,8660,8715,9025"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\80a55b417f054592eebc695d512a3497\\transformed\\navigation-ui-2.5.3\\res\\values-uk\\values-uk.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,119",
-                        "endOffsets": "158,278"
-                    },
-                    "to": {
-                        "startLines": "103,104",
-                        "startColumns": "4,4",
-                        "startOffsets": "8720,8828",
-                        "endColumns": "107,119",
-                        "endOffsets": "8823,8943"
                     }
                 },
                 {
@@ -71,6 +54,23 @@
                         "startOffsets": "424,533,635,743,829,934,1052,1133,1212,1303,1396,1491,1585,1685,1778,1873,1968,2059,2150,2249,2355,2461,2559,2666,2773,2878,3048,9030",
                         "endColumns": "108,101,107,85,104,117,80,78,90,92,94,93,99,92,94,94,90,90,98,105,105,97,106,106,104,169,99,81",
                         "endOffsets": "528,630,738,824,929,1047,1128,1207,1298,1391,1486,1580,1680,1773,1868,1963,2054,2145,2244,2350,2456,2554,2661,2768,2873,3043,3143,9107"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\BRIAN\\.gradle\\caches\\transforms-3\\c25467f764c741825b80bb63ad29e8ed\\transformed\\navigation-ui-2.6.0\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,119",
+                        "endOffsets": "158,278"
+                    },
+                    "to": {
+                        "startLines": "103,104",
+                        "startColumns": "4,4",
+                        "startOffsets": "8720,8828",
+                        "endColumns": "107,119",
+                        "endOffsets": "8823,8943"
                     }
                 }
             ]

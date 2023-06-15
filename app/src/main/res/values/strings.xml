@@ -69,4 +69,11 @@
     <string name="masukkan_gol_darah">Masukkan Gol Darah</string>
     <string name="masukkan_no_kamarr">Masukkan No. Kamar</string>
     <string name="rekomendasi">Rekomendasi</string>
+
+    <string name="field_required">Bagian ini Harus Diisi</string>
+    <string name="login_sukses">Login Sukses</string>
+    <string name="login_gagal">Login Gagal</string>
+    <string name="daftar_berhasil">Daftar Berhasil, Anda Dapat Masuk dengan Akun Anda</string>
+    <string name="daftar_gagal">Daftar Gagal</string>
+    <string name="punya_akun">Sudah Punya Akun</string>
 </resources>

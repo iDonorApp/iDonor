@@ -16,7 +16,7 @@ interface ApiService {
         @Field("nama") nama: String,
         @Field("golongan") golongan: String,
         @Field("jenis_kelamin") jenis_kelamin: String,
-        @Field("no_whatsapp") no_whatsapp: Int,
+        @Field("no_whatsapp") no_whatsapp: String,
         @Field("alamat") alamat: String,
         @Field("email") email: String,
         @Field("password") password: String

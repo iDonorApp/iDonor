@@ -43,7 +43,7 @@ class DetailActivity : AppCompatActivity() {
                 ).into(ivDetailFoto)
 
             btnLocation.setOnClickListener {
-                val location = Uri.parse(data.gmapsURL)
+                val location = Uri.parse(data.gmaps)
                 val mapIntent = Intent(Intent.ACTION_VIEW, location)
                 mapIntent.setPackage("com.google.android.apps.maps")
                 if (mapIntent.resolveActivity(packageManager) != null) {

@@ -38,6 +38,7 @@
     <string name="email_hint">example@email.com</string>
     <string name="email_user">Email / User</string>
     <string name="email_validation">Masukkan alamat email yang valid!</string>
+    <string name="field_required">Bagian ini Harus Diisi</string>
     <string name="gol_darah">Gol Darah</string>
     <string name="hubungi">Hubungi</string>
     <string name="id_akun">ID : 937438203</string>
