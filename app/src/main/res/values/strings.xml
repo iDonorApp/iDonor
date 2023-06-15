@@ -76,4 +76,11 @@
     <string name="daftar_berhasil">Daftar Berhasil, Anda Dapat Masuk dengan Akun Anda</string>
     <string name="daftar_gagal">Daftar Gagal</string>
     <string name="punya_akun">Sudah Punya Akun</string>
+
+    <string-array name="blood">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
 </resources>

@@ -32,51 +32,42 @@
             app:searchIcon="@drawable/baseline_search_24" />
 
         <Button
-            android:id="@+id/btn_rekomendasi"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/rekomendasi"
-            android:textSize="12sp"
-            android:textColor="@color/black"
-            app:cornerRadius="10dp"
-            app:backgroundTint="@color/white"
-            app:layout_constraintStart_toStartOf="@id/search"
-            app:layout_constraintTop_toBottomOf="@+id/search"
-            tools:ignore="MissingConstraints" />
-
-        <Button
             android:id="@+id/btn_lokasi"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="70dp"
             android:layout_marginEnd="10dp"
             android:textSize="12sp"
             android:textColor="@color/black"
             app:cornerRadius="10dp"
             app:backgroundTint="@color/white"
             android:text="@string/lokasi"
-            app:layout_constraintStart_toEndOf="@+id/btn_rekomendasi"
-            app:layout_constraintEnd_toStartOf="@id/btn_goldar"
+            app:layout_constraintStart_toStartOf="@id/search"
             app:layout_constraintTop_toBottomOf="@+id/search"
             tools:ignore="MissingConstraints" />
 
-        <Button
-            android:id="@+id/btn_goldar"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/gol_darah"
-            android:textSize="12sp"
-            android:textColor="@color/black"
-            app:cornerRadius="10dp"
-            app:backgroundTint="@color/white"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@id/search"
-            app:layout_constraintTop_toBottomOf="@+id/search"
-            tools:ignore="MissingConstraints" />
+            app:layout_constraintStart_toEndOf="@+id/btn_lokasi"
+            app:layout_constraintTop_toTopOf="@+id/btn_lokasi">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="@drawable/custom_input"
+                android:hint="GOL.DARAH"
+                android:inputType="none"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </com.google.android.material.textfield.TextInputLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView
