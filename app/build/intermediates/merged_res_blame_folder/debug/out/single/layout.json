@@ -1,58 +1,62 @@
 [
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_detail.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_detail.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\list_item_detail.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\list_item_detail.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_beranda.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_beranda.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_login.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_login.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_request_aktif.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_request_aktif.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_upload.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_upload.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\list_item_beranda.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\list_item_beranda.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_informasi.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_informasi.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_daftar.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_daftar.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/list_item_detail.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/list_item_detail.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_akun.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_akun.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_main.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_main.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_beranda.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_beranda.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/grid_item.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/grid_item.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_detail.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_aktif.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_aktif.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_informasi.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_informasi.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_splash.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_request_aktif.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_request_aktif.xml"
     },
     {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/list_item_beranda.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/list_item_beranda.xml"
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_upload.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\grid_item.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-mergeDebugResources-56:\\layout\\activity_aktif.xml",
+        "source": "C:\\Users\\BRIAN\\.gradle\\daemon\\7.5\\com.bangkit.capstone.idonor.app-main-59:\\layout\\activity_aktif.xml"
     },
     {
         "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_daftar.xml",
         "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_daftar.xml"
-    },
-    {
-        "merged": "com.bangkit.capstone.idonor.app-mergeDebugResources-56:/layout/activity_akun.xml",
-        "source": "com.bangkit.capstone.idonor.app-main-59:/layout/activity_akun.xml"
     }
 ]

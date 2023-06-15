@@ -3,13 +3,15 @@ package com.bangkit.capstone.idonor.ui.daftar
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
 import android.util.Log
 import android.view.View
 import android.widget.RadioButton
 import android.widget.Toast
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import com.bangkit.capstone.idonor.R
 import com.bangkit.capstone.idonor.data.api.ApiConfig
+import com.bangkit.capstone.idonor.data.model.Event
 import com.bangkit.capstone.idonor.data.response.RegisterResponse
 import com.bangkit.capstone.idonor.databinding.ActivityDaftarBinding
 import com.bangkit.capstone.idonor.ui.login.LoginActivity
@@ -20,6 +22,12 @@ import retrofit2.Response
 class DaftarActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDaftarBinding
+
+    private val _registerResponse = MutableLiveData<RegisterResponse>()
+    val registerResponse: LiveData<RegisterResponse> = _registerResponse
+
+    private val _toastText = MutableLiveData<Event<String>>()
+    val toastText: LiveData<Event<String>> = _toastText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,6 +64,7 @@ class DaftarActivity : AppCompatActivity() {
         showLoading(true)
 
         val client = ApiConfig.getApiService().registerUser(inputNama, inputGoldar, selectJekal, inputWhatsapp, inputAlamat, inputEmail, inputPassword)
+
         client.enqueue(object : Callback<RegisterResponse> {
             override fun onResponse(
                 call: Call<RegisterResponse>,
@@ -64,22 +73,23 @@ class DaftarActivity : AppCompatActivity() {
                 showLoading(false)
                 val responseBody = response.body()
                 Log.d(TAG, "onResponse: $responseBody")
-                if (response.isSuccessful && responseBody?.message == "Register Sukses") {
-                    Toast.makeText(this@DaftarActivity, getString(R.string.daftar_berhasil), Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this@DaftarActivity, LoginActivity::class.java)
-                    startActivity(intent)
+                if (response.isSuccessful && response.body() != null) {
+                    _registerResponse.value = response.body()
+                    _toastText.value = Event(response.body()?.message.toString())
                 } else {
-                    Log.e(TAG, "onFailure1: ${response.message()}")
-                    Toast.makeText(this@DaftarActivity, getString(R.string.daftar_gagal), Toast.LENGTH_SHORT).show()
+                    _toastText.value = Event(response.message().toString())
+                    Log.e(
+                        TAG,
+                        "onFailure: ${response.message()}, ${response.body()?.message.toString()}"
+                    )
                 }
             }
 
             override fun onFailure(call: Call<RegisterResponse>, t: Throwable) {
                 showLoading(false)
-                Log.e(TAG, "onFailure2: ${t.message}")
-                Toast.makeText(this@DaftarActivity, getString(R.string.daftar_gagal), Toast.LENGTH_SHORT).show()
+                Log.e(TAG, "onFailure2:", t)
+                Toast.makeText(this@DaftarActivity, "Error: ${t.message}", Toast.LENGTH_SHORT).show()
             }
-
         })
     }
 

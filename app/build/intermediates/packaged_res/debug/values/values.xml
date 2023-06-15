@@ -25,8 +25,10 @@
     <string name="beranda">Beranda</string>
     <string name="buat_passaword">Buat Password</string>
     <string name="daftar">Daftar</string>
+    <string name="daftar_berhasil">Daftar Berhasil, Anda Dapat Masuk dengan Akun Anda</string>
     <string name="daftar_disini">Daftar Disini</string>
     <string name="daftar_email">Email</string>
+    <string name="daftar_gagal">Daftar Gagal</string>
     <string name="daftar_jenis_kelamin">Jenis Kelamin</string>
     <string name="daftar_nama">Nama</string>
     <string name="default_tanggal">DD-MM-YYYY</string>
@@ -48,6 +50,8 @@
     <string name="laki">Laki - laki</string>
     <string name="length_password">Password Minimal 8 Karakter</string>
     <string name="login">Login</string>
+    <string name="login_gagal">Login Gagal</string>
+    <string name="login_sukses">Login Sukses</string>
     <string name="lokasi">Lokasi</string>
     <string name="lupa_password">Lupa Password?</string>
     <string name="masukkan_gol_darah">Masukkan Gol Darah</string>
@@ -69,6 +73,7 @@
     <string name="perempuan">Perempuan</string>
     <string name="photo">Photo</string>
     <string name="photo_detail">Photo Detail</string>
+    <string name="punya_akun">Sudah Punya Akun</string>
     <string name="question">Question</string>
     <string name="rekomendasi">Rekomendasi</string>
     <string name="rumah_sakit">Rumah Sakit</string>

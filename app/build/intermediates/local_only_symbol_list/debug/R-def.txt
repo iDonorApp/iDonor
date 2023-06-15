@@ -92,6 +92,7 @@ id iv_item_photo
 id iv_logo
 id lupa_password
 id progressBar
+id progress_bar
 id rb_laki
 id rb_perempuan
 id rg_daftar_jenis_kelamin
@@ -150,6 +151,7 @@ id tv_item_alamat
 id tv_item_dibutuhkan
 id tv_item_dibutuhkan_ket
 id tv_item_name_rs
+id tv_move_login
 id tv_nama_rs
 id tv_rumah_sakit
 id tv_ubah_password
@@ -189,8 +191,10 @@ string belum_punya_akun
 string beranda
 string buat_passaword
 string daftar
+string daftar_berhasil
 string daftar_disini
 string daftar_email
+string daftar_gagal
 string daftar_jenis_kelamin
 string daftar_nama
 string default_tanggal
@@ -212,6 +216,8 @@ string konfirmasi_passaword
 string laki
 string length_password
 string login
+string login_gagal
+string login_sukses
 string lokasi
 string lupa_password
 string masukkan_gol_darah
@@ -233,6 +239,7 @@ string password_lama
 string perempuan
 string photo
 string photo_detail
+string punya_akun
 string question
 string rekomendasi
 string rumah_sakit
