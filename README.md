@@ -3,10 +3,6 @@
 # Bangkit Academy 2023
 Capstone Team C23-PS467
 
-# Front-End
-
-[`Front End`](https://github.com/iDonorApp/iDonor/tree/front-end)
-
 # Design App
 
 [<img src="https://raw.githubusercontent.com/iDonorApp/iDonor/main/UI-Component-Icon/figma.png" width="100" />](https://s.id/iDonorUI)
