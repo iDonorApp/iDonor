@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">@color/red</item> <!-- Ubah warna hint sesuai keinginan -->
+    </style>
+
+    <style name="MyTextInputLayoutStyle1" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColorHint">@color/black</item> <!-- Ubah warna hint sesuai keinginan -->
+    </style>
+</resources>

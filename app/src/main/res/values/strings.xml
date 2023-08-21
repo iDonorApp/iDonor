@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">iDonor</string>
+
+    <string name="email_user">Email / User</string>
+    <string name="password">Password</string>
+    <string name="lupa_password">Lupa Password?</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_disini">Daftar Disini</string>
+    <string name="login">Login</string>
+    <string name="email_validation">Masukkan alamat email yang valid!</string>
+
+    <string name="beranda">Beranda</string>
+    <string name="upload">Upload</string>
+    <string name="aktif">Aktif</string>
+    <string name="informasi">Informasi</string>
+    <string name="akun">Akun</string>
+    <string name="question">Question</string>
+    <string name="nomor_kamar">No. Kamar</string>
+
+    <string name="photo">Photo</string>
+    <string name="nama_rs">Nama Rumah Sakit</string>
+    <string name="alamat">Alamat</string>
+    <string name="dibutuhkan">Dibutuhkan : </string>
+
+    <string name="photo_detail">Photo Detail</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="nama_akun">Nama Akun</string>
+    <string name="id_akun">ID : 937438203</string>
+    <string name="akun_jenis_kelamin">Jenis Kelamin             :</string>
+    <string name="akun_umur">Umur                             :</string>
+    <string name="akun_alamat">Alamat                          :</string>
+    <string name="akun_email">Email                             :</string>
+    <string name="akun_no_wa_telp">No. Whatsapp/Telp    :</string>
+    <string name="ubah_password">Ubah Password</string>
+    <string name="length_password">Password Minimal 8 Karakter</string>
+    <string name="password_lama">Password Lama</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="simpan">Simpan</string>
+
+    <string name="daftar_nama">Nama</string>
+    <string name="gol_darah">Gol Darah</string>
+    <string name="laki">Laki - laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="daftar_jenis_kelamin">Jenis Kelamin</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="default_tanggal">DD-MM-YYYY</string>
+    <string name="no_telephone">No Telephone</string>
+    <string name="nohp">+62</string>
+    <string name="email_hint">example@email.com</string>
+    <string name="buat_passaword">Buat Password</string>
+    <string name="konfirmasi_passaword">Konfirmasi Password</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="daftar_email">Email</string>
+    <string name="daftar">Daftar</string>
+
+    <string name="detail_nama">ARIF KURNIAWAN</string>
+    <string name="no_kamar">No. Kamar           : </string>
+    <string name="detail_goldar">Golongan Darah : </string>
+    <string name="detail_umur">Umur                     : </string>
+    <string name="detail_waktu">Waktu                   : </string>
+    <string name="hubungi">Hubungi</string>
+    <string name="masukkan_no_kamar">masukkan_no_kamar</string>
+    <string name="rumah_sakit">Rumah Sakit</string>
+    <string name="masukkan_nama_rumah_sakit">Masukkan Nama Rumah Sakit</string>
+    <string name="nama">Nama</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="umur">Umur</string>
+    <string name="masukkan_umur">Masukkan Umur</string>
+    <string name="masukkan_gol_darah">Masukkan Gol Darah</string>
+    <string name="masukkan_no_kamarr">Masukkan No. Kamar</string>
+    <string name="rekomendasi">Rekomendasi</string>
+
+    <string name="field_required">Bagian ini Harus Diisi</string>
+    <string name="login_sukses">Login Sukses</string>
+    <string name="login_gagal">Login Gagal</string>
+    <string name="daftar_berhasil">Daftar Berhasil, Anda Dapat Masuk dengan Akun Anda</string>
+    <string name="daftar_gagal">Daftar Gagal</string>
+    <string name="punya_akun">Sudah Punya Akun</string>
+
+    <string-array name="blood">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+</resources>
